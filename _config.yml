@@ -27,3 +27,6 @@ compress_html:
   endings: all
   ignore:
     envs: []
+
+# Don't copy these files to the generated site
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
