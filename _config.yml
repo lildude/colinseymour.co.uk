@@ -1,4 +1,4 @@
-name: Col's Tech
+name: Colin Seymour
 description: Woh ho ho, it's magic
 meta_description: "lildude rocking the tech world."
 
@@ -18,7 +18,7 @@ sass:
   style:          compressed
 
 # Details for the RSS feed generator
-url:            'blog url'
+url:            'https://colinseymour.co.uk'
 author:         'Colin'
 
 compress_html:
