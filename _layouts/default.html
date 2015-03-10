@@ -11,9 +11,9 @@ layout: compress
   {% endif %}
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }} · {{ site.tagline }}
+      {{ site.name }} · {{ site.description }}
     {% else %}
-      {{ page.title }} · {{ site.title }}
+      {{ page.title }} · {{ site.name }}
     {% endif %}
   </title>
   <meta name="description" content="{{ site.meta_description}}" />
