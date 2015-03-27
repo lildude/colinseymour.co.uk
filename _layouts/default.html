@@ -53,6 +53,7 @@ layout: compress
     <!-- script type="text/javascript" src="/assets/js/jquery.fitvids.js"></script -->
     <!-- script type="text/javascript" src="/assets/js/index.js"></script -->
 
+    {% if jekyll.environment != 'local' %}
     <!-- Google Analytics Tracking code -->
     <script type="text/javascript">
 
@@ -67,5 +68,6 @@ layout: compress
       })();
 
     </script>
+    {% endif %}
 </body>
 </html>
