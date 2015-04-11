@@ -1,32 +1,45 @@
-name: Colin Seymour
-description: Woh ho ho, it's magic
-meta_description: "lildude rocking the tech world."
-
-markdown: redcarpet
-highlighter: pygments
-logo: true
-paginate: 15
-baseurl: /
-domain_name: 'http://yourblog-domain.com'
-google_analytics: 'UA-XXXXXXXX-X'
+# Dependencies
+markdown:           redcarpet
+highlighter:        pygments
 
 # Permalinks
-permalink:        :title
+permalink:          :title
 
+# Setup
+title:              Colin Seymour
+tagline:            Woh ho ho, it's magic
+meta_description:   "lildude rocking the tech world."
+baseurl:            /
+url:                https://colinseymour.co.uk
+logo:               true
+paginate:           15
+
+# Author
+author:
+  name:             'Colin'
+  twitter:          'lildude'
+  description:      "Colin is running, jumping, hopping, skipping genius of a guy."
+
+# Google
+google_analytics:   'UA-XXXXXXXX-X'
+google-site-verification: TBC
+
+# SASS/SCSS
 sass:
-  sass_dir:       _scss
-  style:          compressed
+  sass_dir:         _scss
+  style:            compressed
 
-# Details for the RSS feed generator
-url:            'https://colinseymour.co.uk'
-author:         'Colin'
-
+# HTML Compression
 compress_html:
-  clippings: all
-  comments: ["<!-- ", " -->"]
-  endings: all
+  clippings:        all
+  comments:         ["<!-- ", " -->"]
+  endings:          all
   ignore:
-    envs: []
+    envs:           []
+
+# Plugins
+#gems:
+#  -jemoji
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
