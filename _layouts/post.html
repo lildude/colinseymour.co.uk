@@ -72,17 +72,11 @@ post_class: post-template
                     <h4>{{ site.author.name }}{% if site.author.twitter %} - <a href="https://twitter.com/{{ site.author.twitter }}" target="_blank" title="Follow me on Twitter">@{{ site.author.twitter }}</a>{% endif %}</h4>
                     <!-- Author Bio -->
                     <p>{{ site.author.description }}</p>
-
                 </section>
             {% endif %}
 
             <!-- Share links section -->
             {% include share.html %}
-
-            <!-- Disqus comments -->
-            {% if page.disqus %}
-                {% include disqus.html %}
-            {% endif %}
 
         </footer>
 
