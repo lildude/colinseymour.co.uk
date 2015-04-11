@@ -569,7 +569,8 @@ margin on the iframe, cause it breaks stuff. */
     width: auto;
 }
 
-.back-button {
+.back-button,
+.page-button {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -635,6 +636,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 .no-cover .main-nav.overlay,
 .no-cover .back-button,
+.no-cover .page-button,
 .no-cover .subscribe-button {
     background: none;
 }
@@ -644,6 +646,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .main-nav.overlay .back-button,
+.main-nav.overlay .page-button,
 .main-nav.overlay .subscribe-button {
     border-color: rgba(255,255,255,0.6);
 }
@@ -657,6 +660,7 @@ margin on the iframe, cause it breaks stuff. */
 
 /* Add a border to the buttons on hover */
 .back-button:hover,
+.page-button:hover,
 .subscribe-button:hover {
     border-color: #bfc8cd;
     color: #9EABB3;
@@ -697,6 +701,7 @@ margin on the iframe, cause it breaks stuff. */
 }
 
 .no-cover .main-nav.overlay .back-button,
+.no-cover .main-nav.overlay .page-button,
 .no-cover .main-nav.overlay .subscribe-button {
     color: rgba(0,0,0,0.4);
     border-color: rgba(0,0,0,0.3);
@@ -1489,6 +1494,7 @@ body:not(.post-template) .post-title {
     }
 
     .back-button,
+    .page-button,
     .subscribe-button {
         height: 44px;
         line-height: 41px;
@@ -1497,13 +1503,15 @@ body:not(.post-template) .post-title {
         background: transparent;
     }
     .back-button:hover,
+    .page-button:hover,
     .subscribe-button:hover {
         border-color: #ebeef0;
         color: #2e2e2e;
         background: #ebeef0;
     }
 
-    .back-button {
+    .back-button,
+    .page-button {
         padding: 0 15px 0 10px;
     }
 
@@ -1521,11 +1529,13 @@ body:not(.post-template) .post-title {
         background: none;
     }
     .no-cover .main-nav.overlay .back-button,
+    .no-cover .main-nav.overlay .page-button,
     .no-cover .main-nav.overlay .subscribe-button {
         border: none;
     }
 
     .main-nav.overlay .back-button,
+    .main-nav.overlay .page-button,
     .main-nav.overlay .subscribe-button {
         border-color: transparent;
     }
