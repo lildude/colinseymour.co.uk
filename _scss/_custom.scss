@@ -51,7 +51,11 @@ body * {
   transform-style: preserve-3d;
 }
 
+.right-links {
+  float: right;
+}
 
+/*------:[ HOME PAGE ONLY ]:-------*/
 .home-template {
   .main-header {
     position: absolute;
@@ -85,4 +89,5 @@ body * {
   .site-footer {
     margin-top: 28%;
   }
+
 }
