@@ -1,0 +1,44 @@
+---
+layout: page
+title: My Changes to 0.5.1
+date: 2009-11-17 03:59:00.000000000 -08:00
+tags:
+- falbum
+type: page
+published: true
+---
+<div class="alert">Please note, I no longer use or contribute to FAlbum.  This page is left purely for information purposes.  I can not and will not be able to offer any help</div>
+<p>I submitted the following changes to the <a href="http://www.randombyte.net/blog/2005/10/13/16/">0.5.1</a> code which were added to the <a href="http://www.randombyte.net/blog/2005/10/21/17/">0.5.2</a> code:</p>
+<p>Changes to <code>falbum-plugin.php</code>: </p>
+<ol>
+<li>Moved the URL root box in the options to above the htaccess code box
+<p>    Reasoning:  Looking at the forums, it takes people a while to find this box and enter a value here. I also stumbled on this little hurdle at first. Moving it above the htaccess code box means people are more likely to notice it. I also added a bit more to the description.</li>
+<li>Added ability to allow private photos to be seen only be registered users using the WP user levels.
+<p>    Reasoning:  I have many private photos for my family to see.  I don't want to have them login to Flickr to see the pictures when I'm showing them on my site.  By implementing this, they can just login to WP on my site and view the private photos.</p>
+<p>WARNING: There's probably going to be a bit of a translation issue here. I've not investigated how the language features of WP work as I speak english, so nothing needs to change.  As a result, I haven't updated the language specific files, if they needed any changes.</li>
+<li>Added ability to select the number of Recent Images to show in the "Recent" album.
+<p>    Reasoning:  I don't think people want to have every single photo in their flickr account listed in the Recent list. It's time consuming and doesn't give a true representation of the recent photos.  The old way was technically, just "All my photos listed by date in descending order".</p>
+<p>    I've added an option to set the number they wish to show. If set to 0, then it won't show any recent images.</li>
+</ol>
+<p>Changes to <code>falbum.php</code>:</p>
+<ol>
+<li>Added Wordpress user level check function to implement the WP user level based privacy settings mentioned above.
+<p>     Reasoning:  See #1 from above. As part of this, I also setup the caching of both the private and non-private views of the falbum divs.</li>
+<li>Changed base name in album and photo view to "Photos" in the user's native language.
+<p>    Reasoning:  "Home" is a bit misleading and gives the impression the user is going back to the root of the site and not the root of the photos.</p>
+<p>WARNING:  Once again, there may be translation issues here.</li>
+<li>Made friendly URL's much more friendlier, just like they were in the WP Flickr Gallery plugin.
+<p>      Reasoning:  It looks much better to have an image URL as</p>
+<p>http://www.domain.com/photos/album/album-name/photo/photo-title/</p>
+<p>...then use a series of words and numbers. This change only applies to friendly URLs. Non-friendly, still use the ID numbers and work as before.</li>
+<li>Changed "Index" in the individual photo view to the name of the album we're viewing. Applies to normal albums, recent and tags
+<p>     Reasoning: Index is misleading and doesn't look very good in the "breadcrumb" trail being created. I've implemented this differently from you as I need the album ID - album description correlation for the Friendly URLs to work.  There's probably a better way of doing this, but I just created an "Album ID -> Album Title" array to hold this info.</li>
+<li>Implemented user selectable limit for recent images.
+<p>      Reasoning:   See #3 from the falbum-plugin.php file. I've also removed the pagination of the Recent list. This can be added back in if needed, but I thought as we're limiting the number of recent images, there's probably no point in pagination of the results.</li>
+<li>Corrected arithmatic in nextPage/prevPage determination for the photo view.
+<p>       Reasoning: When paging is enabled, the navigation links for the 1st and last photos shows the wrong page number in the URL when viewing the image.  The nav buttons work as expected in that they cause the correct photo to be shown, but the URL is wrong.</li>
+<li>Fixed fa_show_recent() to work with friendly URLs and got the style=1 code thumbs linking to the images in the gallery.
+<p>     Reasoning:  I noticed the code was there and people want to see their recent in their sidebar (as I do) so I made sure it did what it's supposed to.</li>
+<li>Changed "Index" in the navigation links of the photos view to say "Album Index"
+<p>     Reasoning:  I felt "Index" alone was a bit ambiguous and open to confusion.</li>
+</ol>

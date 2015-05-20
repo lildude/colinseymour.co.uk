@@ -1,0 +1,14 @@
+---
+layout: page
+title: My Changes to 0.5.2
+date: 2009-11-17 03:53:36.000000000 -08:00
+tags:
+- falbum
+type: page
+published: true
+---
+<div class="alert">Please note, I no longer use or contribute to FAlbum.  This page is left purely for information purposes.  I can not and will not be able to offer any help</div>
+<p>I was very busy following the release of 0.5.1, so I didn't submit many changes.  The only notable change was the introduction of the use of libcurl to query Flickr.</p>
+<p>Prior to 0.5.3, Falbum uses fsockopen() to communicate with Flickr.  This has one major problem - many PHP hosting companies actually disable fsockopen() as it's a resource hog and a security risk, and instead compile PHP with libcurl.</p>
+<p>This of course brought on problems with people authenticating (the first step needed to get Falbum workin).  So I changed the falbum.php file to now check to see if libcurl is available, if it is, Falbum will use this by default.  If' it's not, Falbum will fall back to using fsockopen().</p>
+<p>If none of these work, Falbum won't work.</p>

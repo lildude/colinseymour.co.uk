@@ -1,0 +1,57 @@
+---
+layout: page
+title: My Changes to 0.5.3
+date: 2009-11-17 03:59:59.000000000 -08:00
+tags:
+- falbum
+type: page
+published: true
+---
+<div class="alert">Please note, I no longer use or contribute to FAlbum.  This page is left purely for information purposes.  I can not and will not be able to offer any help</div>
+<p>Falbum 0.5.3 seemed to be a lot more buggy than previous releases for some reason.  As a result, I never actually updated, I just implemented the libcurl change (which I submitted) to my installation.</p>
+<p>Well, over the past few weeks I've been hacking at the 0.5.3 code and made a stack of changes, which I've just fed back.  We'll have to see which of these make it into 0.5.4, but here they are in summary:</p>
+<p>Changes to <code>falbum-plugin.php</code>:</p>
+<ol>
+<li>Changed the cache table name to include WP prefix. This should now allow multiple instances of Falbum to share the same DB in much the same way as multiple instances of WP can share the same DB.
+<p>The only thing is users need to be advised that the table name has changed and thus they need to delete the old table.  I could have included this in the code, but it's extra code that isn't really needed and if it were included, it may need to be included for a long time still.  If you think this should be included, then it should just be a simple matter of adding the necessary SQL command to the new init function (see below)</li>
+<li>Created a new function, falbum_init() and moved the table creation code to this function.
+<p>With this, I also added a new "if" statement so that this new function is only run when the plugin is activated.  Previously before, the plugin was executing a SQL query that really wasn't necessary all the time.</li>
+<li>Moved the Falbum Settings tab to the "Options" tab where all other plugin options are configured.</li>
+<li>Changed the min user level to 8 as this is the start level that one can admin plugins, so falbum really should expect one to be admin in order to config this plugin.</li>
+<li>The "Setup" section on the Falbum tab is now only visible once authentication has taken place.
+<p>This should cut down on the number of people getting a little too eager and stating to use Falbum without authenticating.</li>
+<li>Removed some unnecessarily repeated code.</li>
+<li>Link to stylesheet now instead of importing it.  This is because I've changed the stylesheet due to div changes in the falbum.php.</li>
+</ol>
+<p>Change to <code>falbum.php</code>:</p>
+<ol>
+<li>Changed cache table to use WP prefix - see above for details.</li>
+<li>The whole Falbum code now validates to XHTML 1.1.
+<p>The only change needed was in the single photo view - I needed to move the notes check before the photo in order to set an if statement for the imgmap. XHTML 1.1 doesn't allow the use of imgmap is it hasn't been declared before.</li>
+<li>Implemented a suggestion by jin284 on the forums to to urlencode the URL parts for non-standard character sets.</li>
+<li>Fixed pagination of showTagThumbnails().  This was relying on Flickr's pagination, but started getting things wrong in 0.5.3.  This function now implements it's own pagination and doesn't rely on flickr for pagination.
+<p>This now means that Recent thumbnails will show the correct number of thumbnails and pages for those thumbnails.</li>
+<li>Tidied code up to try and align with the suggested WP coding standards as detailed in the codex.  This mostly involved changing quotes so as to minimise the number of escaped quotes</li>
+<li>Tidied up fa_show_recent and fa_showRandom so that both function similarily, and both take $num and $style options.</li>
+<li>Improved error checking.  Users should no longer get those horrid unclear XPath messages, instead should get something slightly more understandable.
+<p>If an error occurs now, it should report whether it's a communication issue, or report the Flickr error.</li>
+<li>Tidied up div's and improved CSS for better cross theme integration - the problem still exists with K2 though.  It doesn't like the "float: left" used for the thumbnails.</li>
+</ol>
+<p>Changes to <code>falbum.css</code>:</p>
+<ol>
+<li>Renamed to falbum.css.php so that the inclusion of the drop shadows is done in the CSS conditionally using PHP, rather than in the HTML with the extra divs.
+<p>This change paves the way for more conditional CSS in the future, if you decide to keep shipping Falbum as you do now.</li>
+<li>Generally tidied up the file and removed unnecessary style info.</li>
+</ol>
+<p>Over and above all these changes, I also recommended the removal of the falbum-wp.php file to cut down on the expectation of it just working with each and every theme - this is not the case as Falbum is distributed to work with Kubrick "out the box". These are my exact words for the curious...</p>
+<blockquote><p>One thing that seems to crop up a lot is the whole integration of Falbum into other themes, too many people just expect it to work.  I think this has a lot to do with the fact that by default it doesn't require one to actually do anything to integrate it into their site by providing a template for use with WP 1.5's default theme (Kubrick).</p>
+<p>I believe this is a bad idea purely for the fact that any CSS and integration issues, appear to the user as a problem with Falbum, and<br />
+not their design.  A good case in point is the integration of Falbum into K2 - K2 seems to cause problems with the thumbnails which no<br />
+other theme does, however everyone points to Falbum as being the problem.</p>
+<p>With this in mind, it might be an idea to revert back to the method of implementation that all other plugins use, ie tell users how to<br />
+implement the fa_show_photos(), fa_show_recent() and fa_showRandom(), provide a sample CSS file and leave the rest up to them.</p>
+<p>This would involve removing the falbum-wp.php file and changing the falbum-plugin.php file.  You can then change the readme to give<br />
+details on how to use the plugin and provide the css file ONLY as an example, and clearly state this is only an example CSS, pretty much<br />
+like the Flickr Gallery Plugin did and many other plugins do.</p>
+<p>This should reduce the number of CSS related problems in the forum and would also remove the requirement for the custom template to be called falbum-wp.php too.</p></blockquote>
+<p>If you have any comments on this, please let me know in <a href="http://colinseymour.co.uk/more-falbum-updates">this</a> blog entry.</p>

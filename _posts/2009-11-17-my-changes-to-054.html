@@ -1,0 +1,30 @@
+---
+layout: page
+title: My Changes to 0.5.4
+date: 2009-11-17 03:58:05.000000000 -08:00
+tags:
+- falbum
+type: page
+published: true
+---
+<div class="alert">Please note, I no longer use or contribute to FAlbum.  This page is left purely for information purposes.  I can not and will not be able to offer any help</div>
+<p><strong>Update:</strong>These bugs have been fixed in Falbum <a href="http://www.randombyte.net/blog/2005/11/18/falbum-055/">0.5.5</a></p>
+<p>It didn't take long.  Eli made changes to the code that introduced two new bugs:</p>
+<p><strong>BUG #1</strong>: Clicking on thumbnails for Albums with non-ASCII characters results in an error "Photoset not found". This is caused by Eli changing one of the variable's names and adding code that converts characters to HTML entities first.  This extra step isn't needed as it's all taken care of later on in the code.</p>
+<p>This bug was brought to light by forum post:</p>
+<ul>
+<li><a href="http://www.randombyte.net/forum/viewtopic.php?p=609">http://www.randombyte.net/forum/viewtopic.php?p=609</a>*</li>
+</ul>
+<p><strong>BUG #2</strong>: The slide show link is broken.  This is caused by some code changes prior to the link, which meant one of the variable names changed.</p>
+<p>This bug was brought to light by forum post:</p>
+<ul>
+<li><a href="http://www.randombyte.net/forum/viewtopic.php?t=152">http://www.randombyte.net/forum/viewtopic.php?t=152</a>*</li>
+</ul>
+<p>The last bug however also has a knock on effect in that it breaks non-friendly URL functionality as detailed in:</p>
+<ul>
+<li><a href="http://www.randombyte.net/forum/viewtopic.php?t=155">http://www.randombyte.net/forum/viewtopic.php?t=155</a>*</li>
+</ul>
+<p>* = This post contains the fix.</p>
+<p>These bugs aren't in the code I submitted to him, so I suspect he was working on the same problems as I was, but forgot to put back his changes before releasing the code.</p>
+<p>Once again, I've sent Eli an email on how to fix these.</p>
+<p>Oh, and the README.txt needs updating too, it's still got old info in it.</p>

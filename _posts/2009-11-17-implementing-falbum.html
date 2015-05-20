@@ -1,0 +1,115 @@
+---
+layout: page
+title: Implementing FAlbum
+date: 2009-11-17 04:01:26.000000000 -08:00
+tags:
+- falbum
+type: page
+published: true
+---
+<div class="alert">Please note, I no longer use or contribute to FAlbum.  This page is left purely for information purposes.  I can not and will not be able to offer any help</div>
+<p>The problem of integrating Falbum into your own themes seems to come up a lot in the Falbum forums.  Whilst Eli's details make sense, they are a bit too complex and don't use the full functionality of Wordpress and it's Templating features.  I personally believe Falbum shouldn't be providing an "out the box" solution that is does now.  At the moment, Falbum provides a solution that only works well in the Wordpress default theme (Kubrick). It should rather just supply the required plugin, details on how to integrate it and an example CSS file. Until then, these steps should get you up and running quickly.</p>
+<h3>Assumptions:</h3>
+<ul>
+<li>You are using Falbum 0.5.3 or later and it has already been activated</li>
+<li>You are using Friendly URLs within Wordpress and FAlbum - if you are not using Friendly URLs, you should only need to perform step 1.</li>
+</ul>
+<h3>How To</h3>
+<ol>
+<li>
+<h5>Create a Wordpress Page Template.</h5>
+<p>Create a template file (falbum-wp.php<a href="#note-1">*</a>) in your theme directory and add to it the template name, the header call, footer call, the Falbum javascript calls and the fa_show_photos() function call.  At it's simplest, this file will look as follows:</p>
+<p><viewcode src="http://colinseymour.co.uk/examples/falbum-wp.phps" link="yes" linenos="no" /></p>
+<p>Remember, this is the template in it's simplest form.  You may want to  add other stuff like a call to your theme's sidebar or maybe you want to use your own header and footers just for this page.</p>
+<p><a id="note-1"></a><br />
+* Due to the way Falbum is currently coded, you will need to use the filename falbum-wp.php. This requirement will be removed in the future, but these details should take this into account.</p>
+</li>
+<li>
+<h5>Create a Wordpress Page</h5>
+<p>Login to Wordpress and go to <code>Manage -> Pages -> Create New Page</code>.  Set the page title to what ever you want.  It's not important as it's not used by Falbum in anyway.</p>
+<p>Under the "Page Options", select your new Falbum template from the "Page Template" drop down box and set the "Page slug" to something simple, like "photos" or "gallery".  This part is important as this is the path you will be using for the Falbum, so take note of exactly what you have written for the page slug. For this example, I used "gallery".</p>
+<p>Save your page by clicking "Create New Page".</p>
+</li>
+<li>
+<h5>Configure Falbum</h5>
+<p>Now we've got the basic page setup, it's time to configure Falbum to use this page.  To do this, just change your "URL Root", within the Falbum options tab, to be the "Page Slug" you used above.  So, as I used "gallery" for my Page Slug, the URL Root will be <code>/gallery/</code>.  Be sure to include the slashes.</p>
+<p>Save your Falbum settings, and that's it.  If your .htaccess file is not writable, you will need to manually update it with the info displayed on the Falbum options page once you've saved your changes.</p>
+<p>This step isn't necessary, however it just makes sure your URLs are all consistant.</p>
+</li>
+</ol>
+<p>Now, assuming you are using Friendly URLs within Wordpress and Falbum, you should now be able to go to the slug directory of your site, eg <a href="http://colinseymour.co.uk/gallery/">http://colinseymour.co.uk/gallery/</a> and your album should be there with your custom theme.</p>
+<h3>Known Problems</h3>
+<ul>
+<li>
+<h5>Thumbnails are Tiny when using the K2 theme</h5>
+<p><strong>NOTE:</strong> If you are using the Michael Heilemann's brilliant K2 theme (as I am), you need to make a change to the style.css file supplied with K2.  It has the following bit of code that breaks Falbum's thumbnail view:</p>
+<pre lang="css">
+.primary img {
+	margin-left: -5px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	max-width: 100%;
+	}
+</pre>
+<p>Just comment out the <code>max-width: 100%</code> line and the thumbnails will appear correctly.</p>
+<p><strong>Update:</strong> The above bit about K2 may no longer apply if you use Falbum 0.5.6 and later as Eli has added an extra div to get round this problem.  I don't like this div as it makes the page look crap when drop shadows are disabled, so I've commented out these lines.
+</li>
+<li>
+<h5>404 Error on Album Pages</h5>
+<p>You may get 404 errors if you use the paging within Falbum, friendly URLs and this method.  This is caused by the following line which Wordpress adds to your .htaccess file:</p>
+<pre lang="text">
+RewriteRule ^(photos)/page/?([0-9]{1,})/?$ /blog/index.php?pagename=$1&paged=$2 [QSA,L]
+</pre>
+<p>Just comment this out and the 404 errors in paging will stop.
+</li>
+<li>
+<h5>Get â€œWarning: Invalid argument â€¦ on line 378.â€ in sidebar with K2 theme</h5>
+<p>Once again, this is due to the following code in K2 sidebar.php:</p>
+<pre lang="php">
+&lt;?php /* Creates a menu for pages beneath the level of the current page */
+	if (is_page()) {
+</pre>
+<p>You can get rid of the error by changing it to look as follows:</p>
+<pre lang="php">
+&lt;?php /* Creates a menu for pages beneath the level of the current page */
+	if (is_page() &amp;&amp; !is_paged()) {
+</pre>
+<p>I have no idea what other effect it'll have as I haven't tested the change much, but it clears the error.  I also don't use the K2 sidebar on this site, instead I call a custom sidebar file when viewing my album, which I'm slowly enhancing.
+</li>
+<li>
+<h5>Tab Highlighting Doesn't Work with K2 Theme</h5>
+<p>Once again K2 is at fault here.  It bases the tab highlighting on what Wordpress knows about the different pages/sub-pages.  As Falbum doesn't implement Wordpress style pages or sub-pages, the tab highlighting tends to work on the album listings, but then goes back to the default tab.</p>
+<p>I've solved this by changing the tab selection code in the K2 header.php to the following:</p>
+<pre lang="php">
+&lt;li class="page_item &lt;?php if ( ( (is_home()) && !(is_paged()) ) && 
+    !(strpos($_SERVER['REQUEST_URI'], 'gallery')) ) { ?&gt;
+current_page_item &lt;?php } ?&gt;">
+      &lt;a href="&lt;?php echo get_settings('home'); ?&gt;"&gt;Blog&lt;/a&gt;&lt;/li&gt;
+      &lt;?php $menu = wp_list_pages('sort_column=menu_order&depth=1&echo=0&title_li=');
+          $lines = split("\n", $menu);
+          foreach ($lines as $line) {
+             $url = split('/', $line);
+             if (substr($_SERVER["REQUEST_URI"], 1, 5) == substr($url[3], 0, 5)) {
+                 $line = str_replace('page_item', 'page_item current_page_item', $line);
+             }
+             echo $line."\n";
+         } ?&gt;
+</pre>
+<p>The only thing you'll have to change in the above code is the word <code>gallery</code>.  You'll need to change this to the name of the tab you have implemented Falbum on, eg <code>photos</code>.  The same excert of code can be adopted by other themes and should work as it bases the tab selection on the URL.</p>
+<p>Alternatively, you can add the following just above the <code>get_header()</code> in the file above:</p>
+<pre lang="php">
+$page_id = none;    /* Change "none" to the page number for the page created above */
+
+/* Force the page tab selection */
+global $wp_query;
+global $post;
+if ($page_id != none) {
+  $post->ID = $page_id;
+  $wp_query->is_home = false;
+  $wp_query->is_page = true;
+  $wp_query->queried_object->ID = $page_id;
+  $wp_query->queried_object_id = $page_id;
+}
+</pre>
+</li>
+</ul>
