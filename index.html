@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-cover: "/assets/images/front-bg.jpg"
+cover: "/img/front-bg.jpg"
 ---
 
 <header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
@@ -43,7 +43,7 @@ cover: "/assets/images/front-bg.jpg"
         </section>
         <footer class="post-meta">
             {% if site.author %}
-                <img class="author-thumb" src="/assets/images/profile.png" alt="Author's profile picture" nopin="nopin" width="24" height="24"/>
+                <img class="author-thumb" src="/img/profile.png" alt="Author's profile picture" nopin="nopin" width="24" height="24"/>
                 {{ site.author.name }}
             {% endif %}
             {% if post.tags.size > 0 %}
