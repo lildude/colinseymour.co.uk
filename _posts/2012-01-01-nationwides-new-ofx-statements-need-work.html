@@ -1,0 +1,73 @@
+---
+layout: post
+title: Nationwide's New OFX Statements Need Work
+date: 2012-01-01 09:46:26.000000000 -08:00
+tags:
+- banking
+- Nationwide
+type: post
+published: true
+---
+<p>We have our joint account with <a href="http://www.nationwide.co.uk" target="_blank">Nationwide</a> and I do all my financial management and budgeting in <a href="http://moneydance.com/" target="_blank">MoneyDance</a> so being able to quickly and easily export and import my statements is something I'm always on the look out for.</p>
+<p>Up until now, I've been downloading the statements from Nationwide in CSV format, running them through a custom script which customises the transactions to suit my needs and outputs a <a href="https://en.wikipedia.org/wiki/Quicken_Interchange_Format" target="_blank">QIF format file</a> for importing into MoneyDance.  This morning I discovered Nationwide has started offering the option of downloading detailed statements/transactions in the <a href="http://www.ofx.net/" target="_blank">Open Financial Exchange (OFX)</a> format.  </p>
+<p>I got a little excited by this discovery as I thought my script could be severely simplified, but alas, this is not the case as the OFX file from Nationwide is nowhere near as informative or useful as the CSV file is.</p>
+<p>Here are a few examples where the OFX transactions are simply useless on their own.</p>
+<h3>Foreign currency commission fees:</h3>
+<p><strong>CSV:</strong></p>
+<pre>"05 Nov 2011","Non-UK commission fee","","£2.11","","£###.##"</pre>
+<p><strong>OFX:</strong></p>
+<pre>&lt;STMTTRN&gt;
+    &lt;TRNTYPE&gt;FEE&lt;/TRNTYPE&gt;
+    &lt;DTPOSTED&gt;20111105120000.000[+0]&lt;/DTPOSTED&gt;
+    &lt;TRNAMT&gt;-2.11&lt;/TRNAMT&gt;
+    &lt;FITID&gt;1305112011120000&lt;/FITID&gt;
+    &lt;NAME /&gt;
+&lt;/STMTTRN&gt;</pre>
+<p>The OFX tells me nothing other than it's a FEE. I need to look at the preceding transaction to workout that this is likely to pertain to it.</p>
+<p>Suggested Fix: Add the MEMO tag and use that to detail what this charge is for, or even better, take advantage of the foreign currency tags in the OFX spec.</p>
+<h3>Foreign cash withdrawal charge:</h3>
+<p><strong>CSV:</strong></p>
+<pre>"09 Dec 2011","Non-UK cash wdl fee","","£1.00","","£###.##"</pre>
+<p><strong>OFX:</strong></p>
+<pre>&lt;STMTTRN&gt;
+    &lt;TRNTYPE&gt;FEE&lt;/TRNTYPE&gt;
+    &lt;DTPOSTED&gt;20111209120000.000[+0]&lt;/DTPOSTED&gt;
+    &lt;TRNAMT&gt;-1.00&lt;/TRNAMT&gt;
+    &lt;FITID&gt;4309122011120000&lt;/FITID&gt;
+    &lt;NAME /&gt;
+&lt;/STMTTRN&gt;</pre>
+<p>Once again, the OFX transaction entry on its own tells me nothing and once again, I need to look at the preceding transactions.</p>
+<p>Suggested fix: once again, add and use the MEMO tag to detail what the charge is for.</p>
+<h3>Standing Orders:</h3>
+<p><strong>CSV:</strong></p>
+<pre>"07 Nov 2011","Standing order","GLADRIDGE FLATS.","£75.00","","£###.##"</pre>
+<p>Here, "GLADRIDGE FLATS" is my own custom description I set when creating the standing order.</p>
+<p><strong>OFX:</strong></p>
+<pre>&lt;STMTTRN&gt;
+    &lt;TRNTYPE&gt;XFER&lt;/TRNTYPE&gt;
+    &lt;DTPOSTED&gt;20111107120000.000[+0]&lt;/DTPOSTED&gt;
+    &lt;TRNAMT&gt;-75.00&lt;/TRNAMT&gt;
+    &lt;FITID&gt;1607112011120000&lt;/FITID&gt;
+    &lt;NAME /&gt;
+&lt;/STMTTRN&gt;</pre>
+<p>If you don't recognise the value, you're on your own guessing what it's for without going to the Nationwide website or viewing the CSV file.</p>
+<p>Suggested fix: Change the TRNTYPE to REPEATPMT (as this is what you should be using for standing orders) and use my own custom description for the NAME.</p>
+<p>I'm sure there other completely useless transactions I've not encountered yet, but these are the ones I noticed today.  The rest of the transactions are generally OK and you can easily tell what they're for, though some could do with some improvement...</p>
+<h3>Transfers to and from other Nationwide accounts:</h3>
+<p><strong>CSV</strong>:</p>
+<pre>"28 Nov 2011","To mortgage a/c","[NATIONWIDE ACC NO. HERE]","£527.56","","£###.##"</pre>
+<p>The "To mortgage a/c" is Nationwide's string.</p>
+<p><strong>OFX:</strong></p>
+<pre>&lt;STMTTRN&gt;
+    &lt;TRNTYPE&gt;XFER&lt;/TRNTYPE&gt;
+    &lt;DTPOSTED&gt;20111128120000.000[+0]&lt;/DTPOSTED&gt;
+    &lt;TRNAMT&gt;-527.56&lt;/TRNAMT&gt;
+    &lt;FITID&gt;3128112011120000&lt;/FITID&gt;
+    &lt;NAME&gt;[NATIONWIDE ACC NO. HERE]&lt;/NAME&gt;
+&lt;/STMTTRN&gt;</pre>
+<p>No indication who I've transferred the money to, just the destination account number (I've replaced it) is given which means nothing to me without the useful custom string I get to see in the CSV format.</p>
+<p>Suggested fix: Don't use XFER for the TRNTYPE. It's not a transfer, it's a payment, so take your pick of the payment related tags to use and then set the NAME to something like "Nationwide Mortgages".</p>
+<p>So, thanks Nationwide for the new format, but please can you enhance your OFX format to be a bit more useful.  The OFX spec has several other useful TRNTYPE values to better explain the transaction types (POS is not appropriate for ATM withdrawals) and the MEMO tag is very very handy. The CSV format is still way more useful and I'm going to have to continue using it until the OFX format is up to the same level in terms of information provided.  </p>
+<p>All is not bad with the recent changes made by Nationwide: I really like the new swish looking website.  It's a million times better than the Web 1.0 look and feel of the old site.  </p>
+<p>Now if only <a href="http://www.cahoot.com" target="_blank">Cahoot</a> would do the same thing.  Their website is looking very dated and they don't offer any methods of exporting data to file (I have a Greasemonkey script which scrapes the statement pages).</p>
+<p><strong>Update 18 Jan 2013</strong>: The first three issues I've highlighted here have now been addressed.  I'm in contact with Nationwide regarding the rest of the issues or suggestions.</p>

@@ -1,0 +1,42 @@
+---
+layout: post
+title: Solving Dull Imported RAW Photos in Lightroom
+date: 2009-03-19 02:59:49.000000000 -07:00
+tags:
+- camera
+- Nikon
+- RAW
+- Lightroom
+- dull
+- import
+- profile
+- photography
+type: post
+published: true
+---
+<p>I've been using <a href="http://www.adobe.com/products/photoshoplightroom/">Adobe Photoshop Lightroom</a> for quite some time now to fulfil all my photo conversion and tweaking needs, and I really like it.  However one thing that kept annoying me was the fact that the images I imported came out dull when compared to how they appear in the camera viewer or how I remember the original scene. This meant I had to go through each image and tweak the settings to get something close to how I expected the image to come out, which is very very time consuming.   These same images came out fine when processed by Nikon's Capture NX first.</p>
+<p>I shoot in RAW format on my Nikon D50 so I can do more post-processing if I need to, and that's the operative phrase - "IF I need to".  I'm not the best photographer in the world (yet ;-) ), but I know when I've taken a picture I really couldn't get wrong, so it's quite frustrating to find I still need to tweak it to make it presentable.</p>
+<p>Well, this weekend I decided enough was enough and turned to Google to find out what I could do about my dull imported RAW files without having to give up using Lightroom or adding any additional steps to my workflow.<br />
+<!--more--><br />
+<img src="/assets/cameracalibration.jpg" alt="Lightroom Camera Calibration" title="Lightroom Camera Calibration" width="254px" height="600px" class="alignright" />It wasn't long until I stumbled upon <a href="http://blogs.oreilly.com/lightroom/2008/08/adobe-camera-profiles-and-ligh.html">this great post</a> that told me everything I needed to know.</p>
+<p>What I wasn't aware of was the fact that Adobe has actually been working on putting together a set of camera profiles for use with Lightroom.  These aren't supplied with Lightroom yet as they're still in beta but can be downloaded from <a href="http://labs.adobe.com/wiki/index.php/DNG_Profiles">Adobe Labs</a>.</p>
+<p>Once downloaded, installed and Lightroom restarted I was able to set the appropriate profile in the "Camera Calibration" section of the Develop section as follows:</p>
+<ol>
+<li>Select an image from that camera, and enter Develop.</li>
+<li>Press the Reset button in the lower right.</li>
+<li>Choose the profile you'd like to be the default (in the Camera Calibration panel)</li>
+<li>Hold the Alt/Option (⌥) key. The Reset button will change to "Set Default..." Click it.</li>
+<li>Restart Lightroom.</li>
+</ol>
+<p>Your profile will now apply to all images you import for this camera in the future, however it won't apply to those already imported.  You'll need to copy the calibration setting to your already imported images as follows:</p>
+<ol>
+<li>Perform steps 1 - 3 from above.</li>
+<li>Go to Settings &rarr; Copy Settings in the menus (<acronym title="Shift-Command-C">⇧⌘C</acronym> on a Mac)</li>
+<li>Unselect all checkboxes except the Calibration checkbox and click Copy</li>
+<li>Go back to Library and select all the images you wish to apply the calibration to</li>
+<li>Go to Photo &rarr; Develop Settings &rarr; Paste Settings (<acronym title="Shift-Command-V">⇧⌘V</acronym> on a Mac)</li>
+</ol>
+<p>Your calibration should now be applied to all your selected images.</p>
+<p>At the moment only Canon and Nikon profiles are provided and the Nikon profiles are as follows:<br />
+Standard, Neutral, Vivid, Landscape, Portrait, D2X Mode 1, D2X Mode 2, D2X Mode 3.  Just select the one that matches the "Optimize Image" (or equivalent) setting within your camera.</p>
+<p>This finding helped me turn around my <a href="http://colinseymour.co.uk/a-weekend-away-in-seville">recent holiday</a> snaps in record time.</p>

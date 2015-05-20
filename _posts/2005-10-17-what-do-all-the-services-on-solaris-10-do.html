@@ -1,0 +1,145 @@
+---
+layout: post
+title: What do All the Services on Solaris 10 do?
+date: 2005-10-17 01:07:46.000000000 -07:00
+tags:
+- Techie
+- opensolaris
+- Sun
+- smf
+- solaris
+- services
+type: post
+published: true
+---
+<p>A quick tip for all Solaris 10/OpenSolaris users... some companies have a strict requirement to know exactly what each and every startup script does on their system.  With releases of Solaris 9 and earlier, one would check the rc scripts.  This is time consuming and may not give an accurate description or one liner.  Solaris 10/OpenSolaris makes things much easier...</p>
+<p><!--more--></p>
+<p>Solaris 10/OpenSolaris now uses services for all the Sun supplied start up scripts, but still supports the old (legacy) rc scripts too.  A summary of all services can be obtained by running: <code>svcs -o FMRI,DESC</code>.  This will produce output similar to the following:</p>
+<pre>
+$ svcs -o FMRI,DESC
+FMRI                                                           DESC
+lrc:/etc/rcS_d/S29wrsmcfg                          -
+lrc:/etc/rcS_d/S51installupdates                   -
+lrc:/etc/rc2_d/S10lu                                       -
+lrc:/etc/rc2_d/S20sysetup                              -
+lrc:/etc/rc2_d/S40llc2                                    -
+lrc:/etc/rc2_d/S42ncakmod                          -
+lrc:/etc/rc2_d/S47pppd                                 -
+lrc:/etc/rc2_d/S70sckm                                -
+lrc:/etc/rc2_d/S70uucp                             -
+lrc:/etc/rc2_d/S72autoinstall                      -
+lrc:/etc/rc2_d/S73cachefs_daemon                   -
+lrc:/etc/rc2_d/S81dodatadm_udaplt                  -
+lrc:/etc/rc2_d/S89PRESERVE                         -
+lrc:/etc/rc2_d/S89bdconfig                         -
+lrc:/etc/rc2_d/S90wbem                             -
+lrc:/etc/rc2_d/S90webconsole                       -
+lrc:/etc/rc2_d/S91afbinit                          -
+lrc:/etc/rc2_d/S91gfbinit                          -
+lrc:/etc/rc2_d/S91ifbinit                          -
+lrc:/etc/rc2_d/S91jfbinit                          -
+lrc:/etc/rc2_d/S91zuluinit                         -
+lrc:/etc/rc2_d/S94ncalogd                          -
+lrc:/etc/rc2_d/S95cswfconfig                       -
+lrc:/etc/rc2_d/S97cc-transport                     -
+lrc:/etc/rc2_d/S98cc-ccragent                      -
+lrc:/etc/rc2_d/S98cc-fwagent                       -
+lrc:/etc/rc2_d/S98deallocate                       -
+lrc:/etc/rc2_d/S99audit                            -
+lrc:/etc/rc2_d/S99cc-invagent                      -
+lrc:/etc/rc2_d/S99dtlogin                          -
+lrc:/etc/rc3_d/S16boot_server                      -
+lrc:/etc/rc3_d/S40cswopenldap                      -
+lrc:/etc/rc3_d/S50apache                           -
+lrc:/etc/rc3_d/S52imq                              -
+lrc:/etc/rc3_d/S75seaport                          -
+lrc:/etc/rc3_d/S76snmpdx                           -
+lrc:/etc/rc3_d/S77dmi                              -
+lrc:/etc/rc3_d/S80mipagent                         -
+lrc:/etc/rc3_d/S81volmgt                           -
+lrc:/etc/rc3_d/S82initsma                          -
+lrc:/etc/rc3_d/S84appserv                          -
+lrc:/etc/rc3_d/S90samba                            -
+svc:/system/svc/restarter:default                  master restarter
+svc:/network/pfil:default                          packet filter
+svc:/network/loopback:default                      loopback network interface
+svc:/network/physical:default                      physical network interfaces
+svc:/milestone/network:default                     Network milestone
+svc:/system/identity:node                          system identity (nodename)
+svc:/system/metainit:default                       SVM initialization
+svc:/system/filesystem/root:default                root file system mount
+svc:/system/filesystem/usr:default                 read/write root file systems mounts
+svc:/system/keymap:default                         keyboard defaults
+svc:/system/device/local:default                   Standard Solaris device configuration.
+svc:/system/filesystem/minimal:default             minimal file system mounts
+svc:/system/picl:default                           platform information and control
+svc:/system/coreadm:default                        system-wide core file configuration
+svc:/system/rmtmpfiles:default                     remove temporary files
+svc:/application/print/cleanup:default             print cleanup
+svc:/system/name-service-cache:default             name service cache
+svc:/system/sysevent:default                       system event notification
+svc:/system/device/fc-fabric:default               Solaris FC fabric device configuration.
+svc:/milestone/devices:default                     device configuration milestone
+svc:/system/identity:domain                        system identity (domainname)
+svc:/system/cryptosvc:default                      cryptographic services
+svc:/system/manifest-import:default                service manifest import
+svc:/network/initial:default                       initial network services
+svc:/milestone/single-user:default                 single-user milestone
+svc:/system/filesystem/local:default               local file system mounts
+svc:/system/sysidtool:net                          sysidtool
+svc:/network/rpc/bind:default                      RPC bindings
+svc:/system/sysidtool:system                       sysidtool
+svc:/milestone/sysconfig:default                   Basic system configuration milestone
+svc:/system/sac:default                            SAF service access controller
+svc:/network/rpc/keyserv:default                   RPC encryption key storage
+svc:/network/nis/client:default                    NIS (YP) client
+svc:/system/utmp:default                           utmpx monitoring
+svc:/system/console-login:default                  Console login
+svc:/milestone/name-services:default               name services milestone
+svc:/network/nfs/cbd:default                       NFS callback service
+svc:/system/cron:default                           clock daemon (cron)
+svc:/network/inetd:default                         inetd
+svc:/application/font/fc-cache:default             FontConfig Cache Builder
+svc:/network/service:default                       layered network services
+svc:/network/rpc/gss:default                       Generic Security Service
+svc:/network/rpc/meta:default                      SVM remote metaset services
+svc:/application/font/stfsloader:default           Standard Type Services Framework (STSF) Font Server loader
+svc:/application/x11/xfs:default                   X Window System font server
+svc:/network/rpc/smserver:default                  removable media management
+svc:/network/rpc/mdcomm:default                    SVM multi-node communications
+svc:/network/rpc/metamed:default                   SVM remote mediator services
+svc:/network/rpc/metamh:default                    SVM remote multihost disk services
+svc:/network/rpc/rstat:default                     kernel statistics server
+svc:/network/rpc/rusers:default                    network user name service
+svc:/network/rpc-100235_1/rpc_ticotsord:default    100235
+svc:/network/rpc-100083_1/rpc_tcp:default          100083
+svc:/network/rpc-100068_2-5/rpc_udp:default        100068
+svc:/network/security/ktkt_warn:default            Kerberos V5 warning messages daemon
+svc:/network/telnet:default                        Telnet server
+svc:/network/ftp:default                           FTP server
+svc:/network/finger:default                        finger
+svc:/network/login:rlogin                          remote login
+svc:/network/shell:default                         rsh
+svc:/network/nfs/client:default                    NFS client
+svc:/network/swat/tcp:default                      swat
+svc:/system/system-log:default                     system log
+svc:/system/dumpadm:default                        system crash dump configuration
+svc:/system/filesystem/autofs:default              automounter
+svc:/network/ssh:default                           SSH server
+svc:/network/nfs/server:default                    NFS server
+svc:/network/smtp:sendmail                         sendmail SMTP mail transfer agent
+svc:/system/fmd:default                            Solaris Fault Manager
+svc:/network/nfs/mapid:default                     NFS ID mapper
+svc:/network/nfs/rquota:default                    remote quota server
+svc:/application/print/server:default              LP print server
+svc:/application/print/rfc1179:default             BSD print protocol adapter
+svc:/application/print/ipp-listener:default        Internet Print Protocol Listening Service
+svc:/milestone/multi-user:default                  multi-user milestone
+svc:/milestone/multi-user-server:default           multi-user plus exports milestone
+svc:/system/zones:default                          Solaris zones
+svc:/network/nfs/status:default                    NFS status monitor
+svc:/network/nfs/nlockmgr:default                  NFS lock manager
+svc:/network/http:apache2                          Apache 2 HTTP server
+$
+</pre>
+<p>As you can see, everything has a nice one liner description, except the legacy rc scripts (lrc).  This is because there is no standard way of describing an rc script's function.  If the above isn't enough of an explanation, check out the man pages and if it's still not clear - log a bug at <a href="http://bugs.opensolaris.org/">http://bugs.opensolaris.org/</a>.</p>

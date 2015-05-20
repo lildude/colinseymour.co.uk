@@ -1,0 +1,19 @@
+---
+layout: post
+title: Update and Testing
+date: 2005-08-21 02:55:34.000000000 -07:00
+tags:
+- WordPress
+- Techie
+- Blogging
+- k2
+- K2betaone
+- kubrick
+type: post
+published: true
+---
+<p>This morning I woke up a little earlier than expected and plonked by butt before the computer.  I was reading through my list of most commonly read blogs, when I discovered that Michael over at <a href="http://binarybonsai.com">BinaryBonsai</a> had released the first beta of his new theme, <a href="http://binarybonsai.com/k2">K2</a>, into the wild.  So I thought, hell, why not.  I already use a very much adapted version of his <a href="http://binarybonsai.com/wordpress/kubrick/">Kubrick</a> theme.</p>
+<p>So, this morning I updated <a href="http://www.wordpress.org">Wordpress</a> to <a href="http://wordpress.org/development/2005/08/one-five-two/">1.5.2</a> and installed his theme.  Only one issue encountered - the installation documentation doesn't detail placing k2options.php into the plugins directory.  I discovered this after getting this nice error message:</p>
+<p><code><b>Fatal error</b>:  Call to undefined function k2info() in <b>/var/www/colinseymour.co.uk/htdocs/blog/wp-content/themes/k2beta1/header.php</b> on line <b>33</b></code></p>
+<p>Once I'd sorted this out, everything fell into place. Well, almost - I've hacked up things so much, most things fell into place, so I won't be using it as my default theme until I sort out my hackings. </p>
+<p>[<b><i>Update:</i></b> The problem I encountered isn't a documentation issue, it's a coding issue.  The theme expects to be installed in a directory called "k2".  I installed it in a directory called "k2beta1".  Changing the directory name, clears the error message I got and displays things all hunky dory. I've "<a href="http://www.flickr.com/groups/binarybonsai/discuss/73334/">bugged</a>" this for Michael on the discussion forum.]</p>

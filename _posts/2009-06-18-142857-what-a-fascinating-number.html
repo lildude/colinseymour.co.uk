@@ -1,0 +1,52 @@
+---
+layout: post
+title: '142857: What a Fascinating Number'
+date: 2009-06-18 07:40:57.000000000 -07:00
+tags:
+- Random
+- number
+- cyclic
+- '142857'
+type: post
+published: true
+---
+<p>I've just been introduced to a rather extra-ordinary number: 142857.</p>
+<p>Now as it stands, it doesn't look particularly fascinating or special but it does when you start to play with it.  So lets get playing.</p>
+<p>Lets start with some multiplication...</p>
+<pre>          142857 x 1 = 142857
+          142857 x 2 = 285714
+          142857 x 3 = 428571
+          142857 x 4 = 571428
+          142857 x 5 = 714285
+          142857 x 6 = 857142</pre>
+<p>Oooooooo, well look at that.  Do you see it?  </p>
+<p><!--more-->Notice how each answer contains exactly the same individual numbers, just shifted slightly.  It's easier to see if I list the lines as follows:</p>
+<pre>          142857 x 1 = 142857
+          142857 x 3 = 428571
+          142857 x 2 = 285714
+          142857 x 6 = 857142
+          142857 x 4 = 571428
+          142857 x 5 = 714285</pre>
+<p>Coool.</p>
+<p>Now what about multiplying it by 7?</p>
+<pre>          142857 X 7 = 999999</pre>
+<p>Whoops!!  Don't worry, it's not over. That's actually quite significant.  Look what happens when you split the digits into pairs or triplets and add them up:</p>
+<pre>          142 + 857 = 999
+          14 + 28 + 57 = 99</pre>
+<p>Hmmmm. Interesting. 9s.  But what about multiples greater than 7?  Well, there's a pattern there too...</p>
+<pre>          142857 × 8 = 1142856
+          142857 × 9 = 1285713
+          142857 x 26 = 3714282
+          142857 x 142857 = 20408122449
+          142857 × 133 = 18999981</pre>
+<p>See it?  Probably not, but you will when I tell you the secret: add the last six digits to the remaining digits and repeating this process until you have only six digits left...</p>
+<pre>          1 + 142856 = 142857
+          1 + 285713 = 285714
+          3 + 714282 = 714285
+          20408 + 122449 = 142857
+          18 + 999981 = 999999</pre>
+<p>Whoops, that last one didn't work.  Or did it?  What's significant about 133?  It's a multiple of 7.  Hmmmm, that number 7 seems to be quite significant, and indeed it is... look what 1 ÷ 7 gives you...</p>
+<pre>          1 ÷ 7 = 0 . 142857 142857 142857 142857 142857 142857 14...</pre>
+<p>Well look at that, a never ending list of our magic number.</p>
+<p>So what's so special about 142857?  Well, according to <a href="http://en.wikipedia.org/wiki/142857_(number)">Wikipedia</a> it's the best-known cyclic number in base 10 (the number system we use). If you multiply the number by 2, 3, 4, 5, or 6, the answer will be a cyclic permutation of itself.</p>
+<p>Now wasn't that interesting? Now I've finished amazing you with my random findings, back to work.</p>

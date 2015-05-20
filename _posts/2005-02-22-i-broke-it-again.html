@@ -1,0 +1,22 @@
+---
+layout: post
+title: I Broke it Again
+date: 2005-02-22 09:28:37.000000000 -08:00
+tags:
+- General
+- Techie
+- Linux
+- Internet
+- gentoo
+- emerge
+- apache
+type: post
+published: true
+---
+<p>Well, my webserver had been up continously for over a month and had been without updates for even longer.  So yesterday I thought it would be wise to update my system (<code>emerge --update world</code>).  BIG mistake.  I managed to break it.</p>
+<p>But as you can see, I got it all working again.  It turned out to be a stupid file permissions thing.  Now had Apache's error logs been a little more descriptive, I would have known this.  </p>
+<p>For those with a technical inclination may be interested to know that everytime I attempted to start Apache, I got the following error in my error_log:</p>
+<div class="terminal">unable to start piped log program '/usr/sbin/apache2splitlogfile': Permission denied<br />Unable to open logs</div>
+<p>Now nothing within my configuration had changed, ie Apache was still running as the same user and group as before abd my log files and directories still had the correct permissions.</p>
+<p>After a lot of hunting around, it turned out that the update had updates <code>/usr/sbin/apache2splitlogfile</code> and removed the execute permissions.  Adding this back solved the problem and we're all back up and running.</p>
+<p>FYI, the updates are still going on, but hey that's the price you pay for using <a href="http://www.gentoo.org">Gentoo</a>.</p>

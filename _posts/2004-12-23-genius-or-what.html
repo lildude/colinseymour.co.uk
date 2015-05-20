@@ -1,0 +1,25 @@
+---
+layout: post
+title: Genius or What?
+date: 2004-12-23 01:46:55.000000000 -08:00
+tags:
+- Techie
+- Sun
+type: post
+published: true
+---
+<p>I must say, it's quite entertaining working for a large IT corporation.  You've got a wide range of people from your general techie bods like me, to your uber geeks who are bordering on the lines of genius.  Solaris 10, Sun's next release of Solaris has got loads of new features and fantastic technology which, once again, is light years ahead of the competition.  One of these new technologies is ZFS - this is meant to be the filesystem that ends all other filesystems.  It's a 128-bit filesystem that is self healing, self protecting and generally a great invention. (For the non-technical, all the files on your computer in "My Documents" are stored on a <a href="http://en.wikipedia.org/wiki/Filesystem">filesystem</a>.)</p>
+<p>Well, as most companies do, Sun ran an article called "<a href="http://www.sun.com/2004-0914/" title="ZFS Article">ZFS - the last word in filesystems</a>" detailing ZFS and it's features etc.  The article ended with the following quote:</p>
+<blockquote><p>Logically, the next question is if ZFS' 128 bits is enough. According to Bonwick, it has to be. "Populating 128-bit file systems would exceed the quantum limits of earth-based storage. You couldn't fill a 128-bit storage pool without boiling the oceans."</p></blockquote>
+<p>One generous reader offered some feedback on the article.  One of his quotes was "<em>64 bits would have been plenty ... but then you can't talk out of your ass about boiling oceans then, can you?</em>"</p>
+<p>Well, that set off a huge debate on one of our internal aliases dedicated to ZFS, and <a href="http://blogs.sun.com/roller/page/bonwick/">Jeff Bonwick</a> (referenced in the quote above as Bonwick) sums up the debate in a fantastic explanation proving that the reader in fact "can't talk out of his ass about boiling oceans"....</p>
+<p><!--more--><br />
+Jeff summarised the <a href="http://blogs.sun.com/roller/page/bonwick/20040925#128_bit_storage_are_you">debate</a> on his blog as follows:</p>
+<blockquote><p>Well, it's a fair question. Why did we make ZFS a 128-bit storage system? What on earth made us think it's necessary? And how do we know it's sufficient?</p>
+<p>Let's start with the easy one: how do we know it's necessary?</p>
+<p>Some customers already have datasets on the order of a petabyte, or 250 bytes. Thus the 64-bit capacity limit of 264 bytes is only 14 doublings away. Moore's Law for storage predicts that capacity will continue to double every 9-12 months, which means we'll start to hit the 64-bit limit in about a decade. Storage systems tend to live for several decades, so it would be foolish to create a new one without anticipating the needs that will surely arise within its projected lifetime.</p>
+<p>If 64 bits isn't enough, the next logical step is 128 bits. That's enough to survive Moore's Law until I'm dead, and after that, it's not my problem. But it does raise the question: what are the theoretical limits to storage capacity?</p>
+<p>Although we'd all like Moore's Law to continue forever, quantum mechanics imposes some fundamental limits on the computation rate and information capacity of any physical device. In particular, it has been shown that 1 kilogram of matter confined to 1 liter of space can perform at most 1051 operations per second on at most 1031 bits of information [see Seth Lloyd, "Ultimate physical limits to computation." Nature 406, 1047-1054 (2000)]. A fully-populated 128-bit storage pool would contain 2128 blocks = 2137 bytes = 2140 bits; therefore the minimum mass required to hold the bits would be (2140 bits) / (1031 bits/kg) = 136 billion kg.</p>
+<p>That's a lot of gear.</p>
+<p>To operate at the 1031 bits/kg limit, however, the entire mass of the computer must be in the form of pure energy. By E=mc2, the rest energy of 136 billion kg is 1.2x1028 J. The mass of the oceans is about 1.4x1021 kg. It takes about 4,000 J to raise the temperature of 1 kg of water by 1 degree Celcius, and thus about 400,000 J to heat 1 kg of water from freezing to boiling. The latent heat of vaporization adds another 2 million J/kg. Thus the energy required to boil the oceans is about 2.4x106 J/kg * 1.4x1021 kg = 3.4x1027 J. Thus, fully populating a 128-bit storage pool would, literally, require more energy than boiling the oceans.</p></blockquote>
+<p>Now how's that for a response?</p>

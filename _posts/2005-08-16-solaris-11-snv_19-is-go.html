@@ -1,0 +1,36 @@
+---
+layout: post
+title: Solaris 11 snv_19 is Go
+date: 2005-08-16 06:58:29.000000000 -07:00
+tags:
+- Techie
+- opensolaris
+- Sun
+- solaris
+- gotchas
+type: post
+published: true
+---
+<p><a href="http://www.opensolaris.org"><img class="alignright" alt="I Boot OpenSolaris" title="I Boot OpenSolaris" src="http://www.opensolaris.org/os/about/buttons/iboot_os_blu_180.gif" /></a><br />
+Yesterday, I finally got myself on the path to OpenSolaris.  I spent a fair part of my day off sorting out my home PC so I could install the latest release of Solaris Express (Solaris 11 snv_19).  This is needed as a base to which I'll eventually build <a href="http://www.opensolaris.org">OpenSolaris</a>.</p>
+<p>The process was pretty painless, which was surprising as I was expecting my rather obscure hardware to cause issues, but nope... it all installed and ran beautifully.  I do however believe my lack of problems probably stems from the fact that I'm on the internal Solaris 10 users alias, so I've seen problems crop up and as such taylored my install around these.  Full details of my install procedure, for those that may be interested, coming up. If you're not interested, there is no need to read anymore of this post.</p>
+<p><!--more--></p>
+<p>Firstly, the media... you can get the latest ISO images from <a href="http://www.opensolaris.org/os/downloads/">http://www.opensolaris.org/os/downloads/</a> and burn your own CD's. I did this several nights ago, so my collection of 4 CD's were ready and waiting to go.</p>
+<p>Now there are loads of other websites detailing the install procedure (including the official Sun Solaris Express Installation <a href="http://docs.sun.com/app/docs/coll/1236.2">documentation</a>) , so I'm not going to go into that, but I will provide a couple of tips that will help ease the installation.</p>
+<p>Before diving head first into the install, I had to take into account several "issues" or limitations that I'd seen crop up in the alias:</p>
+<p> <strong>&raquo;</strong> If installing Solaris onto a disk which already has an OS, the Solaris partition needs to exist before you boot off the CD. This is because Solaris will only allow and install on a Solaris partition or the whole disk.  It doesn't come with something like gparted either.  This is a limitation that is primarily due to the fact that Solaris historically was never made to be a dual boot desktop OS.</p>
+<p>If you need to partition your disk for dual boot, then I recommend using gparted and fdisk from one of the latest GNU/Linux releases.  If you've already got GNU/Linux installed, then ensure it's got the latest gparted and fdisk installed.  If GNU/Linux is not already installed, use one of the live CD distro's like Knoppix to adjust your partition table.  You can use something like Partition Magic for Windows, however it may not know about the new Solaris partition id of "bf".  The old partition id (82) is the same as the current Linux swap partition ID and as such can cause problems on dual boot GNU/Linux/Solaris machines.  Oh and make sure the partition you assign for Solaris is a primary partition.  Solaris can't be installed on an extended partition.</p>
+<p> <strong>&raquo;</strong> Native legacy USB emulation support within the BIOS of most motherboards doesn't mix very well with Solaris.  Common issues seen are hangs immediately after booting off the CD. Similar issues are seen with Linux kernels that are compiled with native legacy USB emulation support, so this isn't a Solaris specific issue.  It's also not much of a problem disabling this as the OS will provide all the necessary drivers to get USB working anyway.</p>
+<p> <strong>&raquo;</strong> The latest releases of Solaris Express use the old Xsun Xserver during the installation process, but then promptly switch to Xorg for the default Xserver. As a result, Xsun may incorrectly detect your graphics cards, keyboard and mouse.  This can then result in a hang just after the initial system configuration stage as it attempts to test the devices. Be sure to select the correct devices when prompted as things may hang when Solaris attempts to probe the devices. Setting these correctly, will also mean you'll have less to change in the xorg.conf file once the OS has completed installing.</p>
+<p> <strong>&raquo;</strong> Solaris Express snv_16 (I think) and later will prompt you to install GRUB as the bootloader.  If you are already using GRUB, you can say no here and add the following to the menu.cfg file from within GNU/Linux:</p>
+<p><code><br />
+        title Solaris Express<br />
+        root (hd1,0)<br />
+        kernel /platform/i86pc/multiboot<br />
+        module /platform/i86pc/boot_archive<br />
+        makeactive<br />
+        chainloader +1<br />
+</code></p>
+<p>Obviously, change the root to be the correct partition.  Alternatively, you can install the Solaris supplied GRUB and just add the appropriate entry to GRUB for your GNU/Linux and other OS's.</p>
+<p>I think that's it for the moment.  I'm sure I'll add more gotcha's as I stumble upon them.  For those who are interested, the default JDS desktop looks like this:</p>
+<p><a href="http://colinseymour.co.uk/gallery/album/screenshots/photo/34231045"><img class="centered" src="http://photos21.flickr.com/34231045_a591c43093_m.jpg" alt="Solaris 11 snv_19 Screenshot" /></a></p>

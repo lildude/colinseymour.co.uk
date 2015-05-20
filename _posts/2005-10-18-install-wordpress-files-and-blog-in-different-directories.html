@@ -1,0 +1,60 @@
+---
+layout: post
+title: Install WordPress Files and Blog in Different Directories
+date: 2005-10-18 06:45:39.000000000 -07:00
+tags:
+- WordPress
+- Techie
+- HowTo
+- htaccess
+- install
+- directory
+type: post
+published: true
+---
+<p>The Wordpress installation <a href="http://wordpress.org/docs/installation/different-address/">guide</a> and the <a href="http://codex.wordpress.org/Moving_WordPress">Moving Wordpress</a> page in the <a href="http://codex.wordpress.org/">Wordpress Codex</a> detail how you can install Wordpress in one directory, eg <code>http://www.domain.com/wordpress/</code> and access your blog from another, or from the base address or your site - eg <code>http://www.domain.com.</code></p>
+<p>These details are all well and good except for one thing - the caveats.  Both these pages quote:</p>
+<blockquote><p>The only catch is the "Edit this" links will no longer appear by every entry and comment if you're using this option. This is a limitation of how we're setting cookies, and this may be fixed in the future.</p></blockquote>
+<p>Sorry, this isn't good enough.  I use the WP cookie in several places on my site so I need it to work, and all the time, whilst still keeping my files neat and tidy. </p>
+<p>So, after a little bit of testing, I found that the following does the trick just perfectly...</p>
+<p><!--more--></p>
+<div class="alert">WARNING: THIS IS A QUICK & NASTY WORK-AROUND THAT DOES THE JOB AND ASSUMES WP 1.5.2.  WORDPRESS 2.0 DETAILS AT THE <a href="#wp20">END</a></div>
+<p>1. Install and setup WP so that the Wordpress URI and the Blog URI point to the WP install directory - eg <code>http://www.domain.com/wordpress/</code></p>
+<p>2. Edit the <code>wp-includes/classes.php</code> file and comment out lines 1244, 1245, 1246 and 1248 thus leaving it looking as follows:</p>
+<pre lang="text">
+// if (strstr($query, $this->index)) {
+//   $rules .= 'RewriteRule ^' . $match . ' ' . $home_root . $query . " [QSA,L]n";
+// } else {
+       $rules .= 'RewriteRule ^' . $match . ' ' . $site_root . $query . " [QSA,L]n";
+// } 
+</pre>
+<p>This is just editing the <code>mod_rewrite_rules()</code> function, so the same work-around can be applied to other versions of WP.</p>
+<p>3. Go to <code>Option -> General</code><br />
+4. Set Blog Address to your base URI - eg <code>http://www.domain.com</code><br />
+5. Click Update Options. This should now create your .htaccess in the base directory of your site, not in <code>/wordpress/</code><br />
+6. Edit the new <code>.htaccess</code> file, and add the following BEFORE the <code># BEGIN WordPress</code> line:</p>
+<pre lang="text">
+RewriteRule ^$ /wordpress/ [QSA,L]
+</pre>
+<p>Thus making the beginning of your file look as follows:</p>
+<pre lang="text">
+RewriteRule ^$ /wordpress/ [QSA,L]
+# BEGIN WordPress
+<ifmodule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+...
+</ifmodule></pre>
+<p>Note, you must change the <code>/wordpress/</code> to where ever you chose to install WP.</p>
+<p>7. Save the file.</p>
+<p>That's it. You should find that all your RewriteRules point to <code>/wordpress/index.php</code> and it will stay this way when you make any updates to your <code>.htaccess</code> in the future, like adding pages etc.</p>
+<p>Just one word of warning... these changes will be lost when you update WP to a later release (cos you're over-writing the classes.php file), but it's a small price to pay for neat, tidy convenience.</p>
+<p>I could have coded round this, but I really couldn't be arsed. Commenting out 3 lines is way simpler.  Who knows, maybe the WP authors will actually take this into account in the future.  There is no reason why one should have to go through their steps and make a mess of things.</p>
+<p><a id="wp20"></a><br />
+<strong>Update:</strong> The same steps apply in Wordpress 2.0, however the line numbers are now 1367, 1368, 1369 and 1371.  You also need to change line 1376 to look as follows:</p>
+<pre lang="text">
+      "RewriteRule . {$site_root}{$this->index}\n";
+</pre>
+<p>This ensures the .htaccess is updated with the correct root directory each time you make an edit.</p>

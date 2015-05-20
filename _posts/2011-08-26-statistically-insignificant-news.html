@@ -1,0 +1,23 @@
+---
+layout: post
+title: Statistically Insignificant News
+date: 2011-08-26 07:42:35.000000000 -07:00
+tags:
+- news
+- statistics
+- unemployment
+type: post
+published: true
+---
+<p>In "<a href="http://www.bbc.co.uk/news/uk-politics-14558369" target="_blank">'Worrying' jobless rise needs urgent action - Labour</a>" the BBC reported...</p>
+<blockquote><p>The number of people out of work rose by 38,000 to 2.49 million in the three months to June, official figures show.</p></blockquote>
+<p>Sounds scary doesn't it?  All doom and gloom.  That is until you look into the <a href="http://www.statistics.gov.uk/pdfdir/lmsuk0811.pdf" target="_blank">official figures for August 2011</a> (pdf) provided by the Office for National Statistics.</p>
+<p>The 38,000 figure comes from page 13 of the PDF...</p>
+<p><a href="http://colinseymour.co.uk/user/files/2011/08/ons-pg13.jpg" target="_blank"><img class="center" alt="ons-pg13.jpg" src="/assets/ons-pg13.jpg" width="656" height="529" /></a></p>
+<p>Note the paragraph above the table and the ± in the columns marked "<em>Sampling variability of change on...</em>".  The BBC don't mention this in their report.  Why not?  Well because it turns this "news" into "non-news".</p>
+<p>So how can these seemingly insignificant bits of information turn these figures into nothing?  Well, it's all about sampling.  Naturally, it's impossible to survey the entire country, so only a small percent of the population is surveyed.  Now this in itself could be unrepresentative in two ways:  1) you could get just downright stupid sampling, like trying to determine the overall unemployment rate of the nation by asking people walking into the Job Centre in a town full of children and OAPs, or 2) by pure chance and thus you get what is called a sampling error.</p>
+<p>Now to try and account for this, statisticians include a "<a href="https://secure.wikimedia.org/wikipedia/en/wiki/Confidence_interval" target="_blank">confidence interval</a>" (ie a margin of error) in the data they present and a confidence level, commonly something like 95%.  So what does this mean? Strictly this means that if you repeatedly took samples of a set size, then on 95% of those samples, the true result of what you are trying to measure would lie somewhere between the upper and lower limits of the confidence interval (c) of your samples, ie take my calculated guess (x) and create an interval that spans <code>x-c</code> to <code>x+c</code>... you'll find the actual figure somewhere in that range.</p>
+<p>In the case of this report, the estimated change over the last quarter is 38,000.  Sounds a lot, but consider the 95% confidence value for a confidence interval for the quarter of ±87,000. This means that the actual change is somewhere between -49,000 (ie a decrease in unemployment) and 125,000, including 0, which is no change at all.  </p>
+<p>This huge range effectively says unemployment could have gone up, remained unchanged or decreased.  Well that's not really useful at all and I believe these results are technically statistically insignificant.  Now statistical insignificance doesn't always mean unimportant, however by just looking at these figures we can see this really shouldn't have received the attention they got.</p>
+<p>I can't help but think this may be reporting statistics for the sake of reporting statistics and only leads to confusion and the media over-hyping nothing.  The ONS figures mathematically would have had the same impact if they'd just said "no change" or "we don't know".</p>
+<p>Of course this doesn't make news, so reporters will continue to ignore little facts like this and leave it up to the reader to investigate things further for themselves.</p>

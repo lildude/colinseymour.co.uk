@@ -1,0 +1,37 @@
+---
+layout: post
+title: How's This for Load Average
+date: 2006-02-08 03:18:27.000000000 -08:00
+tags:
+- Techie
+- Sun
+- solaris
+- zones
+- unix
+- container
+- T2000
+type: post
+published: true
+---
+<p>In testing the new Sun Fire <a href="http://www.sun.com/servers/coolthreads/t2000/">T2000</a> and Solaris 10 zones, a user attempted to see if they could break a zone to see if it would break the whole machine.  Essentially, the user followed the "<a href="http://www.sun.com/software/solaris/howtoguides/containersLowRes.jsp">Solaris Containers Consolidating Servers and Applications</a>" guide and ...</p>
+<ul>
+<li>Created pset0 with min and max of 1 cpu</li>
+<li>Created pool0 and added the pset0 to it</li>
+<li>Created zone0 and assigned pool0 to it</li>
+<li>Installed and booted zone0</li>
+<li>Run the following C code in zone0
+<pre lang="text">
+#include <stdio.h>
+main() {
+    while (1) {
+        fork();
+    }
+}
+</stdio.h></pre>
+</li>
+</ul>
+<p>Now this is a very harsh test which <strong>will</strong> break (read grind it to a halt) pretty much any machine you throw this at. In this case it broke the zone almost instantly, but the user still had control over the global zone for a couple of minutes, in which time he managed to capture the load average...</p>
+<p><code>10:03pm  up  9:56,  1 user,  load average: 29055.02, 21988.81, 10829.24</code></p>
+<p>How's that for impressive.  The machine was crawling, but technically still responsive with a load of nearly 30000 in the last minute.  Eventually the global zone gave up the ghost too.</p>
+<p>If you're interested, the only reason the zone brought down the whole box, when it shouldn't have, was because the user didn't enable Fair Share Scheduling for the resource pool he created (skipped one of the sections in the document). It would probably have also been a good idea to restrict the number of LWPs for the zone too.</p>
+<p>If you're not a *nix user, especially a Solaris 10 user, this post isn't going to mean much to you, sorry.</p>

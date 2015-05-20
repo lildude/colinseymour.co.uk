@@ -1,0 +1,78 @@
+---
+layout: post
+title: Wordpress 2.0 is a mod_rewrite Hijacker
+date: 2006-01-19 12:35:56.000000000 -08:00
+tags:
+- WordPress
+- Techie
+- Web Dev
+- rules
+- bug
+- mod_rewrite
+type: post
+published: true
+---
+<p><a href="http://www.anthonymcg.com/">Anthony</a> brought up what appeared to be a <a href="http://www.randombyte.net/forum/viewtopic.php?t=252&start=30">problem</a> with Falbum the other day.  Well, this morning I did some investigating and I've worked out the problem is not actually Falbum, but rather with Wordpress.</p>
+<p>It appears as soon as you include the <code>wp-blog-header.php</code> file into any non-Wordpress file, Wordpress will hijack the mod_rewrite rules and cause the non-Wordpress rules to be completely ignored. I think a demonstration will help illustrate the problem.</p>
+<p><!--more--></p>
+<p>My <a href="http://colinseymour.co.uk/calendar/">calendar</a>, is simply a php file that simply includes the appropriate static html file depending on the year and month passed to it.</p>
+<p>In it's simplest form, the code looks as follows:</p>
+<pre lang="php">
+         &lt;?php
+         require_once('../blog/wp-blog-header.php');
+         get_header();
+         include "$_GET[y]-$_GET[m].html";
+         get_footer();
+         ?&gt;
+</pre>
+<p>(It's actually got a lot of error checking too)</p>
+<p>So, calling http://www.example.com/cal-data/calendar.php?m=3&y=2006 will cause the <code>2006-3.html</code> file to be included in the output, and it does, without any problems.  Now this isn't a very nice URL structure to use, so I added the following rewrite rule to the <strong>top</strong> of my <code>.htaccess</code> file <strong>above</strong> the Wordpress section:</p>
+<pre lang="text">
+&lt;IfModule mod_rewrite.c&gt;
+RewriteEngine On
+RewriteRule ^calendar/?([0-9]{4})?/?([0-9]+)?/?$ /cal-data/calendar.php?m=$2&y=$1 [QSA,L]
+&lt;/IfModule&gt;
+</pre>
+<p>... and everything works. Well, it does to for me as I use Firefox.  An IE user is likely to get a horrible 404, page not found error. I checked the HTTP headers and sure as heck, a 404 is being sent...</p>
+<pre lang="text">
+http://colinseymour.co.uk/calendar/2006/3/
+
+GET /calendar/2006/3/ HTTP/1.1
+Host: colinseymour.co.uk
+User-Agent: Mozilla/5.0 (Macintosh; U; PPC Mac OS X Mach-O; en-US; 
+  rv:1.8) Gecko/20051111 Firefox/1.5
+Accept: text/xml,application/xml,application/xhtml+xml,text/html;
+  q=0.9,text/plain;q=0.8,image/png,*/*;q=0.5
+Accept-Language: en-us,en;q=0.5
+Accept-Encoding: gzip,deflate
+Accept-Charset: ISO-8859-1,utf-8;q=0.7,*;q=0.7
+Keep-Alive: 300
+
+Connection: keep-alive
+Referer: http://colinseymour.co.uk/calendar/
+Cookie: __utma=144912806.219744058.1132080168.1137660626.1137671357.59; 
+
+<strong>HTTP/1.x 404 Not Found</strong>                             <-------- HUH!!!!
+
+Date: Thu, 19 Jan 2006 12:15:35 GMT
+Server: Apache/1.3.34 (Unix) mod_gzip/1.3.26.1a mod_fastcgi/2.4.2 
+  mod_auth_passthrough/1.8 mod_log_bytes/1.2 mod_bwlimited/1.4 
+  FrontPage/5.0.2.2635 mod_ssl/2.8.25 OpenSSL/0.9.7a PHP-CGI/0.1b
+Cache-Control: no-cache, must-revalidate, max-age=0
+Expires: Wed, 11 Jan 1984 05:00:00 GMT
+Pragma: no-cache
+X-Pingback: http://colinseymour.co.uk/blog/xmlrpc.php
+X-Powered-By: PHP/4.4.1
+Last-Modified: Thu, 19 Jan 2006 12:15:35 GMT
+Keep-Alive: timeout=8
+Connection: Keep-Alive
+Transfer-Encoding: chunked
+Content-Type: text/html
+</pre>
+<p>This shouldn't be happening.  The <code>.htaccess</code> file is read top to bottom and each rule is read one at a time until a match is found.  As my calendar rule is the first in the file, it should be found and as I've got "L" flag set, processing should stop there and the rest of the file ignored.</p>
+<p>However, after a bit of testing, I discovered that including the <code>require_once('../blog/wp-blog-header.php');</code> line in my file causes the 404 errors to occur.  I don't even have to call any Wordpress functions. If I don't attempt to integrate my calendar into Wordpress using this method, then I no longer get the 404 error.</p>
+<p>So, my conclusion is if you attempt to integrate a non-Wordpress page into the whole Wordpress design, then Wordpress somehow hijacks the mod_rewrite rules and causes the ones earlier in the file to be ignored. This wasn't the case for Wordpress 1.5.2</p>
+<p>At the moment, I have no idea how or why this is occurring. I posted my findings on the <a href="http://wordpress.org/support/topic/57249">support forum</a> to see if anyone has any bright ideas.  If nothing comes of it, I'll log a bug.</p>
+<p>For those using IE, I apologise if the <a href="http://colinseymour.co.uk/calendar/">calendar</a> isn't working for months other than the current month - once this is fixed it should all work again.  You could always try using <a href="http://www.mozilla.com/firefox/">Firefox</a> :-)</p>
+<p><strong>Update:</strong> It appears only IE 5.x users may have a problem viewing these pages, however that doesn't explain why we're getting a 404.</p>
+<p><strong>Update:</strong> <a href="http://asymptomatic.net/">Owen</a> asked in the comments why I was calling <code>wp-blog-header.php</code> and not <code>wp-config.php</code>.  Well, because I was getting an error which would involve modifying the default WP code, which I didn't really want to do as it limits my "upgradability".  I've gone with this approach for the moment, and it certainly resolves the 404 errors. See my <a href="http://colinseymour.co.uk/wordpress-20-is-a-mod_rewrite-hijacker#comment-998">response</a> for more details. </p>
