@@ -6,16 +6,22 @@ layout: compress
 
 {% include head.html %}
 
-  <body class="{% if page.post_class %}{{page.post_class}}{% else %}home-template{% endif %}">
-
+  <body>
   {{ content }}
-  <footer class="site-footer clearfix">
-    <section class="copyright">
-      <a href="{{ site.baseurl }}">{{ site.title }}</a> &copy; {{date format="YYYY"}} &bull; All rights reserved.
-    </section>
-    <section class="right-links">
-      <a class="icon-feed" href="{{ site.baseurl }}atom.xml"> Subscribe</a>
-    </section>
+  <footer>
+    <div class="container">
+      <div class="bio">
+        These words smashed together by
+        <a href="https://twitter.com/lildude" class="twitter-follow">
+          @lildude
+        </a>
+        in California lol
+      </div>
+
+      <a href="/">
+        <img src="/img/logo-inverted.svg" width="35">
+      </a>
+    </div>
   </footer>
 
   {% include google-analytics.html %}

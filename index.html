@@ -4,59 +4,17 @@ title: Home
 cover: "/img/front-bg.jpg"
 ---
 
-<header class="main-header {% if page.cover %}" style="background-image: url({{ page.cover }}) {%else%}no-cover{% endif %}">
-    <nav class="main-nav overlay clearfix">
-            {% if page.logo %}
-                <a class="blog-logo" href="{{ site.baseurl }}">
-                    <img src="{{ page.logo }}" alt="Blog Logo" />
-                </a>
-            {% endif %}
-        <!-- a class="subscribe-button icon-feed" href="{{ site.baseurl }}atom.xml">Subscribe</a -->
-    </nav>
-    <div class="vertical">
-        <div class="main-header-content inner">
-            <h1 class="page-title">{{ site.title }}</h1>
-            <h2 class="page-description">
-                {% if site.tagline %} {{ site.tagline }}. {% endif %}
-                {% if page.about %} <a href='{{ site.baseurl }}{{ page.about }}'> About me </a> {% endif %}
-            </h2>
+<div class="container content">
+  <ul class="recent-posts">
+    {% for post in site.posts %}
+    <li>
+      <a href="{{site.baseurl }}{{ post.url }}">
+        <div>
+          <span class="title">{{ post.title }}</span>
+          <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
         </div>
-    </div>
-
-</header>
-
-<main id="content" class="content" role="main">
-
-
-    <div class="extra-pagination inner">
-        {% include pagination.html %}
-    </div>
-
-    {% for post in paginator.posts %}
-
-    <article class="post">
-        <header class="post-header">
-            <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-        </header>
-        <section class="post-excerpt">
-            {{ post.excerpt }} {% if post.excerpt != post.content %}<a class="read-more" href="{{ post.url }}">&raquo;</a> {% endif %}
-        </section>
-        <footer class="post-meta">
-            {% if site.author %}
-                <img class="author-thumb" src="/img/profile.png" alt="Author's profile picture" nopin="nopin" width="24" height="24"/>
-                {{ site.author.name }}
-            {% endif %}
-            {% if post.tags.size > 0 %}
-                {{ post.tags | array_to_sentence_string | prepend: 'on ' }}
-            {% endif %}
-            <time class="post-date" datetime="{{ post.date | date:"%Y-%m-%d" }}">
-                {{ post.date | date_to_string }}
-            </time>
-        </footer>
-    </article>
-
+      </a>
+    </li>
     {% endfor %}
-
-    {% include pagination.html %}
-
-</main>
+  </ul>
+</div>
