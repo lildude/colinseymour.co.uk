@@ -1,33 +1,20 @@
 /* Variables */
 $orange: #fd7f05;
 
-* {
-  box-sizing: border-box;
-}
-
-*, *:before, *:after {
-  -moz-box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  box-sizing: border-box;
-  margin: 0;
-}
-
 html, body {
   width: 100%;
   height: 100%;
   margin: 0;
   padding: 0;
   background-color: white;
+  font-size: 16px;
+  font-family: "AvenirNextLTW01-Regular", "Avenir Next", sans-serif;
+  line-height: 1.6;
 }
 
-.right-links {
-  float: right;
+a {
+  color: $orange;
 }
-
-.page-button {
-  float: right;
-}
-
 
 header {
   h1 {
@@ -42,7 +29,6 @@ header {
   background-position: center center;
   background-size: cover;
   text-align: center;
-
   h1 {
     background-color: $orange;
     display: inline-block;
@@ -71,46 +57,66 @@ header {
   margin: 0 auto;
   max-width: 32rem;
   line-height: 1.6;
-  .menu {
-    text-align: center;
-    margin-bottom: 50px;
-    ul {
-      padding-left: 0;
-    }
-    li {
-      display: inline;
-      margin: 0, 7px;
-    }
+  hr {
+    border: 0;
+    height: 2px;
+    width: 25%;
+    background-color: $orange;
   }
-  .content {
-    padding: 0 2rem;
-    .recent-posts {
-      margin-bottom: 5rem;
-      padding-left: 0;
-      li {
-        margin-bottom: 5px;
-        list-style-type: none;
-        div {
-          padding: 5px 0;
-        }
-        .title {
-          font-size: 1rem;
-          padding: 0;
-        }
-        .date {
-          float: right;
-          font-size: 12px;
-          text-transform: uppercase;
-          color: rgba(0,0,0,0.2);
-          line-height: 24px;
-        }
-      }
-    }
+}
+
+.menu {
+  text-align: center;
+  margin-bottom: 50px;
+  ul {
+    padding-left: 0;
     a {
       text-decoration: none;
-      border-bottom: 2px solid #fecd9d;
-      color: $orange;
+      padding: 5px 7px;
+      -webkit-transition: background-color 0.3s ease;
+      -moz-transition: background-color 0.3s ease;
+      -ms-transition: background-color 0.3s ease;
+      -o-transition: background-color 0.3s ease;
+      transition: background-color 0.3s ease;
+      &:hover {
+        background-color: rgba(253,127,5,0.1);
+      }
     }
+  }
+  li {
+    display: inline;
+    margin: 0 7px;
+  }
+}
+
+.content {
+  padding: 0 2rem;
+  .recent-posts {
+    margin-bottom: 5rem;
+    padding-left: 0;
+    li {
+      margin-bottom: 5px;
+      list-style-type: none;
+      div {
+        padding: 5px 0;
+      }
+      .title {
+        font-size: 1rem;
+        padding: 0;
+      }
+      .date {
+        float: right;
+        font-size: 12px;
+        text-transform: uppercase;
+        color: rgba(0,0,0,0.2);
+        line-height: 24px;
+      }
+    }
+  }
+  a {
+    text-decoration: none;
+    border-bottom: 2px solid #fecd9d;
+    color: $orange;
   }
 }
 
