@@ -1,9 +1,6 @@
-/* Parallax examples:
-  http://codepen.io/Kageetai/pen/yIdAq?editors=110
-  http://frozenrockets.nl/labs/parallax/
+/* Variables */
+$orange: #fd7f05;
 
-  Todo: Have a header with part of the original background visible once scrolled down.
-  */
 * {
   box-sizing: border-box;
 }
@@ -42,13 +39,14 @@ header {
 
 .hero {
   height: 250px;
-  width: 100%;
+  background-position: center center;
+  background-size: cover;
   text-align: center;
-  background-color: #fd7f05;
+
   h1 {
-    background-color: #fd7f05;
+    background-color: $orange;
     display: inline-block;
-    padding: 0, 20px;
+    padding: 0 20px;
     line-height: 60px;
     margin-top: 90px;
   }
@@ -111,7 +109,7 @@ header {
     a {
       text-decoration: none;
       border-bottom: 2px solid #fecd9d;
-      color: #fd7f05;
+      color: $orange;
     }
   }
 }
