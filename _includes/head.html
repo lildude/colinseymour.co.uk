@@ -36,16 +36,18 @@
 </head>
 
 <header>
-  <a href="/"><div class="logo"> </div></a>
-  <div class="hero" style="background-image: url(/img/front-bg.jpg);">
+  <a href="/"><div class="logo"></div></a>
+  {% if page.cover %}
+  <div class="hero" style="background-image: url({{ page.cover }});">
     <h1>Colin Seymour</h1>
   </div>
+  {% endif %}
 </header>
 
 <div class="container menu">
   <ul>
-    <li><a href="/about">About</a></li>
     <li><a href="/">Posts</a></li>
+    <li><a href="/about">About</a></li>
   </ul>
   <hr>
 </div>
