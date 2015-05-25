@@ -1,0 +1,688 @@
+//colors
+$color_flamenco_approx: #fd7f05;
+$white: #fff;
+$color_flamenco_10_approx: rgba(253, 127, 5, 0.1);
+$color_flamenco_15_approx: rgba(253, 127, 5, 0.15);
+$color_blue_chill_approx: #1a898a;
+$color_red_stage_approx: #cd6602;
+$color_peach_orange_approx: #fecd9d;
+$black_20: rgba(0, 0, 0, 0.2);
+$color_mountain_mist_approx: #999;
+$color_log_cabin_approx: #222;
+$color_alabaster_approx: #fbfbfb;
+$color_woodsmoke_approx: #111;
+$black_5: rgba(0, 0, 0, 0.05);
+$color_cream_approx: #ffc;
+$color_suva_gray_approx: #888;
+$color_tamarillo_approx: #a61717;
+$color_swiss_coffee_approx: #e3d2d2;
+$color_japanese_laurel_approx: #008800;
+$color_guardsman_red_approx: #cc0000;
+$color_forget_me_not_approx: #fff0f0;
+$black: #000000;
+$color_pippin_approx: #fdd;
+$color_bright_red_approx: #a00;
+$color_mine_shaft_approx: #303030;
+$color_snowy_mint_approx: #dfd;
+$color_fuscous_gray_approx: #555;
+$color_storm_dust_approx: #606060;
+$color_dark_blue_approx: #0000dd;
+$color_scarlet_approx: #dd2200;
+$color_azure_approx: #369;
+$color_resolution_blue_approx: #038;
+$color_lipstick_approx: #bb0066;
+$midnight_blue: #003366;
+$color_science_blue_approx: #0066bb;
+$color_pink_swan_approx: #bbb;
+$color_governor_bay_approx: #3333bb;
+$color_forest_green_approx: #22bb22;
+$color_feta_approx: #f0fff0;
+$color_tutu_approx: #fff0ff;
+$color_mai_tai_approx: #aa6600;
+$color_mango_tango_approx: #d70;
+
+//fonts
+$font_0: Times New Roman;
+$font_1: AvenirNextLTW01-Italic;
+$font_2: Avenir Next;
+$font_3: sans-serif;
+$font_4: AvenirNextLTW01-Regular;
+$font_5: Avenir Next LT W01 Bold;
+
+//@extend-elements
+//original selectors
+//h1, h2, h3, h4, h5, h6, b, strong
+%extend_1 {
+	color: $color_flamenco_approx;
+	font-weight: normal;
+	font-family: $font_5, $font_2, $font_3;
+}
+
+
+body {
+	margin: 0;
+	&.full {
+		.hero {
+			height: 500px;
+		}
+		h1 {
+			display: none;
+		}
+		footer {
+			display: none;
+		}
+	}
+}
+::selection {
+	background-color: $color_flamenco_approx;
+	color: $white;
+}
+img {
+	border: 0;
+}
+header {
+	.logo {
+    width: 50px;
+    height: 50px;
+		opacity: .75;
+		position: fixed;
+		left: 10px;
+		top: 10px;
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: opacity 0.3s ease;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB2aWV3Qm94PSIwIDAgMTcxIDE3MSI+PGRlZnMvPjxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPjxjaXJjbGUgaWQ9Ik92YWwtMSIgZmlsbD0iI0ZGRkZGRiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCIgY3g9Ijg1LjUiIGN5PSI4NS41IiByPSI4NS41Ii8+PHRleHQgaWQ9IkMiIHNrZXRjaDp0eXBlPSJNU1RleHRMYXllciIgZm9udC1mYW1pbHk9Ik5ldXRyYSBUZXh0IiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRDgwMDUiPjx0c3BhbiB4PSIzOSIgeT0iMTI2Ij5DPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPgo=") no-repeat center center;
+    z-index: 1;
+		&:hover {
+			opacity: 1;
+		}
+	}
+	li {
+		font-family: $font_5, $font_2, $font_3;
+		font-weight: normal;
+		font-size: 15px;
+	}
+	h1 {
+		color: $white;
+		font-size: 46px;
+		&.compressed {
+			font-size: 30px;
+		}
+	}
+}
+@media(max-width: 48em) {
+	header .logo {
+		position: absolute;
+	}
+}
+.container {
+	margin: 0 auto;
+	max-width: 32rem;
+	hr {
+		border: 0;
+		height: 2px;
+		width: 25%;
+		background-color: $color_flamenco_approx;
+	}
+}
+.menu {
+	text-align: center;
+	margin-bottom: 50px;
+	ul {
+		padding-left: 0;
+		a {
+			text-decoration: none;
+			padding: 5px 7px;
+			//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+			transition: background-color 0.3s ease;
+			&:hover {
+				background-color: $color_flamenco_10_approx;
+				color: $color_flamenco_approx;
+			}
+		}
+		li {
+			display: inline;
+			margin: 0 7px;
+		}
+	}
+}
+.content {
+	padding: 0 2rem;
+	.date {
+		float: left;
+		margin-top: 7px;
+		margin-bottom: 25px;
+		margin-left: -190px;
+		width: 150px;
+		text-align: right;
+		text-transform: uppercase;
+		color: $color_flamenco_approx;
+		font-family: $font_5, $font_2, $font_3;
+		font-weight: normal;
+		font-size: 13px;
+	}
+	p {
+		margin: 1rem 0;
+		code {
+			background-color: $color_flamenco_15_approx;
+			padding: 2px 4px;
+			color: $color_blue_chill_approx;
+		}
+	}
+	blockquote {
+		position: relative;
+		min-width: 110%;
+		max-width: 110%;
+		margin-left: -5%;
+		background-color: $color_flamenco_15_approx;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 5px;
+		color: $color_red_stage_approx;
+		font-size: 1.1rem;
+		&:before {
+			font-family: $font_0;
+			content: "“";
+			position: absolute;
+			top: -5px;
+			left: 10px;
+			font-size: 35px;
+			font-weight: bold;
+			color: $color_peach_orange_approx;
+		}
+		p {
+			margin: 0;
+			padding: 15px 5%;
+		}
+	}
+	hr {
+		margin: 50px auto;
+	}
+	.twitter-tweet {
+		width: 110% !important;
+	}
+	.aside {
+		background-color: $color_flamenco_15_approx;
+		padding: 10px 15px;
+		color: $color_blue_chill_approx;
+		font-size: .75rem;
+		font-family: $font_1, $font_2, $font_3;
+		font-style: normal;
+	}
+	a {
+		text-decoration: none;
+		border-bottom: 2px solid $color_peach_orange_approx;
+		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
+		transition: border-color 0.2s ease;
+		&:hover {
+			border-color: $color_flamenco_approx;
+		}
+	}
+	img:not(.emoji) {
+		min-width: 110%;
+		max-width: 110%;
+		margin-left: -5%;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: 5px;
+	}
+}
+@media(max-width: 900px) {
+	.content .date {
+		float: none;
+		margin-left: 0;
+		text-align: left;
+	}
+}
+@media(max-width: 38em) {
+	.content {
+		blockquote {
+			max-width: 110vw;
+			margin-left: -2rem;
+			margin-right: -2rem;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: inherit;
+			p {
+				padding: 15px 2rem;
+			}
+		}
+		img:not(.emoji) {
+			max-width: 100vw;
+			margin-left: -2rem;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: inherit;
+		}
+	}
+	.highlight {
+		max-width: 110vw;
+		margin-left: -2rem;
+		margin-right: -2rem;
+		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+		border-radius: inherit;
+		pre {
+			padding: 15px 2rem;
+		}
+	}
+}
+.hero {
+	height: 250px;
+	background-color: $color_flamenco_approx;
+	background-position: center center;
+	background-size: cover;
+	text-align: center;
+	h1 {
+		background-color: $color_flamenco_approx;
+		display: inline-block;
+		padding: 0 20px;
+		line-height: 60px;
+		margin-top: 90px;
+	}
+}
+.recent-posts {
+	margin-bottom: 5rem;
+	padding-left: 0;
+	li {
+		margin-bottom: 5px;
+		list-style-type: none;
+		div {
+			padding: 5px 0;
+		}
+		.title {
+			font-size: 1rem;
+			padding: 0;
+		}
+		.date {
+			float: right;
+			font-size: 12px;
+			text-transform: uppercase;
+			color: $black_20;
+			line-height: 24px;
+		}
+	}
+}
+@media(max-width: 57em) {
+	.recent-posts li .date {
+		display: none;
+	}
+}
+.closing {
+	margin: 4rem 0;
+	font-size: 14px;
+	color: $color_mountain_mist_approx;
+	a {
+		border-bottom: 0 !important;
+	}
+	.newer {
+		float: right;
+		text-align: right;
+		strong {
+			display: block;
+			font-size: 12px;
+			margin-right: -15px;
+		}
+	}
+	.logo {
+		clear: both;
+		margin-top: 50px;
+	}
+	.older strong {
+		display: block;
+		font-size: 12px;
+		margin-left: -15px;
+	}
+}
+footer {
+	margin-bottom: 2rem;
+	font-family: $font_5, $font_2, $font_3;
+	font-weight: normal;
+	.bio {
+		color: $black_20;
+		float: right;
+		font-size: 14px;
+		line-height: 40px;
+		text-transform: uppercase;
+		a {
+			text-decoration: none;
+		}
+	}
+}
+@media(max-width: 43em) {
+	footer {
+		text-align: center;
+		.bio {
+			display: none;
+		}
+	}
+}
+#about-shipped {
+	padding: 0;
+	clear: both;
+	list-style-type: none;
+	font-size: 15px;
+	h4 {
+		margin: 0;
+	}
+	li {
+		padding: 15px 0;
+		clear: both;
+	}
+	p {
+		margin: 0;
+	}
+}
+@media(min-width: 38em) {
+	#about-shipped {
+		img {
+			min-width: 250px !important;
+			max-width: 250px !important;
+			margin: 0 !important;
+			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+			border-radius: 0 !important;
+			float: right;
+			padding-left: 10px;
+		}
+		li:nth-child(2n) img {
+			float: left;
+			padding: 5px 10px 0 0;
+		}
+	}
+	html {
+		font-size: 20px;
+	}
+}
+html {
+	font-size: 16px;
+	font-family: $font_4, $font_2, $font_3;
+	line-height: 1.6;
+}
+h1 {
+	@extend %extend_1;
+}
+h2 {
+	@extend %extend_1;
+}
+h3 {
+	@extend %extend_1;
+}
+h4 {
+	@extend %extend_1;
+}
+h5 {
+	@extend %extend_1;
+}
+h6 {
+	@extend %extend_1;
+}
+b {
+	@extend %extend_1;
+	color: $color_log_cabin_approx;
+}
+strong {
+	@extend %extend_1;
+	color: $color_log_cabin_approx;
+	em {
+		font-family: $font_5, $font_2, $font_3;
+		font-style: italic;
+	}
+}
+em {
+	font-family: $font_1, $font_2, $font_3;
+	font-style: normal;
+}
+i {
+	font-family: $font_1, $font_2, $font_3;
+	font-style: normal;
+}
+a {
+	color: $color_flamenco_approx;
+}
+@media(max-width: 50em) {
+	header h1 {
+		font-size: 5vw;
+		&.compressed {
+			font-size: 7vw;
+			line-height: 7vw !important;
+		}
+	}
+}
+.highlight {
+	min-width: 110%;
+	max-width: 110%;
+	margin-left: -5%;
+	//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
+	border-radius: 5px;
+	background-color: $color_alabaster_approx;
+	font-size: 16px;
+	overflow: hidden;
+	//Instead of the line below you could use @includetext-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	text-shadow: none;
+	color: $color_woodsmoke_approx;
+	//Instead of the line below you could use @includebox-shadow($shadow-1, $shadow-2, $shadow-3, $shadow-4, $shadow-5, $shadow-6, $shadow-7, $shadow-8, $shadow-9, $shadow-10)
+	box-shadow: inset 0 0 10px $black_5;
+	pre {
+		padding: 15px 5%;
+		margin: 0;
+		background: none;
+	}
+	&:hover {
+		overflow: auto;
+	}
+	.hll {
+		background-color: $color_cream_approx;
+	}
+	.c {
+		color: $color_suva_gray_approx;
+	}
+	.err {
+		color: $color_tamarillo_approx;
+		background-color: $color_swiss_coffee_approx;
+	}
+	.k {
+		color: $color_japanese_laurel_approx;
+		font-weight: bold;
+	}
+	.cm {
+		color: $color_suva_gray_approx;
+	}
+	.cp {
+		color: $color_guardsman_red_approx;
+		font-weight: bold;
+	}
+	.c1 {
+		color: $color_suva_gray_approx;
+	}
+	.cs {
+		color: $color_guardsman_red_approx;
+		font-weight: bold;
+		background-color: $color_forget_me_not_approx;
+	}
+	.gd {
+		color: $black;
+		background-color: $color_pippin_approx;
+	}
+	.ge {
+		font-style: italic;
+	}
+	.gr {
+		color: $color_bright_red_approx;
+	}
+	.gh {
+		color: $color_mine_shaft_approx;
+	}
+	.gi {
+		color: $black;
+		background-color: $color_snowy_mint_approx;
+	}
+	.go {
+		color: $color_suva_gray_approx;
+	}
+	.gp {
+		color: $color_fuscous_gray_approx;
+	}
+	.gs {
+		font-weight: bold;
+	}
+	.gu {
+		color: $color_storm_dust_approx;
+	}
+	.gt {
+		color: $color_bright_red_approx;
+	}
+	.kc {
+		color: $color_japanese_laurel_approx;
+		font-weight: bold;
+	}
+	.kd {
+		color: $color_japanese_laurel_approx;
+		font-weight: bold;
+	}
+	.kn {
+		color: $color_japanese_laurel_approx;
+		font-weight: bold;
+	}
+	.kp {
+		color: $color_japanese_laurel_approx;
+	}
+	.kr {
+		color: $color_japanese_laurel_approx;
+		font-weight: bold;
+	}
+	.kt {
+		color: $color_suva_gray_approx;
+		font-weight: bold;
+	}
+	.m {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+	.s {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.na {
+		color: $color_azure_approx;
+	}
+	.nb {
+		color: $color_resolution_blue_approx;
+	}
+	.nc {
+		color: $color_lipstick_approx;
+		font-weight: bold;
+	}
+	.no {
+		color: $midnight_blue;
+		font-weight: bold;
+	}
+	.nd {
+		color: $color_fuscous_gray_approx;
+	}
+	.ne {
+		color: $color_lipstick_approx;
+		font-weight: bold;
+	}
+	.nf {
+		color: $color_science_blue_approx;
+		font-weight: bold;
+	}
+	.nl {
+		color: $color_azure_approx;
+		font-style: italic;
+	}
+	.nn {
+		color: $color_lipstick_approx;
+		font-weight: bold;
+	}
+	.py {
+		color: $color_azure_approx;
+		font-weight: bold;
+	}
+	.nt {
+		color: $color_lipstick_approx;
+		font-weight: bold;
+	}
+	.nv {
+		color: $color_azure_approx;
+	}
+	.ow {
+		color: $color_japanese_laurel_approx;
+	}
+	.w {
+		color: $color_pink_swan_approx;
+	}
+	.mf {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+	.mh {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+	.mi {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+	.mo {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+	.sb {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.sc {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.sd {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.s2 {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.se {
+		color: $color_science_blue_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.sh {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.si {
+		color: $color_governor_bay_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.sx {
+		color: $color_forest_green_approx;
+		background-color: $color_feta_approx;
+	}
+	.sr {
+		color: $color_japanese_laurel_approx;
+		background-color: $color_tutu_approx;
+	}
+	.s1 {
+		color: $color_scarlet_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.ss {
+		color: $color_mai_tai_approx;
+		background-color: $color_forget_me_not_approx;
+	}
+	.bp {
+		color: $color_resolution_blue_approx;
+	}
+	.vc {
+		color: $color_azure_approx;
+	}
+	.vg {
+		color: $color_mango_tango_approx;
+	}
+	.vi {
+		color: $color_governor_bay_approx;
+	}
+	.il {
+		color: $color_dark_blue_approx;
+		font-weight: bold;
+	}
+}
+.hightlight code {
+	float: left;
+}
