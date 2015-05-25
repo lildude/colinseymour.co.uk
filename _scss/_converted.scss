@@ -1,3 +1,5 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,400italic);
+
 //colors
 $color_flamenco_approx: #fd7f05;
 $white: #fff;
@@ -42,22 +44,25 @@ $color_mai_tai_approx: #aa6600;
 $color_mango_tango_approx: #d70;
 
 //fonts
+//$font_0: Times New Roman;
+//$font_1: AvenirNextLTW01-Italic;
+//$font_2: Avenir Next;
+//$font_3: sans-serif;
+//$font_4: AvenirNextLTW01-Regular;
+//$font_5: Avenir Next LT W01 Bold;
+
 $font_0: Times New Roman;
-$font_1: AvenirNextLTW01-Italic;
-$font_2: Avenir Next;
+$font_2: Lato;
 $font_3: sans-serif;
-$font_4: AvenirNextLTW01-Regular;
-$font_5: Avenir Next LT W01 Bold;
 
 //@extend-elements
 //original selectors
 //h1, h2, h3, h4, h5, h6, b, strong
 %extend_1 {
 	color: $color_flamenco_approx;
-	font-weight: normal;
-	font-family: $font_5, $font_2, $font_3;
+	font-weight: bold;
+	font-family: $font_2, $font_3;
 }
-
 
 body {
 	margin: 0;
@@ -97,8 +102,8 @@ header {
 		}
 	}
 	li {
-		font-family: $font_5, $font_2, $font_3;
-		font-weight: normal;
+		font-family: $font_2, $font_3;
+		font-weight: 300;
 		font-size: 15px;
 	}
 	h1 {
@@ -156,8 +161,8 @@ header {
 		text-align: right;
 		text-transform: uppercase;
 		color: $color_flamenco_approx;
-		font-family: $font_5, $font_2, $font_3;
-		font-weight: normal;
+		font-family: $font_2, $font_3;
+		font-weight: bold;
 		font-size: 13px;
 	}
 	p {
@@ -204,8 +209,8 @@ header {
 		padding: 10px 15px;
 		color: $color_blue_chill_approx;
 		font-size: .75rem;
-		font-family: $font_1, $font_2, $font_3;
-		font-style: normal;
+		font-family: $font_2, $font_3;
+		font-style: italic;
 	}
 	a {
 		text-decoration: none;
@@ -330,8 +335,8 @@ header {
 }
 footer {
 	margin-bottom: 2rem;
-	font-family: $font_5, $font_2, $font_3;
-	font-weight: normal;
+	font-family: $font_2, $font_3;
+	font-weight: bold;
 	.bio {
 		color: $black_20;
 		float: right;
@@ -367,6 +372,12 @@ footer {
 		margin: 0;
 	}
 }
+html {
+	font-size: 16px;
+	font-family: $font_2, $font_3;
+	line-height: 1.6;
+  font-weight: 300;
+}
 @media(min-width: 38em) {
 	#about-shipped {
 		img {
@@ -387,11 +398,7 @@ footer {
 		font-size: 20px;
 	}
 }
-html {
-	font-size: 16px;
-	font-family: $font_4, $font_2, $font_3;
-	line-height: 1.6;
-}
+
 h1 {
 	@extend %extend_1;
 }
@@ -418,17 +425,13 @@ strong {
 	@extend %extend_1;
 	color: $color_log_cabin_approx;
 	em {
-		font-family: $font_5, $font_2, $font_3;
+		font-family: $font_2, $font_3;
 		font-style: italic;
 	}
 }
-em {
-	font-family: $font_1, $font_2, $font_3;
-	font-style: normal;
-}
-i {
-	font-family: $font_1, $font_2, $font_3;
-	font-style: normal;
+em, i {
+	font-family: $font_2, $font_3;
+	font-style: italic;
 }
 a {
 	color: $color_flamenco_approx;
