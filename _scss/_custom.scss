@@ -1,5 +1,6 @@
 /* Variables */
-$orange: #fd7f05;
+$primary_color: #fd7f05; /* Orange */
+$muted_color: rgba(253,127,5,0.15); /* Light Orange */
 
 html, body {
   width: 100%;
@@ -13,14 +14,34 @@ html, body {
 }
 
 a {
-  color: $orange;
+  color: $primary_color;
 }
 
 header {
+  .logo {
+    width: 50px;
+    height: 50px;
+    opacity: .75;
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    transition: opacity 0.3s ease;
+    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB2aWV3Qm94PSIwIDAgMTcxIDE3MSI+PGRlZnMvPjxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPjxjaXJjbGUgaWQ9Ik92YWwtMSIgZmlsbD0iI0ZGRkZGRiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCIgY3g9Ijg1LjUiIGN5PSI4NS41IiByPSI4NS41Ii8+PHRleHQgaWQ9IkMiIHNrZXRjaDp0eXBlPSJNU1RleHRMYXllciIgZm9udC1mYW1pbHk9Ik5ldXRyYSBUZXh0IiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRDgwMDUiPjx0c3BhbiB4PSIzOSIgeT0iMTI2Ij5DPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPgo=") no-repeat center center;
+    z-index: 1;
+    &:hover {
+      opacity: 1;
+    }
+  }
   h1 {
     color: #fff;
     font-size: 46px;
     font-family: "Avenir Next LT W01 Bold", "Avenir Next", sans-serif;
+  }
+}
+
+@media (max-width: 48em) {
+  header .logo {
+    position: absolute
   }
 }
 
@@ -30,26 +51,11 @@ header {
   background-size: cover;
   text-align: center;
   h1 {
-    background-color: $orange;
+    background-color: $primary_color;
     display: inline-block;
     padding: 0 20px;
     line-height: 60px;
     margin-top: 90px;
-  }
-}
-
-.logo {
-  width: 50px;
-  height: 50px;
-  opacity: .75;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  transition: opacity 0.3s ease;
-  background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB2aWV3Qm94PSIwIDAgMTcxIDE3MSI+PGRlZnMvPjxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPjxjaXJjbGUgaWQ9Ik92YWwtMSIgZmlsbD0iI0ZGRkZGRiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCIgY3g9Ijg1LjUiIGN5PSI4NS41IiByPSI4NS41Ii8+PHRleHQgaWQ9IkMiIHNrZXRjaDp0eXBlPSJNU1RleHRMYXllciIgZm9udC1mYW1pbHk9Ik5ldXRyYSBUZXh0IiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRDgwMDUiPjx0c3BhbiB4PSIzOSIgeT0iMTI2Ij5DPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPgo=") no-repeat center center;
-  z-index: 1;
-  &:hover {
-    opacity: 1;
   }
 }
 
@@ -61,7 +67,7 @@ header {
     border: 0;
     height: 2px;
     width: 25%;
-    background-color: $orange;
+    background-color: $primary_color;
   }
 }
 
@@ -73,10 +79,6 @@ header {
     a {
       text-decoration: none;
       padding: 5px 7px;
-      -webkit-transition: background-color 0.3s ease;
-      -moz-transition: background-color 0.3s ease;
-      -ms-transition: background-color 0.3s ease;
-      -o-transition: background-color 0.3s ease;
       transition: background-color 0.3s ease;
       &:hover {
         background-color: rgba(253,127,5,0.1);
@@ -91,6 +93,16 @@ header {
 
 .content {
   padding: 0 2rem;
+  .date {
+    float: left;
+    margin-top: 7px;
+    margin-bottom: 25px;
+    margin-left: -190px;
+    width: 150px;
+    text-align: right;
+    text-transform: uppercase;
+    color: #fd7f05
+  }
   .recent-posts {
     margin-bottom: 5rem;
     padding-left: 0;
@@ -113,10 +125,58 @@ header {
       }
     }
   }
+  p code {
+    background-color: rgba(253, 127, 5, 0.15);
+    padding: 2px 4px;
+    color: #1a898a
+  }
+  blockquote {
+    position: relative;
+    min-width: 110%;
+    max-width: 110%;
+    margin-left: -5%;
+    background-color: rgba(253, 127, 5, 0.15);
+    border-radius: 5px;
+    color: #cd6602;
+    &:before {
+      font-family: "Times New Roman";
+      content: "“";
+      position: absolute;
+      top: -5px;
+      left: 10px;
+      font-size: 35px;
+      font-weight: bold;
+      color: #fecd9d
+    }
+    p {
+      margin: 0;
+      padding: 15px 5%
+    }
+  }
   a {
     text-decoration: none;
     border-bottom: 2px solid #fecd9d;
-    color: $orange;
+    color: $primary_color;
+  }
+}
+@media (max-width: 38em) {
+  .content blockquote {
+    max-width: 110vw;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    border-radius: inherit
+  }
+  .content blockquote p {
+    padding: 15px 2rem
+  }
+}
+
+
+@media (max-width: 900px) {
+  .content .date {
+    float: none;
+    margin-left: 0;
+    text-align: left
   }
 }
 
