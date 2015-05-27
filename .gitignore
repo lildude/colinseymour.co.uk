@@ -1,6 +1,7 @@
 # Ignore docs files
 _gh_pages
 _site
+_stash
 .ruby-version
 .sass-cache
 
@@ -44,3 +45,4 @@ node_modules
 #Temp for import only
 import.xml
 import.rb
+
