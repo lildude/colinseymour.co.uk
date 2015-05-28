@@ -39,7 +39,7 @@
   <a href="/"><div class="logo"></div></a>
   {% if page.cover %}
   <div class="hero" style="background-image: url({{ page.cover }});">
-    <h1>Colin Seymour</h1>
+    <h1>{% if page.type == "post" %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   </div>
   {% endif %}
 </header>
