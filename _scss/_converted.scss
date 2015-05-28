@@ -58,10 +58,17 @@ $font_3: sans-serif;
 //@extend-elements
 //original selectors
 //h1, h2, h3, h4, h5, h6, b, strong
+/* This doesn't play nice */
 %extend_1 {
 	color: $color_flamenco_approx;
 	font-weight: bold;
 	font-family: $font_2, $font_3;
+}
+
+h1, h2, h3, h4, h5, h6, b, strong {
+  color: $color_flamenco_approx;
+  font-weight: bold;
+  font-family: $font_2, $font_3;
 }
 
 body {
