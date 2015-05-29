@@ -15,16 +15,16 @@ post_class: post-template
 
   {{ content }}
   <div class="closing">
-    {% if page.previous.url %}
-      <a class="older" href="{{page.previous.url}}">
-        <strong>← Older</strong>
-        {{page.previous.title}}
-      </a>
-    {% endif %}
     {% if page.next.url %}
       <a class="newer" href="{{page.next.url}}">
         <strong>Newer →</strong>
         {{page.next.title}}
+      </a>
+    {% endif %}
+    {% if page.previous.url %}
+      <a class="older" href="{{page.previous.url}}">
+        <strong>← Older</strong>
+        {{page.previous.title}}
       </a>
     {% endif %}
   </div>
