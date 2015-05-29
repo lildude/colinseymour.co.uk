@@ -35,6 +35,8 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml">
 </head>
 
+<body{% if page.type == "page" %} class="full"{% endif %}>
+
 <header>
   <a href="/"><div class="logo"></div></a>
   {% if page.cover %}
