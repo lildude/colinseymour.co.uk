@@ -91,6 +91,14 @@ body {
 }
 img {
 	border: 0;
+	&.alignleft {
+		float: left;
+		margin-right: 5px;
+	}
+	&.alignright {
+		float:right;
+		margin-left: 5px;
+	}
 }
 header {
 	.logo {
@@ -228,7 +236,7 @@ header {
 			border-color: $color_flamenco_approx;
 		}
 	}
-	img:not(.emoji) {
+	img:not(.emoji):not(.alignleft):not(.alignright) {
 		min-width: 110%;
 		max-width: 110%;
 		margin-left: -5%;
@@ -255,7 +263,7 @@ header {
 				padding: 15px 2rem;
 			}
 		}
-		img:not(.emoji) {
+		img:not(.emoji):not(.alignleft):not(.alignright):not(.notfull) {
 			max-width: 100vw;
 			margin-left: -2rem;
 			//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
