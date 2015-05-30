@@ -26,8 +26,9 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=PT+Sans:400,400italic,700|Abril+Fatface">
-
+  {% if jekyll.environment == 'local' %}
+  <link href='/css/fonts.css' rel='stylesheet' type='text/css'>
+  {% endif %}
   <!-- Icons -->
   <link rel="shortcut icon" type="image/png" href="/img/profile.png">
 
