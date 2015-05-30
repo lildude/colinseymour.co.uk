@@ -39,7 +39,6 @@ compress_html:
 
 # Plugins
 gems:
-  -jemoji
-
+  - jemoji
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
