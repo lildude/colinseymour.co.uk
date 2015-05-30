@@ -121,32 +121,35 @@ atx-style:
 ### Extra Syntax
 
 #### Footnotes
+_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
 
 Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
-That's some text with a footnote.[^1]
+That's some text with a footnote.[^1]  
 
 [^1]: And that's the footnote.
 
 #### Strikethrough
+_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
 
 Wrap with 2 tilde characters:
 
-~~Strikethrough~~
+~~Strikethrough~~  
 
 #### Fenced Code Blocks
 
 Start with a line containing 3 or more backticks, and ends with the first line with the same number of backticks:
 
 ```
-Fenced code blocks are like Stardard Markdownâ€™s regular code
-blocks, except that theyâ€™re not indented and instead rely on
+Fenced code blocks are like Stardard Markdown's regular code
+blocks, except that they're not indented and instead rely on
 a start and end fence lines to delimit the code block.
 ```
 
 #### Tables
+_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
 
-A simple table looks like this:
+A simple table looks like this:  
 
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
