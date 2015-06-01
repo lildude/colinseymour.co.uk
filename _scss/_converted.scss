@@ -1,13 +1,28 @@
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,900,300italic,900italic);
 
 //colors
+// Generate new mixes at http://paletton.com/
+/*
 $color_flamenco_approx: #fd7f05;
-$white: #fff;
 $color_flamenco_10_approx: rgba(253, 127, 5, 0.1);
 $color_flamenco_15_approx: rgba(253, 127, 5, 0.15);
+*/
+
+$primary_color: #fd7f05;
+$primary_color_10: rgba( $primary_color, .1 );
+$primary_color_15: rgba( $primary_color, .15 );
+$primary_color_darken_10: darken( $primary_color, 10% );
+$primary_color_lighten_30: lighten( $primary_color, 30% );
+
+$color_flamenco_approx: $primary_color;
+$color_flamenco_10_approx: $primary_color_10;
+$color_flamenco_15_approx: $primary_color_15;
+
+
+$white: #fff;
 $color_blue_chill_approx: #1a898a;
-$color_red_stage_approx: #cd6602;
-$color_peach_orange_approx: #fecd9d;
+$color_red_stage_approx: $primary_color_darken_10;
+$color_peach_orange_approx: $primary_color_lighten_30;
 $black_20: rgba(0, 0, 0, 0.2);
 $color_mountain_mist_approx: #999;
 $color_log_cabin_approx: #222;
@@ -65,10 +80,35 @@ $font_3: sans-serif;
 	font-family: $font_2, $font_3;
 }
 
-h1, h2, h3, h4, h5, h6, b, strong {
+h1, h2, h3, h4, h5, h6 {
   color: $color_flamenco_approx;
-  font-weight: bold;
+  font-weight: 900;
   font-family: $font_2, $font_3;
+}
+
+/* Only used on my all markdown post */
+.color_blocks {
+	span {
+		width: 40px;
+		height: 40px;
+		display: inline-block;
+		border: 1px solid #000;
+	}
+	.primary_color {
+		background-color: $primary_color;
+	}
+	.primary_color_15 {
+		background-color: $primary_color_15;
+	}
+	.primary_color_10 {
+		background-color: $primary_color_10;
+	}
+	.primary_color_lighten_30 {
+		background-color: $primary_color_lighten_30;
+	}
+	.primary_color_darken_10 {
+		background-color: $primary_color_darken_10;
+	}
 }
 
 body {
@@ -438,6 +478,7 @@ b {
 }
 strong {
 	@extend %extend_1;
+	font-weight: 400;
 	color: $color_log_cabin_approx;
 	em {
 		font-family: $font_2, $font_3;
