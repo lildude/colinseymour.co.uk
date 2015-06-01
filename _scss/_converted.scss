@@ -3,9 +3,9 @@
 //colors
 // Generate new mixes at http://paletton.com/
 /*
-$color_flamenco_approx: #fd7f05;
-$color_flamenco_10_approx: rgba(253, 127, 5, 0.1);
-$color_flamenco_15_approx: rgba(253, 127, 5, 0.15);
+$primary_color: #fd7f05;
+$primary_color_10: rgba(253, 127, 5, 0.1);
+$primary_color_15: rgba(253, 127, 5, 0.15);
 */
 
 $primary_color: #fd7f05;
@@ -14,15 +14,8 @@ $primary_color_15: rgba( $primary_color, .15 );
 $primary_color_darken_10: darken( $primary_color, 10% );
 $primary_color_lighten_30: lighten( $primary_color, 30% );
 
-$color_flamenco_approx: $primary_color;
-$color_flamenco_10_approx: $primary_color_10;
-$color_flamenco_15_approx: $primary_color_15;
-
-
 $white: #fff;
 $color_blue_chill_approx: #1a898a;
-$color_red_stage_approx: $primary_color_darken_10;
-$color_peach_orange_approx: $primary_color_lighten_30;
 $black_20: rgba(0, 0, 0, 0.2);
 $color_mountain_mist_approx: #999;
 $color_log_cabin_approx: #222;
@@ -75,13 +68,13 @@ $font_3: sans-serif;
 //h1, h2, h3, h4, h5, h6, b, strong
 /* This doesn't play nice */
 %extend_1 {
-	color: $color_flamenco_approx;
+	color: $primary_color;
 	font-weight: bold;
 	font-family: $font_2, $font_3;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $color_flamenco_approx;
+  color: $primary_color;
   font-weight: 900;
   font-family: $font_2, $font_3;
 }
@@ -126,7 +119,7 @@ body {
 	}
 }
 ::selection {
-	background-color: $color_flamenco_approx;
+	background-color: $primary_color;
 	color: $white;
 }
 img {
@@ -181,7 +174,7 @@ header {
 		border: 0;
 		height: 2px;
 		width: 25%;
-		background-color: $color_flamenco_approx;
+		background-color: $primary_color;
 	}
 }
 .menu {
@@ -195,8 +188,8 @@ header {
 			//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 			transition: background-color 0.3s ease;
 			&:hover {
-				background-color: $color_flamenco_10_approx;
-				color: $color_flamenco_approx;
+				background-color: $primary_color_10;
+				color: $primary_color;
 			}
 		}
 		li {
@@ -215,7 +208,7 @@ header {
 		width: 150px;
 		text-align: right;
 		text-transform: uppercase;
-		color: $color_flamenco_approx;
+		color: $primary_color;
 		font-family: $font_2, $font_3;
 		font-weight: bold;
 		font-size: 13px;
@@ -223,7 +216,7 @@ header {
 	p {
 		margin: 1rem 0;
 		code {
-			background-color: $color_flamenco_15_approx;
+			background-color: $primary_color_15;
 			padding: 2px 4px;
 			color: $color_blue_chill_approx;
 		}
@@ -233,10 +226,10 @@ header {
 		min-width: 110%;
 		max-width: 110%;
 		margin-left: -5%;
-		background-color: $color_flamenco_15_approx;
+		background-color: $primary_color_15;
 		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
 		border-radius: 5px;
-		color: $color_red_stage_approx;
+		color: $primary_color_darken_10;
 		font-size: 1.1rem;
 		&:before {
 			font-family: $font_0;
@@ -246,7 +239,7 @@ header {
 			left: 10px;
 			font-size: 35px;
 			font-weight: bold;
-			color: $color_peach_orange_approx;
+			color: $primary_color_lighten_30;
 		}
 		p {
 			margin: 0;
@@ -260,7 +253,7 @@ header {
 		width: 110% !important;
 	}
 	.aside {
-		background-color: $color_flamenco_15_approx;
+		background-color: $primary_color_15;
 		padding: 10px 15px;
 		color: $color_blue_chill_approx;
 		font-size: .75rem;
@@ -269,11 +262,11 @@ header {
 	}
 	a {
 		text-decoration: none;
-		border-bottom: 2px solid $color_peach_orange_approx;
+		border-bottom: 2px solid $primary_color_lighten_30;
 		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 		transition: border-color 0.2s ease;
 		&:hover {
-			border-color: $color_flamenco_approx;
+			border-color: $primary_color;
 		}
 	}
 	img:not(.emoji):not(.alignleft):not(.alignright) {
@@ -323,12 +316,12 @@ header {
 }
 .hero {
 	height: 250px;
-	background-color: $color_flamenco_approx;
+	background-color: $primary_color;
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
 	h1 {
-		background-color: $color_flamenco_approx;
+		background-color: $primary_color;
 		display: inline-block;
 		padding: 0 20px;
 		line-height: 60px;
@@ -490,7 +483,7 @@ em, i {
 	font-style: italic;
 }
 a {
-	color: $color_flamenco_approx;
+	color: $primary_color;
 }
 @media(max-width: 50em) {
 	header h1 {
