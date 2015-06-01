@@ -9,19 +9,22 @@ $primary_color_15: rgba(253, 127, 5, 0.15);
 */
 
 $primary_color: #fd7f05;
-$primary_color_10: rgba( $primary_color, .1 );
-$primary_color_15: rgba( $primary_color, .15 );
-$primary_color_darken_10: darken( $primary_color, 10% );
-$primary_color_lighten_30: lighten( $primary_color, 30% );
+$primary_color_10: rgba($primary_color, .1);
+$primary_color_15: rgba($primary_color, .15);
+$primary_color_darken_10: darken($primary_color, 10%);
+$primary_color_lighten_30: lighten($primary_color, 30%);
 
 $white: #fff;
+$black: #000000;
+$black_5: rgba($black, 0.05);
+$black_20: rgba($black, 0.2);
+
 $color_blue_chill_approx: #1a898a;
-$black_20: rgba(0, 0, 0, 0.2);
 $color_mountain_mist_approx: #999;
 $color_log_cabin_approx: #222;
 $color_alabaster_approx: #fbfbfb;
 $color_woodsmoke_approx: #111;
-$black_5: rgba(0, 0, 0, 0.05);
+
 $color_cream_approx: #ffc;
 $color_suva_gray_approx: #888;
 $color_tamarillo_approx: #a61717;
@@ -29,7 +32,7 @@ $color_swiss_coffee_approx: #e3d2d2;
 $color_japanese_laurel_approx: #008800;
 $color_guardsman_red_approx: #cc0000;
 $color_forget_me_not_approx: #fff0f0;
-$black: #000000;
+
 $color_pippin_approx: #fdd;
 $color_bright_red_approx: #a00;
 $color_mine_shaft_approx: #303030;
