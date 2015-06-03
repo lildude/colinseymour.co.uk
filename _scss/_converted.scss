@@ -8,14 +8,17 @@ $primary_color_10: rgba(253, 127, 5, 0.1);
 $primary_color_15: rgba(253, 127, 5, 0.15);
 */
 
-$primary_color: #fd7f05;
+$primary_color: #fd7f05; // Orange
+//$primary_color: #1057A5; // Blue
+//$primary_color: #6DE204; // Green
+
 $primary_color_10: rgba($primary_color, .1);
 $primary_color_15: rgba($primary_color, .15);
 $primary_color_darken_10: darken($primary_color, 10%);
 $primary_color_lighten_30: lighten($primary_color, 30%);
 
 $white: #fff;
-$black: #000000;
+$black: #000;
 $black_5: rgba($black, 0.05);
 $black_20: rgba($black, 0.2);
 
@@ -134,6 +137,11 @@ img {
 	&.alignright {
 		float:right;
 		margin-left: 10px;
+	}
+	&.center{
+		display:block;
+		float:none;
+		margin:0 auto
 	}
 }
 header {
@@ -272,7 +280,7 @@ header {
 			border-color: $primary_color;
 		}
 	}
-	img:not(.emoji):not(.alignleft):not(.alignright) {
+	img:not(.emoji):not(.alignleft):not(.alignright):not(.nostretch) {
 		min-width: 110%;
 		max-width: 110%;
 		margin-left: -5%;
