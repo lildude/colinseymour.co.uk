@@ -182,7 +182,7 @@ Left         | Center        | Right
 
 # Additional HTML
 
-## Colours:
+## Colours
 
 <div class="color_blocks">
  <span class="primary_color"></span>
@@ -191,3 +191,7 @@ Left         | Center        | Right
  <span class="primary_color_lighten_30"></span>
  <span class="primary_color_darken_10"></span>
 </div>
+
+## Stretched image
+
+<img src="/img/front-bg.jpg" class="stretch" />
