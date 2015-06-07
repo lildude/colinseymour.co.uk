@@ -20,6 +20,7 @@ $primary_color_lighten_30: lighten($primary_color, 30%);
 
 $white: #fff;
 $black: #000;
+$ano_black: rgb(57, 68, 77);
 $black_5: rgba($black, 0.05);
 $black_20: rgba($black, 0.2);
 
@@ -113,6 +114,7 @@ h1, h2, h3, h4, h5, h6 {
 
 body {
 	margin: 0;
+	color: $ano_black;
 	&.full {
 		.hero {
 			height: 500px;
@@ -225,9 +227,9 @@ header {
 	p {
 		margin: 1rem 0;
 		code {
-			background-color: $primary_color_15;
+			background-color: $black_5;
 			padding: 2px 4px;
-			color: $color_blue_chill_approx;
+			//color: $color_blue_chill_approx;
 		}
 	}
 	blockquote {
