@@ -195,3 +195,46 @@ Left         | Center        | Right
 ## Stretched image
 
 <img src="/img/front-bg.jpg" class="stretch" />
+
+## Syntax Highlighting
+
+{% highlight ruby %}
+class Post < ActiveRecord::Base
+  DEFAULT_LIMIT = 15
+
+  acts_as_taggable
+
+  has_many                :comments, :dependent => :destroy
+  has_many                :approved_comments, :class_name => 'Comment'
+
+  before_validation       :generate_slug
+  before_validation       :set_dates
+  before_save             :apply_filter
+
+  validates_presence_of   :title, :slug, :body
+
+  validate                :validate_published_at_natural
+
+  def validate_published_at_natural
+    errors.add("published_at_natural", "Unable to parse time") unless published?
+  end
+
+  attr_accessor :minor_edit
+  def minor_edit
+    @minor_edit ||= "1"
+  end
+
+  def minor_edit?
+    self.minor_edit == "1"
+  end
+
+  def published?
+    published_at?
+  end
+
+  attr_accessor :published_at_natural
+  def published_at_natural
+    @published_at_natural ||= published_at.send_with_default(:strftime, 'now', "%Y-%m-%d %H:%M")
+  end
+end
+{% endhighlight %}
