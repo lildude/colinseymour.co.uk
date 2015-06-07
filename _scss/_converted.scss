@@ -119,9 +119,6 @@ body {
 		h1 {
 			display: none;
 		}
-		footer {
-			display: none;
-		}
 	}
 }
 ::selection {
@@ -344,6 +341,9 @@ header {
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
+	/* Set the background image to a gradient thing that is over-ridden if there is a cover image */
+	/* TODO: Make this more fitting to my site colours and maybe randomise it a bit. */
+	background-image: radial-gradient(ellipse farthest-corner at 0% 100%, rgba(104,128,138,0.4) 10%, rgba(138,114,76,0) 40%),linear-gradient(to bottom, rgba(57,173,219,0.25) 0%, rgba(42,60,87,0.4) 100%),linear-gradient(135deg, #670d10 0%, #092756 100%);
 	h1 {
 		background-color: $primary_color;
 		display: inline-block;
@@ -408,13 +408,11 @@ header {
 footer {
 	margin-bottom: 2rem;
 	font-family: $font_2, $font_3;
-	font-weight: bold;
+	font-weight: 400;
 	.bio {
 		color: $black_20;
-		float: right;
-		font-size: 14px;
-		line-height: 40px;
-		text-transform: uppercase;
+		text-align: center;
+		font-size: 12px;
 		a {
 			text-decoration: none;
 		}
