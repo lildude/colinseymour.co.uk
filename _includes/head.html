@@ -26,7 +26,7 @@
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
-  
+
   <!-- Icons -->
   <link rel="shortcut icon" type="image/png" href="/img/profile.png">
 
@@ -38,11 +38,11 @@
 
 <header>
   <a href="/"><div class="logo"></div></a>
-  {% if page.cover %}
-  <div class="hero" style="background-image: url({{ page.cover }});">
+
+  <div class="hero"{% if page.cover %} style="background-image: url({{ page.cover }});"{% endif %}>
     <h1>{% if page.type == "post" %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
   </div>
-  {% endif %}
+  
 </header>
 
 <div class="container menu">
