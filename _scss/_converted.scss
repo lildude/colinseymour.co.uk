@@ -23,6 +23,7 @@ $black: #000;
 $ano_black: rgb(57, 68, 77);
 $black_5: rgba($black, 0.05);
 $black_20: rgba($black, 0.2);
+$white_75: rgba($white, 0.75);
 
 $color_blue_chill_approx: #1a898a;
 $color_mountain_mist_approx: #999;
@@ -340,7 +341,8 @@ header {
 }
 .hero {
 	height: 250px;
-	background-color: $primary_color;
+	//background-color: $primary_color;
+	background-color: #092756;
 	background-position: center center;
 	background-size: cover;
 	text-align: center;
@@ -353,6 +355,7 @@ header {
 		padding: 0 20px;
 		line-height: 60px;
 		margin-top: 90px;
+		border-radius: 30px;
 	}
 }
 .recent-posts {
