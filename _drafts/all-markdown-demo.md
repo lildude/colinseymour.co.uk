@@ -238,3 +238,12 @@ class Post < ActiveRecord::Base
   end
 end
 {% endhighlight %}
+
+### More syntax highlighting:
+
+```php
+<?php
+echo "PHPINFO";
+phpinfo();
+?>
+```
