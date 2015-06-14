@@ -37,8 +37,14 @@ compress_html:
   ignore:
     envs:           []
 
+# Configure RedCarpet
+redcarpet:
+  extensions:       [tables, autolink, strikethrough, footnotes, superscript]
+
 # Plugins
 gems:
   - jemoji
+  - jekyll-sitemap
+  
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
