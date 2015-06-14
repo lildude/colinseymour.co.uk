@@ -47,6 +47,9 @@ A [reference style][id] link. Input id, then anywhere in the doc, define the lin
 
 Titles ( or called tool tips ) in the links are optional.
 
+Redcarpet autolink extension: http://colinseymour.co.uk  _(CNS: Requires `autolink` Redcarpet extension.)_
+)
+
 #### Images
 
 An inline image ![Smaller icon](http://smallerapp.com/favicon.ico "Title here"), title is optional.
@@ -86,7 +89,7 @@ Or using "-" + Space:
 
 #### Hard Linebreak
 
-End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )
+End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )  
 Above line ended with 2 spaces.
 
 #### Horizontal Rules
@@ -121,7 +124,7 @@ atx-style:
 ### Extra Syntax
 
 #### Footnotes
-_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
+_(CNS: Requires `footnotes` Redcarpet extension.)_
 
 Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
@@ -130,7 +133,7 @@ That's some text with a footnote.[^1]
 [^1]: And that's the footnote.
 
 #### Strikethrough
-_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
+_(CNS: Requires `strikethrough` Redcarpet extension.)_
 
 Wrap with 2 tilde characters:
 
@@ -147,7 +150,7 @@ a start and end fence lines to delimit the code block.
 ```
 
 #### Tables
-_(CNS: This doesn't work yet as redcarpet hasn't the support.)_
+_(CNS: Requires `tables` Redcarpet extension.)_
 
 A simple table looks like this:  
 
@@ -171,6 +174,11 @@ Left         | Center        | Right
 Left         | Center        | Right
 
 ---
+
+#### Superscript
+_(CNS: Requires `superscript` Redcarpet extension.)
+
+This is the 2^(nd) time I've done this, not the 3^rd.
 
 # Plugin rendered content
 
