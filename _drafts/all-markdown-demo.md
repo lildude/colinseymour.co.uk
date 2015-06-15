@@ -14,7 +14,7 @@ This is a "test" post with all the markdown and HTML I'm likely to use in my wri
 
 # Markdown
 
-![Mou icon](http://mouapp.com/Mou_128.png)
+![Mou icon](/assets/photo.jpg)
 
 ## Overview
 
@@ -203,6 +203,16 @@ This is the 2^(nd) time I've done this, not the 3^rd.
 ## Stretched image
 
 <img src="/img/front-bg.jpg" class="stretch" />
+
+## Image alignment
+
+<img src="/assets/photo.jpg" class="alignleft" /> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur ac ligula ex. Nam ut justo in erat porta suscipit. Duis pretium ligula id arcu dictum, quis egestas felis tempor. Duis molestie nunc tristique ante vehicula tincidunt. Aenean nec felis rutrum, placerat dolor id, placerat lectus. Curabitur nunc enim, pharetra in tempor nec, semper ac velit. Aliquam eleifend, urna varius euismod lobortis, justo tellus consequat arcu, in pellentesque ligula nisl a dolor.
+
+<img src="/assets/proudlysa.gif" class="alignright" /> Fusce sem lacus, luctus vel dui ut, lobortis rhoncus velit. Nulla facilisi. Donec et erat accumsan purus dapibus vulputate sit amet sit amet tortor. Vestibulum eu vehicula felis. Suspendisse a enim at justo porttitor luctus. Proin ac urna sapien. Curabitur non aliquam neque. Donec tincidunt, nisi sit amet ullamcorper interdum, magna mi imperdiet lorem, sit amet sagittis neque nulla at enim. Morbi efficitur viverra nibh at tempus. Suspendisse molestie commodo posuere. Fusce aliquam fringilla dictum. Mauris viverra eleifend quam, sit amet vehicula est sagittis sit amet. Praesent lobortis nisi non tellus egestas porttitor.
+
+<img src="http://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg" class="center stretch" />
+
+
 
 ## Syntax Highlighting
 
