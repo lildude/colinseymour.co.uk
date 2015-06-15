@@ -57,12 +57,12 @@ end
 # TODO: Only minify recently modified or added files by default.
 desc "Minify assets"
 task :minify do
-  file_exts = [".gif", ".jpg", ".jpeg", ".png"]
+  file_exts = [".gif", ".jpg", ".jpeg", ".png", ".JPG"]
   puts "\n## Compressing static assets".yellow
   original = 0.0
-  compressed = 0
+  compressed = 0.0
   # Grab time of last compress run
-  last_run = Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i)
+  last_run = File.exist?("assets/.last-compressed") ? Time.at(IO::readlines("assets/.last-compressed")[1].strip.to_i) : Time.new(1990)
   Dir.glob("assets/**/*.*") do |file|
     case File.extname(file)
     when *file_exts
@@ -73,7 +73,7 @@ task :minify do
         File.open(file, "w") do |f|
           f.write(min)
         end
-        compressed += File.size(file)
+        compressed += File.size(file).to_f
         # Write last compressed date to file.
         t = Time.now
         File.open("assets/.last-compressed", "w+") { |f| f.puts "# #{t.to_s}\n#{t.to_i}" }
@@ -128,8 +128,9 @@ task :htmlproof do
   HTML::Proofer.new("./_site", {
     :disable_external => true,
     :empty_alt_ignore => true,
-    :typhoeus => { :verbose => false, :followlocation => true },
-    :parallel => { :in_processes => 10}}).run
+    :verbose => true,
+    :typhoeus => { :verbose => true, :followlocation => true },
+    :parallel => { :in_processes => 1}}).run
 end
 
 desc "Generate and display locally"
