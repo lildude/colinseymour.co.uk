@@ -4,7 +4,7 @@ layout: default
 
 <div class="container content">
   <div class="date">
-    May 19, 2015
+    {{ page.date | date: "%d %B %Y" }}
   </div>
 
   {{ content }}
