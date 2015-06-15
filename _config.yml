@@ -12,7 +12,7 @@ meta_description:   "lildude rocking the tech world."
 baseurl:            /
 url:                https://colinseymour.co.uk
 logo:               true
-paginate:           15
+#paginate:           15   # Disable pagination
 
 # Author
 author:
@@ -45,6 +45,6 @@ redcarpet:
 gems:
   - jemoji
   - jekyll-sitemap
-  
+
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
