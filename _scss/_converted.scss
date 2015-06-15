@@ -155,7 +155,8 @@ header {
 		top: 10px;
 		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 		transition: opacity 0.3s ease;
-    background: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnNrZXRjaD0iaHR0cDovL3d3dy5ib2hlbWlhbmNvZGluZy5jb20vc2tldGNoL25zIiB2aWV3Qm94PSIwIDAgMTcxIDE3MSI+PGRlZnMvPjxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHNrZXRjaDp0eXBlPSJNU1BhZ2UiPjxjaXJjbGUgaWQ9Ik92YWwtMSIgZmlsbD0iI0ZGRkZGRiIgc2tldGNoOnR5cGU9Ik1TU2hhcGVHcm91cCIgY3g9Ijg1LjUiIGN5PSI4NS41IiByPSI4NS41Ii8+PHRleHQgaWQ9IkMiIHNrZXRjaDp0eXBlPSJNU1RleHRMYXllciIgZm9udC1mYW1pbHk9Ik5ldXRyYSBUZXh0IiBmb250LXNpemU9IjEyMCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiNGRDgwMDUiPjx0c3BhbiB4PSIzOSIgeT0iMTI2Ij5DPC90c3Bhbj48L3RleHQ+PC9nPjwvc3ZnPgo=") no-repeat center center;
+		// Take the logo.svg and bung it here. It was created in Sketch and bunged through http://petercollingridge.appspot.com/svg-editor
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 171 171"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><circle fill="#FFFFFF" cx="85.5" cy="85.5" r="85.5"/><text font-family="Neutra Text" font-size="120" font-weight="bold" fill="#{$primary_color}"><tspan x="39" y="126">C</tspan></text></g></svg>') no-repeat center center;
     z-index: 1;
 		&:hover {
 			opacity: 1;
