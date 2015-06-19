@@ -116,10 +116,14 @@ This is really of no interest to anyone other than me and is for the moment a sc
   ```
 - deploy using: `git push deploy gh-pages --force`
 
+## Remove Trailing slashes
+
+Jekyll 3.0 will come with support for extension-less serving, though it still requires changes on the server.  I'm using Nginx so I've used the details in http://rickharrison.me/how-to-remove-trailing-slashes-from-jekyll-urls-using-nginx .
+
 ## Todos
 
 - [x] Remove fields from the frontmatter of each post that I don't use (categories, meta, author, status)
-- [ ] Customize & optimize the theme
+- [x] Customize & optimize the theme
 - [ ] Switch out all emoticons for emoji
 - [ ] MAYBE: Use an [emoji font](http://emojisymbols.com/) for emojis instead of local or GitHub hosted
   - [ ] TODO: If I do the above, I need to convert the jemoji plugin to insert unicode chars for each of the :emoji: references
@@ -137,17 +141,16 @@ This is really of no interest to anyone other than me and is for the moment a sc
 - [x] Add a Rakefile and borrow some of the ideas from Octopress
   - [x] Create new post
   - [x] Publish draft post
-  - [ ] Stash posts
 - [ ] Mark draft posts when running with `--drafts` so I can easily distinguish them.
 - [ ] MAYBE: Add fontawesome icons to posts in archives to distinguish types.
 - [ ] Use local copies of remote assets when running locally
 - [x] Determine a better method of detecting locally run than the current site.debug method I'm using - Found it: `JEKYLL_ENV=local jekyll server --watch` and then use `jekyll.environment == 'local'` wherever you need the conditional. Jekyll 2.1 intro'd this support.
 - [x] Pre-process locally and save minified content to a branch.  This makes the repo larger, but quicker to deploy.
 - [x] Add robots.txt
-- [ ] Switch to native liquid HTML compression and use built in Jekyll functionality for CSS & JS compression.
-- [ ] Put compressed CSS into header
+- [x] Switch to native liquid HTML compression and use built in Jekyll functionality for CSS & JS compression.
+- [x] Put compressed CSS into header
 - [x] Use Reduce to just minimize/optimise images that change.
-- [ ] Put page specific CSS into its own file that is only loaded on that page, eg Calculators
+- [ ] Put page specific CSS into its own file that is only loaded on that page
 
 
 ## Research material for enhancing rakefile
