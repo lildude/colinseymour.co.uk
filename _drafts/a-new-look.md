@@ -1,0 +1,16 @@
+---
+layout: post
+title: "A New Look"
+date: 2015-06-19 15:30:20 +0100
+tags:
+- design
+- update
+- jekyll
+type: post
+published: true
+---
+Looky looky folks, a nice new design for my site, and it should be much faster too.  
+
+It's been a while since I last posted but I've been busy working behind the scenes on moving all my sites away from a dynamic method of generating them to a more robust, future-proof and fast method: static pages using [Jekyll](http://jekyllrb.com/).  This is like we used to do it in the old days before databases became popular on website but now with a whole bunch of tooling around it to make it easier.
+
+Now things are looking sweet and fast, I hope to get back into the habit of posting more frequently.  Watch this space.
