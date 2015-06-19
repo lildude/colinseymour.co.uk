@@ -10,13 +10,13 @@ layout: default
   {{ content }}
   <div class="closing">
     {% if page.next.url %}
-      <a class="newer" href="{{page.next.url}}">
+      <a class="newer" href="{{page.next.url | remove: '.html'}}">
         <strong>Newer →</strong>
         {{page.next.title}}
       </a>
     {% endif %}
     {% if page.previous.url %}
-      <a class="older" href="{{page.previous.url}}">
+      <a class="older" href="{{page.previous.url | remove: '.html'}}">
         <strong>← Older</strong>
         {{page.previous.title}}
       </a>
