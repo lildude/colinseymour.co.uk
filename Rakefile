@@ -54,7 +54,7 @@ task :publish, :draft_file do |t, args|
 end
 
 # Taken from http://davidensinger.com/2013/08/how-i-use-reduce-to-minify-and-optimize-assets-for-production/
-# TODO: Only minify recently modified or added files by default.
+# TODO: Find a better method as Smush.it is dead.
 desc "Minify assets"
 task :minify do
   file_exts = [".gif", ".jpg", ".jpeg", ".png", ".JPG"]
@@ -100,8 +100,8 @@ task :deploy_gh do
   ok_failed(system("bundle exec jekyll build 1> /dev/null"))
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
-  puts "\n## Miniying _site".yellow
-  ok_failed(Rake::Task["minify"].execute)
+  #puts "\n## Miniying _site".yellow
+  #ok_failed(Rake::Task["minify"].execute)
   puts "\n## Adding _site".yellow
   ok_failed(system("git add .gitignore _site assets/.last-compressed"))
   message = "Build site at #{Time.now.utc}"
