@@ -10,13 +10,23 @@ layout: default
   {{ content }}
   <div class="closing">
     {% if page.next.url %}
+      {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
+      {% if jekyll.environment == 'local' %}
+      <a class="newer" href="{{page.next.url}}">
+      {% else %}
       <a class="newer" href="{{page.next.url | remove: '.html'}}">
+      {% endif %}
         <strong>Newer →</strong>
         {{page.next.title}}
       </a>
     {% endif %}
     {% if page.previous.url %}
+      {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
+      {% if jekyll.environment == 'local' %}
+      <a class="older" href="{{page.previous.url}}">
+      {% else %}
       <a class="older" href="{{page.previous.url | remove: '.html'}}">
+      {% endif %}
         <strong>← Older</strong>
         {{page.previous.title}}
       </a>

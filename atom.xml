@@ -17,7 +17,12 @@
  {% for post in site.posts %}
  <entry>
    <title>{{ post.title }}</title>
+   {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
+   {% if jekyll.environment == 'local' %}
+   <link href="{{ site.url }}{{ post.url }}"/>
+   {% else %}
    <link href="{{ site.url }}{{ post.url | remove: '.html' }}"/>
+   {% endif %}
    <updated>{{ post.date | date_to_xmlschema }}</updated>
    <id>{{ site.url }}{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>

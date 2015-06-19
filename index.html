@@ -8,7 +8,12 @@ nocover: "/img/front-bg.jpg"
   <ul class="recent-posts">
     {% for post in site.posts %}
     <li>
+      {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
+      {% if jekyll.environment == 'local' %}
+      <a href="{{ site.baseurl }}{{ post.url }}">
+      {% else %}
       <a href="{{ site.baseurl }}{{ post.url | remove: '.html' }}">
+      {% endif %}
         <div>
           <span class="title">{{ post.title }}</span>
           <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
