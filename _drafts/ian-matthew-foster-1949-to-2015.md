@@ -12,4 +12,4 @@ At about 13:10 today, my father-in-law lost his very short battle with cancer in
 
 Seven weeks ago he was admitted to hospital with difficulties breathing, two weeks later he was diagnosed with metastatic melanoma and today he lost the battle. He wasn't my father, but I grew to admire him and treat him as my stand-in father and it really hurts me to see him go. So surprising. So quick. So sad.
 
-We'll miss you Ian. Rest in peace. :crying:
+We'll miss you Ian. Rest in peace.
