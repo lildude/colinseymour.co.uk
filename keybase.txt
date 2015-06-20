@@ -1,0 +1,71 @@
+==================================================================
+https://keybase.io/lildude
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://colinseymour.co.uk
+  * I am lildude (https://keybase.io/lildude) on keybase.
+  * I have a public key with fingerprint 81D0 3EE9 0A0D CBBB 8EFA  37EC 4754 A3E7 DC27 3608
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "81d03ee90a0dcbbb8efa37ec4754a3e7dc273608",
+            "host": "keybase.io",
+            "key_id": "4754a3e7dc273608",
+            "uid": "b29a39038385cadb5905329a78837b00",
+            "username": "lildude"
+        },
+        "revoke": {
+            "sig_ids": [
+                "fe2868f19173b76fafe8459811eb1037c66562409faa61d657eb894d5c49fa1b0f"
+            ]
+        },
+        "service": {
+            "hostname": "colinseymour.co.uk",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1404821999,
+    "expire_in": 157680000,
+    "prev": "bbce8d9bc2b0593f503ebe03f86bb5f93db80fc5b6d23a68b044b0116155aaaa",
+    "seqno": 13,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v0.1.22
+Comment: https://keybase.io/crypto
+
+yMI7AnicbVJdTCNVGG0XLBTdhIjEKKjZuxqjNPVO7/zcOxuzjauuleIfvjRAmrkz
+d8pQmCkz02pFXoygISauxgd/NtGoqAm++WCIGhR3jZSgiBoB+ck2NSpxsyaoAYLK
+HbK++b1M5nznO+ebM9+5o3WhpnC0WrsvndSeC89/9mgx1P3RhUsjgDpGGagjIM8O
+H6Zl55hbcC3bByrAggERYwRq0NAppZiZGlKYLiqSqCGmGHpCQTLEIAb6HS+Y4DJU
+81jccjjGX7KWwdH/4RcPGzRBNEQgwghLumZQiUAJcUzBGCkUwoDoMdfWhhhnD1qD
+RtFgYDQGXFZy8hwbAZ6V4yYeUHuAyRJYxqZABAVRRTY1k2FRIlgQGBUgUnRZluSE
+CImpabJgyJLCKCaiIekihwQKTdDHtblhydIPxYOvumyuO4OW7bHykFN047oTL+b5
+cgXX8R3e4f1+3y94arCbXy4EA48xmr0slaWWbfBk+USJuZ7l2EAVOFP3rUBbEKGI
+EwIhJAbY4wXLZVkrYEiKjCGvwIeVgriozrBBqJ6gUCLIlPjfoQwiE8uUSiZBBsXQ
+1CUqGwmkyZhCUaRQEGRBkjRe3N9jw7bDtRHfU8txTZ6frflFl8c6+2lvfSjcFIpc
+cSQ4jlBTtPm/k2m82PCve9vk2/HOf6ai1baHVvbpB6YzeuGo/PRW7Y31Zvh8qevY
+k/F8ONlYGp/4bf6TWxtSnWPsY7K3nzq9sqM+m9u+N7OxeqPXdjEy/uv9oRuOt9Tm
+n1peHPt9o2HzWO3UXbMPnO87+9Ltf859eEflxIP6Qtfuu6MdZzMz3Xeu3fP1qTPq
+VMvJv8rqM8lr0s3DZ15MxbJvXWr/8mTf3+cnLPIDCFerP23WVXIvXPvyzPh775/O
+pJ94J3L9+is/Ls8emUgvLLV3ZK/bynz7XX3X9JtX6j+vf//qL7sD6Va/ktn66hvc
+uvT58asfmYzspO6+au3colkZePiPnmQmui1+cUsvW52ee+3E3us33XwAahEyyw==
+=rprU
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/lildude
+
+==================================================================
