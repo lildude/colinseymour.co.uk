@@ -376,6 +376,8 @@ header {
 		.title {
 			font-size: 1rem;
 			padding: 0;
+			display: inline-block;
+			max-width: 27rem;
 		}
 		.date {
 			float: right;
