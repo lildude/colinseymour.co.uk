@@ -11,12 +11,12 @@
  <id>{{ site.url }}</id>
  <author>
    <name>{{ site.author.name }}</name>
-   <email>{{ site.author.email }}</email>
+   {% if site.author.email != '' %}<email>{{ site.author.email }}</email>{% endif %}
  </author>
 
  {% for post in site.posts %}
  <entry>
-   <title>{{ post.title }}</title>
+   <title>{{ post.title | xml_escape }}</title>
    {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
    {% if jekyll.environment == 'local' %}
    <link href="{{ site.url }}{{ post.url }}"/>
