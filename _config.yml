@@ -36,6 +36,7 @@ compress_html:
   endings:          all
   ignore:
     envs:           []
+  profile:          false
 
 # Configure RedCarpet
 redcarpet:
