@@ -263,6 +263,13 @@ header {
 			margin: 0;
 			padding: 15px 5%;
 		}
+    cite {
+      font-style: italic;
+      font-size: 18px;
+      a {
+        border-color: $primary_color;
+      }
+    }
 	}
 	hr {
 		margin: 50px auto;
