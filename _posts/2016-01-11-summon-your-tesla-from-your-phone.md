@@ -1,11 +1,12 @@
 ---
 layout: post
 title: "Summon Your Tesla from Your Phone"
-date: 2016-01-11 10:12:31 +0000 2016-01-11 09:57:45 +0000
+date: 2016-01-11 10:12:31 +0000
 tags:
 - Tesla
 - cars
-type: link
+- link
+type: post
 published: true
 ---
 Yesterday I was discussing how Teslas can be upgraded over-the-air and the new automation features like AutoPilot that are slowly being added via incremental updates.  I jokingly said that you'd soon be able to whistle for your car in a sort of "Here boy" way and it'll come running like your faithful dog.  Imagine my surprise when I read this this morning...

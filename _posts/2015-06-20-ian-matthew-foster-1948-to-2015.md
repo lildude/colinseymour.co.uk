@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Ian Matthew Foster - 1948 to 2015"
-date: 2015-06-20 20:10:49 +0100 2015-06-20 20:00:09 +0100
+date: 2015-06-20 20:10:49 +0100
 tags:
 - cancer
 - mourning

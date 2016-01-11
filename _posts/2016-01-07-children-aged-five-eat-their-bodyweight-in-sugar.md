@@ -4,7 +4,8 @@ title: "Children Aged Five Eat Their Bodyweight in Sugar"
 date: 2016-01-07 17:28:58 +0000
 tags:
 - health
-type: link
+- link
+type: post
 published: true
 ---
 
