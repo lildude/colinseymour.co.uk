@@ -16,7 +16,7 @@ Yesterday I was discussing how Teslas can be upgraded over-the-air and the new a
 
 I want a Tesla even more.  My colleague took it one step further...
 
-<blockquote class="twitter-tweet" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/mutle">@mutle</a> <a href="https://twitter.com/lildude">@lildude</a> Imagine that combined with an Uber account. Let your Tesla make some money while you don&#39;t drive it yourself!</p>&mdash; Bamboo (@bamb00zzle) <a href="https://twitter.com/bamb00zzle/status/686472653293662208">January 11, 2016</a></blockquote>
+<blockquote class="twitter-tweet tw-align-center" data-conversation="none" lang="en"><p lang="en" dir="ltr"><a href="https://twitter.com/mutle">@mutle</a> <a href="https://twitter.com/lildude">@lildude</a> Imagine that combined with an Uber account. Let your Tesla make some money while you don&#39;t drive it yourself!</p>&mdash; Bamboo (@bamb00zzle) <a href="https://twitter.com/bamb00zzle/status/686472653293662208">January 11, 2016</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 If that became possible, that would be substantiation alone for getting a Tesla Model S :grin:.
