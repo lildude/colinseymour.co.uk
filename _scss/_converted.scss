@@ -327,6 +327,15 @@ header {
 			border-color: $primary_color;
 		}
 	}
+  .pagination {
+    padding-bottom: 2rem;
+    a.pagination-item {
+      border: none;
+    }
+    .pagination-item.newer {
+      float: right;
+    }
+  }
 	/*img:not(.emoji):not(.alignleft):not(.alignright) {
 		min-width: 110%;
 		max-width: 110%;
@@ -341,6 +350,18 @@ header {
 		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
 		border-radius: 5px;
 	}
+
+  #instafeed {
+    img {
+      margin-right: 10px;
+      border-radius: 3px;
+    }
+    a {
+      border: none;
+      width: 150px;
+      height: 150px;
+    }
+  }
 }
 @media(max-width: 900px) {
 	.content .date {
@@ -405,7 +426,7 @@ header {
 	}
 }
 .recent-posts {
-	margin-bottom: 5rem;
+	margin-bottom: 2rem;
 	padding-left: 0;
 	li {
 		margin-bottom: 5px;

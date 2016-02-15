@@ -3,16 +3,16 @@ markdown:           redcarpet
 highlighter:        rouge
 
 # Permalinks
-permalink:          /:title.html
+permalink:          :title
 
 # Setup
 title:              Colin Seymour
 tagline:            You Know This Boogie Is For Real
 meta_description:   "lildude rocking the tech world."
-baseurl:            https://colinseymour.co.uk
+baseurl:            /
 url:                https://colinseymour.co.uk
 logo:               true
-#paginate:           15   # Disable pagination
+paginate:           10
 
 # Author
 author:
@@ -47,6 +47,7 @@ redcarpet:
 gems:
   - jemoji
   - jekyll-sitemap
+  - jekyll-paginate
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]

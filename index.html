@@ -5,15 +5,15 @@ nocover: "/img/front-bg.jpg"
 ---
 
 <div class="container content">
+  {% if paginator.page == 1 %}
+  <h3>Latest Posts</h3>
+  {% else %}
+  <h3>Older Posts</h3>
+  {% endif %}
   <ul class="recent-posts">
-    {% for post in site.posts %}
+    {% for post in paginator.posts %}
     <li>
-      {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
-      {% if jekyll.environment == 'local' %}
       <a href="{{ site.baseurl }}{{ post.url }}">
-      {% else %}
-      <a href="{{ site.baseurl }}{{ post.url | remove: '.html' }}">
-      {% endif %}
         <div>
           <span class="title">{{ post.title }}</span>
           <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
@@ -22,4 +22,32 @@ nocover: "/img/front-bg.jpg"
     </li>
     {% endfor %}
   </ul>
+  <div class="pagination">
+    {% if paginator.next_page %}
+      <a class="pagination-item older" href="/page{{paginator.next_page}}">&laquo; Older</a>
+    {% endif %}
+    {% if paginator.previous_page %}
+      {% if paginator.page == 2 %}
+        <a class="pagination-item newer" href="/">Newer &raquo;</a>
+      {% else %}
+        <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer &raquo;</a>
+      {% endif %}
+    {% endif %}
+  </div>
+  {% if paginator.page == 1 %}
+  <section class="instagram-photos">
+    <h3>Latest Instagram Photos</h3>
+    <script src="/js/instafeed.min.js"></script>
+    <script type="text/javascript">
+      var feed = new Instafeed({
+        get: 'user',
+        userId: '45852486',
+        accessToken: '45852486.c24639f.c44e55af49b64ba5bed7b86637f9eb3b',
+        limit: '4',
+      });
+      feed.run();
+    </script>
+    <div id="instafeed"></div>
+  </section>
+  {% endif %}
 </div>
