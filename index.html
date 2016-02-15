@@ -13,7 +13,7 @@ nocover: "/img/front-bg.jpg"
   <ul class="recent-posts">
     {% for post in paginator.posts %}
     <li>
-      <a href="/{{ post.url }}">
+      <a href="{{ post.url }}">
         <div>
           <span class="title">{{ post.title }}</span>
           <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
@@ -24,13 +24,13 @@ nocover: "/img/front-bg.jpg"
   </ul>
   <div class="pagination">
     {% if paginator.next_page %}
-      <a class="pagination-item older" href="/page{{paginator.next_page}}">&laquo; Older</a>
+      <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">&laquo; Older</a>
     {% endif %}
     {% if paginator.previous_page %}
       {% if paginator.page == 2 %}
-        <a class="pagination-item newer" href="/">Newer &raquo;</a>
+        <a class="pagination-item newer" href="{{ site.baseurl }}">Newer &raquo;</a>
       {% else %}
-        <a class="pagination-item newer" href="/page{{paginator.previous_page}}">Newer &raquo;</a>
+        <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer &raquo;</a>
       {% endif %}
     {% endif %}
   </div>
