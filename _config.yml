@@ -9,7 +9,7 @@ permalink:          :title
 title:              Colin Seymour
 tagline:            You Know This Boogie Is For Real
 meta_description:   "lildude rocking the tech world."
-baseurl:            /
+baseurl:            ""
 url:                https://colinseymour.co.uk
 logo:               true
 paginate:           10
