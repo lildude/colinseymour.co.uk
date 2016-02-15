@@ -53,13 +53,9 @@ Come back to this if I decide to go with a larger header on pages
 <div class="container menu">
   <ul>
     <li><a href="/">Home</a></li>
+    <li><a href="/archives">Archives</a></li>
     <li><a href="http://colinseymour.smugmug.com/" target=_blank>Photos</a></li>
-    {% comment %} Remove this if when Jekyll 3 comes out with support for extension-less rendering {% endcomment %}
-    {% if jekyll.environment == 'local' %}
-    <li><a href="/about.html">About</a></li>
-    {% else %}
     <li><a href="/about">About</a></li>
-    {% endif %}
   </ul>
   <hr>
 </div>
