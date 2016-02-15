@@ -49,6 +49,7 @@ $primary_color_10: rgba($primary_color, .1);
 $primary_color_15: rgba($primary_color, .15);
 $primary_color_darken_10: darken($primary_color, 10%);
 $primary_color_lighten_30: lighten($primary_color, 30%);
+$primary_color_lighten_25: lighten($primary_color, 25%);
 
 $white: #fff;
 $black: #000;
@@ -289,7 +290,7 @@ header {
 			left: 10px;
 			font-size: 35px;
 			font-weight: bold;
-			color: $primary_color_lighten_30;
+			color: $primary_color_lighten_25;
 		}
 		p {
 			margin: 0;
