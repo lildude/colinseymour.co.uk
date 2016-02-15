@@ -13,7 +13,7 @@ nocover: "/img/front-bg.jpg"
   <ul class="recent-posts">
     {% for post in paginator.posts %}
     <li>
-      <a href="{{ site.baseurl }}{{ post.url }}">
+      <a href="/{{ post.url }}">
         <div>
           <span class="title">{{ post.title }}</span>
           <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
