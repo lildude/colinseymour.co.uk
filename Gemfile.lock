@@ -150,7 +150,6 @@ PLATFORMS
 DEPENDENCIES
   github-pages (= 44)
   html-proofer!
-  jekyll-paginate
   jekyll-sitemap
   jemoji
   reduce

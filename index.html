@@ -5,13 +5,9 @@ nocover: "/img/front-bg.jpg"
 ---
 
 <div class="container content">
-  {% if paginator.page == 1 %}
   <h3>Latest Posts</h3>
-  {% else %}
-  <h3>Older Posts</h3>
-  {% endif %}
   <ul class="recent-posts">
-    {% for post in paginator.posts %}
+    {% for post in site.posts limit:10 %}
     <li>
       <a href="{{ post.url }}">
         <div>
@@ -22,19 +18,8 @@ nocover: "/img/front-bg.jpg"
     </li>
     {% endfor %}
   </ul>
-  <div class="pagination">
-    {% if paginator.next_page %}
-      <a class="pagination-item older" href="{{ site.baseurl }}/page{{paginator.next_page}}">&laquo; Older</a>
-    {% endif %}
-    {% if paginator.previous_page %}
-      {% if paginator.page == 2 %}
-        <a class="pagination-item newer" href="{{ site.baseurl }}/">Newer &raquo;</a>
-      {% else %}
-        <a class="pagination-item newer" href="{{ site.baseurl }}/page{{paginator.previous_page}}">Newer &raquo;</a>
-      {% endif %}
-    {% endif %}
-  </div>
-  {% if paginator.page == 1 %}
+  <a href="/archives">Older posts &raquo;</a>
+
   <section class="instagram-photos">
     <h3>Latest Instagram Photos</h3>
     <script src="/js/instafeed.min.js"></script>
@@ -49,5 +34,4 @@ nocover: "/img/front-bg.jpg"
     </script>
     <div id="instafeed"></div>
   </section>
-  {% endif %}
 </div>
