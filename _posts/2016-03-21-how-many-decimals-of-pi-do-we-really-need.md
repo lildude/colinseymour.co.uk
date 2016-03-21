@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How Many Decimals of Pi Do We Really Need?"
-date: 2016-03-21 11:25:29 +0000
+date: 2016-03-21 11:56:34 +0000
 tags:
 - science
 - mathematics
