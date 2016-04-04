@@ -164,6 +164,7 @@ body {
 }
 img {
 	border: 0;
+  max-width: 100%;
 	&.alignleft {
 		float: left;
 		margin-right: 10px;
@@ -568,7 +569,6 @@ b {
 }
 strong {
 	@extend %extend_1;
-	font-weight: 400;
 	color: $color_log_cabin_approx;
 	em {
 		font-family: $font_2, $font_3;
