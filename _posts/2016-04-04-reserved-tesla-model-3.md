@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I've Reserved a Tesla Model 3"
-date: 2016-04-04 09:52:18 +0100
+date: 2016-04-04 10:11:24 +0100
 tags:
 - Tesla
 - car
