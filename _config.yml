@@ -45,7 +45,7 @@ redcarpet:
 
 kramdown:
   input:            GFM
-  smart_quotes:     ["apos", "apos", "quot", "quot"]
+  smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
 
 # Plugins
 gems:
