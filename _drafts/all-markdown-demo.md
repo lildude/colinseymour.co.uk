@@ -48,7 +48,7 @@ A [reference style][id] link. Input id, then anywhere in the doc, define the lin
 Titles ( or called tool tips ) in the links are optional.
 
 Redcarpet autolink extension: http://colinseymour.co.uk  _(CNS: Requires `autolink` Redcarpet extension.)_
-)
+Kramdown: just wrap in `<` and `>`, eg <http://colinseymour.co.uk>
 
 #### Images
 
@@ -62,16 +62,16 @@ A ![Resize icon][2] reference style image.
 
 Inline code are surround by `backtick` key. To create a block code:
 
-  Indent each line by at least 1 tab, or 4 spaces.
+    Indent each line by at least 1 tab, or 4 spaces.
     var Mou = exactlyTheAppIwant;
 
 ####  Ordered Lists
 
 Ordered lists are created using "1." + Space:
 
-1. Ordered list item
-2. Ordered list item
-3. Ordered list item
+0. Ordered list item
+0. Ordered list item
+0. Ordered list item
 
 #### Unordered Lists
 
@@ -86,6 +86,15 @@ Or using "-" + Space:
 - Unordered list item
 - Unordered list item
 - Unordered list item
+
+#### Reverse Ordered Lists
+
+0. Ordered list item
+0. Ordered list item
+0. Ordered list item
+{: reversed="reversed"}
+
+Requires Kramdown and uses the `{: reversed="reversed"}` syntax at the end of the list.
 
 #### Hard Linebreak
 
@@ -112,19 +121,24 @@ This is H1
 This is H2
 ----------
 
-atx-style:
+atx-style (requires a blank line after each):
 
 # This is H1
+
 ## This is H2
+
 ### This is H3
+
 #### This is H4
+
 ##### This is H5
+
 ###### This is H6
 
 ### Extra Syntax
 
 #### Footnotes
-_(CNS: Requires `footnotes` Redcarpet extension.)_
+_(CNS: Requires `footnotes` Redcarpet extension. Just works with Kramdown.)_
 
 Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
@@ -133,7 +147,7 @@ That's some text with a footnote.[^1]
 [^1]: And that's the footnote.
 
 #### Strikethrough
-_(CNS: Requires `strikethrough` Redcarpet extension.)_
+_(CNS: Requires `strikethrough` Redcarpet extension. Not supported with Kramdown)_
 
 Wrap with 2 tilde characters:
 
@@ -150,7 +164,7 @@ a start and end fence lines to delimit the code block.
 ```
 
 #### Tables
-_(CNS: Requires `tables` Redcarpet extension.)_
+_(CNS: Requires `tables` Redcarpet extension. Just works with Kramdown.)_
 
 A simple table looks like this:  
 
@@ -176,7 +190,7 @@ Left         | Center        | Right
 ---
 
 #### Superscript
-_(CNS: Requires `superscript` Redcarpet extension.)
+_(CNS: Requires `superscript` Redcarpet extension. Not supported with Kramdown.)
 
 This is the 2^(nd) time I've done this, not the 3^rd.
 
@@ -210,9 +224,11 @@ This is the 2^(nd) time I've done this, not the 3^rd.
 
 <img src="/assets/proudlysa.gif" class="alignright" alt="right image" /> Fusce sem lacus, luctus vel dui ut, lobortis rhoncus velit. Nulla facilisi. Donec et erat accumsan purus dapibus vulputate sit amet sit amet tortor. Vestibulum eu vehicula felis. Suspendisse a enim at justo porttitor luctus. Proin ac urna sapien. Curabitur non aliquam neque. Donec tincidunt, nisi sit amet ullamcorper interdum, magna mi imperdiet lorem, sit amet sagittis neque nulla at enim. Morbi efficitur viverra nibh at tempus. Suspendisse molestie commodo posuere. Fusce aliquam fringilla dictum. Mauris viverra eleifend quam, sit amet vehicula est sagittis sit amet. Praesent lobortis nisi non tellus egestas porttitor.
 
+HTML:
 <img src="http://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg" class="center stretch" alt="center image" />
 
-
+Kramdown:
+![Smeee](http://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg 'Centered Image'){:class="center stretch"}
 
 ## Syntax Highlighting
 
