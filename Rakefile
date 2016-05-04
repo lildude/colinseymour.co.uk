@@ -101,7 +101,7 @@ task :deploy do
   ok_failed(system("git checkout -b gh-pages 1>/dev/null"))
 
   puts "\n## Generating _site content".yellow
-  ok_failed(system("bundle exec jekyll build --incremental 1> /dev/null"))
+  ok_failed(system("bundle exec jekyll build 1> /dev/null"))
 
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
