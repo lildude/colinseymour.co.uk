@@ -4,6 +4,7 @@ _site
 _stash
 .ruby-version
 .sass-cache
+.jekyll-metadata
 
 # Numerous always-ignore extensions
 *.diff
@@ -30,19 +31,3 @@ nbproject
 *.sublime-project
 *.sublime-workspace
 .idea
-
-# Komodo
-*.komodoproject
-.komodotools
-
-# grunt-html-validation
-validation-status.json
-validation-report.json
-
-# Folders to ignore
-node_modules
-
-#Temp for import only
-import.xml
-import.rb
-
