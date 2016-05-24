@@ -1,8 +1,9 @@
 require "rubygems"
 require "bundler/setup"
 require "stringex"
+require "reduce"
 require "yaml"
-require "html/proofer"
+require "html-proofer"
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
@@ -20,7 +21,8 @@ $site = config["url"].match(/(?<=https:\/\/)[a-z][^.]*/)[0]
 
 # usage rake new_post[my-new-post] or rake new_post['my new post'] or rake new_post (defaults to "new-post")
 desc "Begin a new post in #{posts_dir}"
-task :new, :title do |t, args|
+task :new, [:title, :bowfmt, :eowfmt] do |t, args|
+  args.with_defaults(:bowfmt => nil, :eowfmt => nil)
   title = args.title || get_stdin("Enter a title for your post: ")
   filename = "#{drafts_dir}/#{title.to_url}.#{new_post_ext}"
   if File.exist?(filename)
@@ -33,12 +35,31 @@ task :new, :title do |t, args|
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
     post.puts "tags:"
-    post.puts "- "
+    # Add week in review specific tags as these are the same
+    if title.include? "Week in Review:"
+      post.puts "- training\n- review"
+    else
+      post.puts "- "
+    end
     post.puts "type: post"
     post.puts "published: true"
     post.puts "---"
+    # Add img to top of week in review posts
+    if title.include? "Week in Review:"
+      post.puts "\n![Week in Review: #{args.bowfmt} - #{args.eowfmt}](/assets/week-in-review-#{args.bowfmt.gsub(/[\s']/,'')}-#{args.eowfmt.gsub(/[\s']/,'')}.png){:height=\"240\" width=\"840\" class=\"center\"}"
+    end
   end
   system "#{editor} #{filename}"
+end
+
+desc "New Week in Review post."
+task :wir do
+  now = DateTime.now
+  eow = now - now.wday
+  bow = eow - 6
+  bowfmt = (bow.mon == eow.mon) ? bow.strftime('%-d') : bow.strftime('%-d %b')
+  eowfmt = eow.strftime("%-d %b '%y")
+  Rake::Task["new"].invoke("Week in Review: #{bowfmt} - #{eow.strftime("%-d %b '%y")}", bowfmt, eowfmt)
 end
 
 desc "Publish a draft post in #{drafts_dir}"
@@ -101,7 +122,7 @@ task :deploy do
   ok_failed(system("git checkout -b gh-pages 1>/dev/null"))
 
   puts "\n## Generating _site content".yellow
-  ok_failed(system("bundle exec jekyll build --incremental 1> /dev/null"))
+  ok_failed(system("bundle exec jekyll build 1> /dev/null"))
 
   puts "\n## Removing _site from .gitignore".yellow
   ok_failed(system("sed -i '' -e 's/_site//g' .gitignore"))
@@ -129,17 +150,20 @@ task :deploy do
   ok_failed(system("git push origin master gh-pages --force 1>/dev/null"))
 end
 
-desc "HTML Proof site"
-task :htmlproof do
-  sh "bundle exec jekyll build"
-  HTML::Proofer.new("./_site", {
+desc "Test site"
+task :test do
+  sh "JEKYLL_ENV=test bundle exec jekyll build"
+  HTMLProofer.check_directory("./_site", {
+    :assume_extension => true,
+    :check_favicon => true,
+    :check_html => true,
     :disable_external => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => true,
     :verbose => true,
     :href_swap => {%r{(?<!\/)^\/{1}(?!\/)} => "https://#{$site}.co.uk/"}, # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
     :typhoeus => { :verbose => true, :followlocation => true },
-    :parallel => { :in_processes => 1}}).run
+    :parallel => { :in_processes => 3}}).run
 end
 
 desc "Generate and display locally"
