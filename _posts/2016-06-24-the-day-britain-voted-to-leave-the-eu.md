@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Day Britain Voted to Leave the EU"
-date: 2016-06-24 13:19:35 +0800
+date: 2016-06-24 14:26:13 +0800
 tags:
 - politics
 type: post
