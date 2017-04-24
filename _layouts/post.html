@@ -6,10 +6,6 @@ layout: default
   <div class="date">
     {{ page.date | date: "%d %B %Y" }}
   </div>
-  {% assign word_count = page.content | strip_html | number_of_words %}
-  {% if word_count > 100 %}
-  {% include google-adsense-responsive.html %}
-  {% endif %}
   {{ content }}
   <div class="closing">
     {% if page.next.url %}
@@ -35,5 +31,4 @@ layout: default
       </a>
     {% endif %}
   </div>
-  {% include google-adsense-responsive.html %}
 </div>
