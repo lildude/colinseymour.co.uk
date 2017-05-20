@@ -49,8 +49,8 @@ kramdown:
 
 # Plugins
 gems:
-  - jemoji
   - jekyll-sitemap
+  - jekyll-json-feed
   #- jekyll-paginate
 
 # Don't copy these files to the generated site
