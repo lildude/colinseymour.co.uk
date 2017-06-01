@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Comrades Preparation is So Hard"
-date: 2017-06-01 18:35:03 +0200
+date: 2017-06-01 19:22:17 +0200
 tags:
 - Comrades
 - holiday
