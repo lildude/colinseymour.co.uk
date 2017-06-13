@@ -3,10 +3,6 @@ ColinSeymour.co.uk
 
 This is the source repository for [colinseymour.co.uk](http://colinseymour.co.uk).
 
-This is really of no interest to anyone other than me and is for the moment a scratchpad documenting my migration of this site from Habari to Jekyll and then possibly on to GitHub Pages.
-
-
-
 ## How I deploy to my own server
 
 - Add a new remote that is on my hosting server:

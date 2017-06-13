@@ -51,6 +51,7 @@ kramdown:
 gems:
   - jekyll-sitemap
   - jekyll-json-feed
+  - jekyll-seo-tag
   #- jekyll-paginate
 
 # Don't copy these files to the generated site
