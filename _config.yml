@@ -34,14 +34,10 @@ compress_html:
   clippings:        all
   comments:         ["<!-- ", " -->"]
   endings:          all
-  startings: [html, body]  # We need the <head> as Google Site verification needs it.
+  startings:        [html, body]  # We need the <head> as Google Site verification needs it.
   ignore:
-    envs:           []
+    envs:           [test, local]
   profile:          false
-
-# Configure RedCarpet
-redcarpet:
-  extensions:       [tables, autolink, strikethrough, footnotes, superscript]
 
 kramdown:
   input:            GFM
