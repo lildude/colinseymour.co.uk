@@ -15,7 +15,7 @@ layout: default
       {% else %}
       <a class="newer" href="{{page.next.url | remove: '.html'}}">
       {% endif %}
-        <strong>Newer →</strong>
+        <strong>Newer &raquo;</strong>
         {{page.next.title}}
       </a>
     {% endif %}
@@ -26,7 +26,7 @@ layout: default
       {% else %}
       <a class="older" href="{{page.previous.url | remove: '.html'}}">
       {% endif %}
-        <strong>← Older</strong>
+        <strong>&laquo; Older</strong>
         {{page.previous.title}}
       </a>
     {% endif %}
