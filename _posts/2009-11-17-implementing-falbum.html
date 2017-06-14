@@ -58,7 +58,7 @@ published: true
 <h5>404 Error on Album Pages</h5>
 <p>You may get 404 errors if you use the paging within Falbum, friendly URLs and this method.  This is caused by the following line which Wordpress adds to your .htaccess file:</p>
 <pre lang="text">
-RewriteRule ^(photos)/page/?([0-9]{1,})/?$ /blog/index.php?pagename=$1&paged=$2 [QSA,L]
+RewriteRule ^(photos)/page/?([0-9]{1,})/?$ /blog/index.php?pagename=$1&amp;paged=$2 [QSA,L]
 </pre>
 <p>Just comment this out and the 404 errors in paging will stop.
 </li>
@@ -81,11 +81,11 @@ RewriteRule ^(photos)/page/?([0-9]{1,})/?$ /blog/index.php?pagename=$1&paged=$2 
 <p>Once again K2 is at fault here.  It bases the tab highlighting on what Wordpress knows about the different pages/sub-pages.  As Falbum doesn't implement Wordpress style pages or sub-pages, the tab highlighting tends to work on the album listings, but then goes back to the default tab.</p>
 <p>I've solved this by changing the tab selection code in the K2 header.php to the following:</p>
 <pre lang="php">
-&lt;li class="page_item &lt;?php if ( ( (is_home()) && !(is_paged()) ) && 
+&lt;li class="page_item &lt;?php if ( ( (is_home()) &amp;&amp; !(is_paged()) ) &amp;&amp;
     !(strpos($_SERVER['REQUEST_URI'], 'gallery')) ) { ?&gt;
 current_page_item &lt;?php } ?&gt;">
       &lt;a href="&lt;?php echo get_settings('home'); ?&gt;"&gt;Blog&lt;/a&gt;&lt;/li&gt;
-      &lt;?php $menu = wp_list_pages('sort_column=menu_order&depth=1&echo=0&title_li=');
+      &lt;?php $menu = wp_list_pages('sort_column=menu_order&amp;depth=1&amp;echo=0&amp;title_li=');
           $lines = split("\n", $menu);
           foreach ($lines as $line) {
              $url = split('/', $line);

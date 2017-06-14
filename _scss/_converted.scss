@@ -160,7 +160,8 @@ header {
 		//Instead of the line below you could use @includetransition($transition-1, $transition-2, $transition-3, $transition-4, $transition-5, $transition-6, $transition-7, $transition-8, $transition-9, $transition-10)
 		transition: opacity 0.3s ease;
 		// Take the logo.svg and bung it here. It was created in Sketch and bunged through http://petercollingridge.appspot.com/svg-editor
-    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" version="1.1"><title>logo-inverted</title><desc>Created with Sketch.</desc><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><path d="M25 50C38.81 50 50 38.81 50 25 50 11.19 38.81 0 25 0 11.19 0 0 11.19 0 25 0 38.81 11.19 50 25 50Z" fill="#FFFFFF"/><path d="M32.98 18.57C31.12 16.39 28.32 15 25.18 15 19.56 15 15 19.48 15 25 15 30.52 19.56 35 25.18 35L25.18 35C28.95 35 32.24 32.99 34 30.01" stroke="#F24C4E" stroke-width="7.31"/></g></svg>') no-repeat center center;
+    // All < have been replaced with %3C and all > with %3E
+    background: url('data:image/svg+xml;utf8,%3Csvg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 50 50" version="1.1"%3E%3Ctitle%3Elogo-inverted%3C/title%3E%3Cdesc%3ECreated with Sketch.%3C/desc%3E%3Cg stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"%3E%3Cpath d="M25 50C38.81 50 50 38.81 50 25 50 11.19 38.81 0 25 0 11.19 0 0 11.19 0 25 0 38.81 11.19 50 25 50Z" fill="#FFFFFF"/%3E%3Cpath d="M32.98 18.57C31.12 16.39 28.32 15 25.18 15 19.56 15 15 19.48 15 25 15 30.52 19.56 35 25.18 35L25.18 35C28.95 35 32.24 32.99 34 30.01" stroke="#F24C4E" stroke-width="7.31"/%3E%3C/g%3E%3C/svg%3E') no-repeat center center;
     z-index: 1;
 		&:hover {
 			opacity: 1;

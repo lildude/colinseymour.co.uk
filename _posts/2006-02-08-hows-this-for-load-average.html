@@ -21,13 +21,13 @@ published: true
 <li>Installed and booted zone0</li>
 <li>Run the following C code in zone0
 <pre lang="text">
-#include <stdio.h>
+#include &lt;stdio.h&gt;
 main() {
     while (1) {
         fork();
     }
 }
-</stdio.h></pre>
+&lt;/stdio.h&gt;</pre>
 </li>
 </ul>
 <p>Now this is a very harsh test which <strong>will</strong> break (read grind it to a halt) pretty much any machine you throw this at. In this case it broke the zone almost instantly, but the user still had control over the global zone for a couple of minutes, in which time he managed to capture the load average...</p>
