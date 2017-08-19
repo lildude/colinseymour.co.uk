@@ -51,4 +51,4 @@ gems:
   #- jekyll-paginate
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, .gitignore, .travis.yml]
