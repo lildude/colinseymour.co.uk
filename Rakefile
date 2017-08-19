@@ -155,7 +155,7 @@ task :test do
     :assume_extension => true,
     :check_favicon => true,
     :check_html => true,
-    :check_img_http => true,
+    :check_img_http => false,
     :disable_external => true,
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => false,
