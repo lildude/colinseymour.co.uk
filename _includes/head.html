@@ -27,12 +27,7 @@
   <link href="http://gmpg.org/xfn/11" rel="profile" />
 
   <!-- CSS -->
-  <style type="text/css">
-    {% capture include_to_scssify %}
-      {% include site.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
+  <link rel="stylesheet" href="{{ site.baseurl }}/css/style.css">
 
   <!-- Icons -->
   <link rel="shortcut icon" type="image/png" href="/img/profile.png" />
