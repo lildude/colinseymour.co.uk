@@ -6,7 +6,10 @@
   {% if jekyll.environment != 'local' %}
   <base href="{{ site.url }}">
   {% endif %}
-
+  <!-- DNS Prefetching of the resources I used -->
+  <link rel="dns-prefetch" href="//d33wubrfki0l68.cloudfront.net">
+  <link rel="dns-prefetch" href="//www.google-analytics.com">
+  
   <link rel="canonical" href="{{ site.url }}{{ page.url | remove:'index.html' | remove:'.html' }}" />
   <link href="{{ site.url }}/atom.xml" rel="alternate" title="{{ site.title }} - Atom Feed" type="application/atom+xml" />
   {% json_feed_meta %}
