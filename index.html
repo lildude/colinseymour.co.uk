@@ -7,7 +7,7 @@ nocover: "/img/front-bg.jpg"
 <div class="container content">
   <h3>Latest Posts</h3>
   <ul class="recent-posts">
-    {% for post in site.posts limit:20 %}
+    {% for post in site.posts limit:30 %}
     <li>
       <a href="{{ post.url }}">
         <div>
@@ -24,20 +24,4 @@ nocover: "/img/front-bg.jpg"
     {% endfor %}
   </ul>
   <a href="/archives">Older posts &raquo;</a>
-
-  <section class="instagram-photos">
-    <h3>Latest Instagram Photos</h3>
-    <script src="/js/instafeed.min.js"></script>
-    <script type="text/javascript">
-      var feed = new Instafeed({
-        get: 'user',
-        userId: '45852486',
-        clientId: 'c24639f101144d32b11e8991ff42875b',
-        accessToken: '45852486.c24639f.a4e127e5d6d74b41866c3b34765aad76',
-        limit: '4',
-      });
-      feed.run();
-    </script>
-    <div id="instafeed"></div>
-  </section>
 </div>
