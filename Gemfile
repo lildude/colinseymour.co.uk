@@ -8,6 +8,7 @@ gem 'jekyll-json-feed'
 
 group :development, :test do
   gem 'rake'
+  gem 'stringex'
   gem 'httpclient'
   gem 'html-proofer'
 end
