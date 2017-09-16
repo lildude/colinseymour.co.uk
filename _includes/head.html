@@ -55,7 +55,13 @@ Come back to this if I decide to go with a larger header on pages
   <a href="/"><div class="logo"></div></a>
 
   <div class="hero"{% if page.cover %} style="background-image: url({{ page.cover }});"{% endif %}>
-    <h1>{% if page.type == "post" %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
+    <h1>{% if page.type == "post" %}
+      {% unless page.tags contains "shorts" or page.tags contains "aside" or page.tags contains "note" %}
+      {{ page.title }}
+      {% else %}
+      {{ site.title }}
+      {% endunless %}
+      {% else %}{{ site.title }}{% endif %}</h1>
   </div>
 
 </header>

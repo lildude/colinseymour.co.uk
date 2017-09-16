@@ -11,7 +11,13 @@ nocover: "/img/front-bg.jpg"
     <li>
       <a href="{{ post.url }}">
         <div>
+          {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" %}
+          <span class="title"><svg class="i-moleskin" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
+            <path d="M2 6 L2 30 30 30 30 6 Z M2 22 L30 22 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
+          </svg> {{ post.content | strip_html | truncatewords: 8 }}</span>
+          {% else %}
           <span class="title">{{ post.title }}</span>
+          {% endif %}
           <span class="date">{{ post.date | date: "%d %B %Y" }}</span>
         </div>
       </a>

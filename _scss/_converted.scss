@@ -294,6 +294,9 @@ header {
 			border-color: $primary_color;
 		}
 	}
+  .archives a {
+    border-bottom: none;
+  }
   .pagination {
     padding-bottom: 2rem;
     a.pagination-item {
@@ -317,6 +320,16 @@ header {
 		//Instead of the line below you could use @includeborder-radius($radius, $vertical-radius)
 		border-radius: 5px;
 	}
+
+  svg {
+    vertical-align: middle;
+    stroke: #454E55;
+  }
+
+  .i-moleskin {
+    transform: rotate(270deg);
+  }
+
 
   #instafeed {
     img {
