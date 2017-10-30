@@ -6,7 +6,6 @@ require 'stringex'
 
 ## -- Misc Configs -- ##
 public_dir      = "_site"     # compiled site directory
-stash_dir       = "_stash"    # directory to stash posts for speedy generation
 drafts_dir      = "_drafts"   # directory for draft files
 posts_dir       = "_posts"    # directory for blog files
 new_post_ext    = "md"        # default new post file extension when using the new_post task
@@ -33,20 +32,9 @@ task :new, [:title, :bowfmt, :eowfmt] do |t, args|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M:%S %z')}"
-    post.puts "tags:"
-    # Add week in review specific tags as these are the same
-    if title.include? "Week in Review:"
-      post.puts "- training\n- review"
-    else
-      post.puts "- "
-    end
+    post.puts "tags: \n-"
     post.puts "type: post"
-    post.puts "published: true"
     post.puts "---"
-    # Add img to top of week in review posts
-    if title.include? "Week in Review:"
-      post.puts "\n![Week in Review: #{args.bowfmt} - #{args.eowfmt}](/assets/week-in-review-#{args.bowfmt.gsub(/[\s']/,'')}-#{args.eowfmt.gsub(/[\s']/,'')}.png){:height=\"240\" width=\"840\" class=\"center\"}"
-    end
   end
   system "#{editor} #{filename}"
 end
@@ -71,16 +59,6 @@ task :note do
     post.puts "---"
   end
   system "#{editor} #{filename}"
-end
-
-desc "New Week in Review post."
-task :wir do
-  now = DateTime.now
-  eow = now - now.wday
-  bow = eow - 6
-  bowfmt = (bow.mon == eow.mon) ? bow.strftime('%-d') : bow.strftime('%-d %b')
-  eowfmt = eow.strftime("%-d %b '%y")
-  Rake::Task["new"].invoke("Week in Review: #{bowfmt} - #{eow.strftime("%-d %b '%y")}", bowfmt, eowfmt)
 end
 
 desc "Publish a draft post in #{drafts_dir}"
@@ -128,11 +106,6 @@ end
 
 desc "Deploy master to Digital Ocean using rsync and copy _site/ to gh-pages branch and push to GitHub repo."
 task :deploy do
-  unless Dir.glob("#{stash_dir}/*.*").empty?
-    puts "ERROR: #{stash_dir} is not empty. Unstash and try again".red
-    exit
-  end
-
   # This only produces output of there are files to minify.
   Rake::Task["minify"].execute
 
