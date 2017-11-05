@@ -7,8 +7,7 @@ permalink:          :title
 
 # Setup
 title:              Colin Seymour
-tagline:            You Know This Boogie Is For Real
-meta_description:   "lildude rocking the tech world."
+description:        You Know This Boogie Is For Real
 baseurl:            ""
 url:                https://colinseymour.co.uk
 logo:               true
@@ -17,10 +16,8 @@ theme:              minima-dude
 #paginate:           10
 
 # Author
-author:
-  name:             'Colin Seymour'
-  twitter:          'lildude'
-  description:      "Colin is a running, jumping, hopping, skipping genius of a guy."
+author:             'Colin Seymour'
+twitter_username:   'lildude'
 
 # Google
 google_analytics:   'UA-118457-1'
@@ -46,7 +43,7 @@ kramdown:
   smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
 
 # Plugins
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-json-feed
   - jekyll-seo-tag
