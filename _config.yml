@@ -13,6 +13,7 @@ baseurl:            ""
 url:                https://colinseymour.co.uk
 logo:               true
 lang:               en-GB
+theme:              minima-dude
 #paginate:           10
 
 # Author
