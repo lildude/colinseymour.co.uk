@@ -6,9 +6,8 @@ GIT
     jekyll-seo-tag (2.0.0)
       jekyll (~> 3.1)
 
-GIT
-  remote: https://github.com/lildude/minima-dude
-  revision: 991897625fe2b2d8c1e447541dfa86f59b4f64f2
+PATH
+  remote: /Users/lildude/Sites/static/minima-dude
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
