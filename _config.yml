@@ -47,7 +47,12 @@ plugins:
   - jekyll-sitemap
   - jekyll-json-feed
   - jekyll-seo-tag
+  - jekyll-feed
   #- jekyll-paginate
+
+# Plugin-specific configs
+feed:
+  path: atom.xml
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor]

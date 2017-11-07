@@ -52,6 +52,8 @@ GEM
       pathutil (~> 0.9)
       rouge (>= 1.7, < 3)
       safe_yaml (~> 1.0)
+    jekyll-feed (0.9.2)
+      jekyll (~> 3.3)
     jekyll-json-feed (1.0.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.0)
@@ -100,6 +102,7 @@ DEPENDENCIES
   html-proofer
   httpclient
   jekyll
+  jekyll-feed
   jekyll-json-feed
   jekyll-seo-tag!
   jekyll-sitemap
