@@ -12,6 +12,7 @@ meta_description:   "lildude rocking the tech world."
 baseurl:            ""
 url:                https://colinseymour.co.uk
 logo:               true
+lang:               en-GB
 #paginate:           10
 
 # Author
@@ -48,6 +49,7 @@ gems:
   - jekyll-sitemap
   - jekyll-json-feed
   - jekyll-seo-tag
+  - jekyll-feed
   #- jekyll-paginate
 
 # Disable excerpts

@@ -294,6 +294,9 @@ header {
 			border-color: $primary_color;
 		}
 	}
+  .archives a {
+    border-bottom: none;
+  }
   .pagination {
     padding-bottom: 2rem;
     a.pagination-item {
@@ -323,6 +326,16 @@ header {
     fill: #666;
     vertical-align: text-bottom;
   }
+
+  svg {
+    vertical-align: middle;
+    stroke: #454E55;
+  }
+
+  .i-moleskin {
+    transform: rotate(270deg);
+  }
+
 
   #instafeed {
     img {
