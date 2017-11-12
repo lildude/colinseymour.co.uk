@@ -16,7 +16,7 @@ Timeless Songs of All-time](http://poly-graph.co/timeless/).  This is a really i
 
 The top ten tracks from the 90s, as played up to 2014, are:
 
-![Timeless 90s Classics](/assets/timeless90s.png){:class="center"}
+![Timeless 90s Classics](/img/timeless90s.png){:class="center"}
 
 For those not too interested in reading the whole article and playing with the fancy graphs etc, the top ten in reverse order by play count are:
 

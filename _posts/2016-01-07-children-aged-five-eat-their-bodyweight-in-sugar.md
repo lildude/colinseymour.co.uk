@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-![Sugar Boy](/assets/Sugar-Boy.jpg)
+![Sugar Boy](/img/Sugar-Boy.jpg)
 
 > Children aged five are consuming their bodyweight in sugar each year, health experts have warned.
 >

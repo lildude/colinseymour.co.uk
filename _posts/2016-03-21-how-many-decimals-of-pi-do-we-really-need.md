@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<img src="/assets/pi_graphic.png" class="center" alt="Pi" width="640" height="350" />
+<img src="/img/pi_graphic.png" class="center" alt="Pi" width="640" height="350" />
 
 You've probably seen many different methods of how to memorise the first 100 digits of pi, like [this one](http://mentalfloss.com/article/72360/remember-first-100-digits-pi-using-basic-technique) or [this one](http://www.michael-hogg.co.uk/pi.php) but have you ever thought how practically useful this would be?  I have and so did a [NASA-JPL fan recently](http://www.jpl.nasa.gov/edu/news/2016/3/16/how-many-decimals-of-pi-do-we-really-need/).
 
