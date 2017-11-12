@@ -9,7 +9,7 @@ type: post
 published: true
 ---
 
-<img src="/assets/tesla-model3.jpg" alt="Tesla Model 3" />
+<img src="/img/tesla-model3.jpg" alt="Tesla Model 3" />
 
 I've been a long time fan of the [Tesla Model S](https://www.teslamotors.com/en_GB/models?redirect=no) and love the whole idea behind Tesla's retail model and company philosophy but there was no way I could justify stumping up so much money for a car.  Yes, it's an amazing car, but waaaay too expensive for me.
 
@@ -17,6 +17,6 @@ Not anymore.  The [Model 3](https://www.teslamotors.com/en_GB/model3) looks good
 
 **Update**: I've just received my confirmation...
 
-<img src="/assets/Tesla-confirmation.png" alt="Tesla reservation confirmation" />
+<img src="/img/Tesla-confirmation.png" alt="Tesla reservation confirmation" />
 
 Soooo excited.

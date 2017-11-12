@@ -10,7 +10,7 @@ published: true
 
 For good or bad, 23 June 2016 will go down in history as the day Britain voted to leave the European Union; the first country to do so.
 
-![EU Referendum](/assets/brexit-results.png){:width="920" class="center"}
+![EU Referendum](/img/brexit-results.png){:width="920" class="center"}
 
 Where was I when this went down?  Singapore, the fourth most expensive city in the world, for [RedDotRubyConf](http://www.reddotrubyconf.com/), and it literally got more expensive for me overnight as the [Pound took a hammering too](http://www.bbc.com/news/business-36611512).
 
