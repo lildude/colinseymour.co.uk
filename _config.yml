@@ -53,9 +53,11 @@ plugins:
 # Plugin-specific configs
 feed:
   path: atom.xml
+# Disable excerpts
+excerpt_separator: ""
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor]
+exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, img/src]
 # Include _headers, else they don't take effect
 include: [_headers]
 # Don't attempt to process these - ie leave as-is
