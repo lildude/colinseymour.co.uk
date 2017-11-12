@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Sa_n-zpt2P/
 ---
 
-![Instagram - Sa_n-zpt2P](/assets/Sa_n-zpt2P.jpg){:class="instagram"}
+![Instagram - Sa_n-zpt2P](/img/Sa_n-zpt2P.jpg){:class="instagram"}
 
 Pork Scratchings Warning

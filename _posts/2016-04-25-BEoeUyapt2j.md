@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEoeUyapt2j/
 ---
 
-![Instagram - BEoeUyapt2j](/assets/BEoeUyapt2j.jpg){:class="instagram"}
+![Instagram - BEoeUyapt2j](/img/BEoeUyapt2j.jpg){:class="instagram"}
 
 I'll be munching my dinner with this view tonight.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BWj7uyGFZaa/
 ---
 
-![Instagram - BWj7uyGFZaa](/assets/BWj7uyGFZaa.jpg){:class="instagram"}
+![Instagram - BWj7uyGFZaa](/img/BWj7uyGFZaa.jpg){:class="instagram"}
 
 I grew one of these from one of those I carried back from the 🇺🇸#kombucha

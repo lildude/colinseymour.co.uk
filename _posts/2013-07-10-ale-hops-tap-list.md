@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/bmJVHdJtyo/
 ---
 
-![Instagram - bmJVHdJtyo](/assets/bmJVHdJtyo.jpg){:class="instagram"}
+![Instagram - bmJVHdJtyo](/img/bmJVHdJtyo.jpg){:class="instagram"}
 
 Ale & Hop's Tap List | We found Barcelona's best location for beer choice tonight. This just what's on tap, the bottle selection is huge.

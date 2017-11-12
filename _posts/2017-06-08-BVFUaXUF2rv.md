@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BVFUaXUF2rv/
 ---
 
-![Instagram - BVFUaXUF2rv](/assets/BVFUaXUF2rv.jpg){:class="instagram"}
+![Instagram - BVFUaXUF2rv](/img/BVFUaXUF2rv.jpg){:class="instagram"}
 
 Great view of Lion's Head from our AirBnB

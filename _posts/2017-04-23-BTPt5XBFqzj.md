@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BTPt5XBFqzj/
 ---
 
-![Instagram - BTPt5XBFqzj](/assets/BTPt5XBFqzj.jpg){:class="instagram"}
+![Instagram - BTPt5XBFqzj](/img/BTPt5XBFqzj.jpg){:class="instagram"}
 
 Holy cow!!! I would, but it's only got 7 bedrooms and 11 (!?) bathrooms 🙀

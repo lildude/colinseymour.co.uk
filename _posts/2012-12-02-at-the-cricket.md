@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Su3g6-ptw8/
 ---
 
-![Instagram - Su3g6-ptw8](/assets/Su3g6-ptw8.jpg){:class="instagram"}
+![Instagram - Su3g6-ptw8](/img/Su3g6-ptw8.jpg){:class="instagram"}
 
 At the Cricket

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/bA-0qOJt4s/
 ---
 
-![Instagram - bA-0qOJt4s](/assets/bA-0qOJt4s.jpg){:class="instagram"}
+![Instagram - bA-0qOJt4s](/img/bA-0qOJt4s.jpg){:class="instagram"}
 
 Man-sized Tiffin | Now that's a huge set of tiffin tins. Actually a great idea for transporting large pots of food

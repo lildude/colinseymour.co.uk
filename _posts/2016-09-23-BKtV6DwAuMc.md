@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BKtV6DwAuMc/
 ---
 
-![Instagram - BKtV6DwAuMc](/assets/BKtV6DwAuMc.jpg){:class="instagram"}
+![Instagram - BKtV6DwAuMc](/img/BKtV6DwAuMc.jpg){:class="instagram"}
 
 Dear 🎅, I'd like this teeny weeny stein full of beer for 🎄please. Thx

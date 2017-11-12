@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMLAtIwhITq/
 ---
 
-![Instagram - BMLAtIwhITq](/assets/BMLAtIwhITq.jpg){:class="instagram"}
+![Instagram - BMLAtIwhITq](/img/BMLAtIwhITq.jpg){:class="instagram"}
 
 "No Fluffy. The people in this very expensive block of apartments don't want you mark your territory. Hold it one more block"

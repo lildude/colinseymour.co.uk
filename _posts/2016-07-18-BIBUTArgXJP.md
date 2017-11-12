@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BIBUTArgXJP/
 ---
 
-![Instagram - BIBUTArgXJP](/assets/BIBUTArgXJP.jpg){:class="instagram"}
+![Instagram - BIBUTArgXJP](/img/BIBUTArgXJP.jpg){:class="instagram"}
 
 I made a new friend.

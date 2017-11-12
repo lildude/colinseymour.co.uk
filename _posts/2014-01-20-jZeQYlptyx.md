@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/jZeQYlptyx/
 ---
 
-![Instagram - jZeQYlptyx](/assets/jZeQYlptyx.jpg){:class="instagram"}
+![Instagram - jZeQYlptyx](/img/jZeQYlptyx.jpg){:class="instagram"}
 
 Garden Court | What a place to dine at the Palace Hotel.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMpsckdhFZK/
 ---
 
-![Instagram - BMpsckdhFZK](/assets/BMpsckdhFZK.jpg){:class="instagram"}
+![Instagram - BMpsckdhFZK](/img/BMpsckdhFZK.jpg){:class="instagram"}
 
 Really!?

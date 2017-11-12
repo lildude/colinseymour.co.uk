@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BYeY7yClLbk/
 ---
 
-![Instagram - BYeY7yClLbk](/assets/BYeY7yClLbk.jpg){:class="instagram"}
+![Instagram - BYeY7yClLbk](/img/BYeY7yClLbk.jpg){:class="instagram"}
 
 I'll have a sipping rum please barman.

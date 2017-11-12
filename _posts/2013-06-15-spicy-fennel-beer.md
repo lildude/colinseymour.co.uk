@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/alcX45Jtx1/
 ---
 
-![Instagram - alcX45Jtx1](/assets/alcX45Jtx1.jpg){:class="instagram"}
+![Instagram - alcX45Jtx1](/img/alcX45Jtx1.jpg){:class="instagram"}
 
 Spicy Fennel Beer | Now this is an extra-ordinary beer. I've never had a liquorice tasting beer before.

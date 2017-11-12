@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BKtCqt-gJYm/
 ---
 
-![Instagram - BKtCqt-gJYm](/assets/BKtCqt-gJYm.jpg){:class="instagram"}
+![Instagram - BKtCqt-gJYm](/img/BKtCqt-gJYm.jpg){:class="instagram"}
 
 Children, selling beer since 1394

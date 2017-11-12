@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/RVls41pt2a/
 ---
 
-![Instagram - RVls41pt2a](/assets/RVls41pt2a.jpg){:class="instagram"}
+![Instagram - RVls41pt2a](/img/RVls41pt2a.jpg){:class="instagram"}
 
 Tonight's #LCHF Dinner

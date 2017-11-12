@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/OKhfLHJtwg/
 ---
 
-![Instagram - OKhfLHJtwg](/assets/OKhfLHJtwg.jpg){:class="instagram"}
+![Instagram - OKhfLHJtwg](/img/OKhfLHJtwg.jpg){:class="instagram"}
 
 When I see a penny I normally pick it up, I'm not picking this one up

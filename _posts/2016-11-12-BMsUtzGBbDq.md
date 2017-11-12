@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMsUtzGBbDq/
 ---
 
-![Instagram - BMsUtzGBbDq](/assets/BMsUtzGBbDq.jpg){:class="instagram"}
+![Instagram - BMsUtzGBbDq](/img/BMsUtzGBbDq.jpg){:class="instagram"}
 
 Oh come on! Surely the African ☀️& 🖥 haven't aged me that badly. I've not been carded yet & I'm on my 2nd drink of the night 😭 #SadNotToBeCardedAsAFogey

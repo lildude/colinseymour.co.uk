@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BJ2ivPJgXUB/
 ---
 
-![Instagram - BJ2ivPJgXUB](/assets/BJ2ivPJgXUB.jpg){:class="instagram"}
+![Instagram - BJ2ivPJgXUB](/img/BJ2ivPJgXUB.jpg){:class="instagram"}
 
 You'd never say I was in Jo'burg

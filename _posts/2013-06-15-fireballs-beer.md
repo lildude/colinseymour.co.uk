@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/aljBnCJt-O/
 ---
 
-![Instagram - aljBnCJt-O](/assets/aljBnCJt-O.jpg){:class="instagram"}
+![Instagram - aljBnCJt-O](/img/aljBnCJt-O.jpg){:class="instagram"}
 
 Fireballs Beer | Unbelievable! They've made a beer that tastes like the fireballs I ate as a kid.

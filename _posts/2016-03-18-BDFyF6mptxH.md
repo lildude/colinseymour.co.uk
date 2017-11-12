@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BDFyF6mptxH/
 ---
 
-![Instagram - BDFyF6mptxH](/assets/BDFyF6mptxH.jpg){:class="instagram"}
+![Instagram - BDFyF6mptxH](/img/BDFyF6mptxH.jpg){:class="instagram"}
 
 Nearly £26 from my teeny weeny penny jar.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/UdV0aSJtwK/
 ---
 
-![Instagram - UdV0aSJtwK](/assets/UdV0aSJtwK.jpg){:class="instagram"}
+![Instagram - UdV0aSJtwK](/img/UdV0aSJtwK.jpg){:class="instagram"}
 
 Snow Flower | Probably the only flower you'll see outdoors at the mo is on our balcony and covered in snow

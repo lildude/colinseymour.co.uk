@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBtCTrFJt0X/
 ---
 
-![Instagram - BBtCTrFJt0X](/assets/BBtCTrFJt0X.jpg){:class="instagram"}
+![Instagram - BBtCTrFJt0X](/img/BBtCTrFJt0X.jpg){:class="instagram"}
 
 Live music in Austin airport, after security!

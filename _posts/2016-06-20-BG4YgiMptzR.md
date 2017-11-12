@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BG4YgiMptzR/
 ---
 
-![Instagram - BG4YgiMptzR](/assets/BG4YgiMptzR.jpg){:class="instagram"}
+![Instagram - BG4YgiMptzR](/img/BG4YgiMptzR.jpg){:class="instagram"}
 
 Hotel rooms always have waaaay too many switches. Finally one that tells me what each does.

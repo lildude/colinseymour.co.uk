@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEwGfeLJt6H/
 ---
 
-![Instagram - BEwGfeLJt6H](/assets/BEwGfeLJt6H.jpg){:class="instagram"}
+![Instagram - BEwGfeLJt6H](/img/BEwGfeLJt6H.jpg){:class="instagram"}
 
 Nom nom.

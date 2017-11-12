@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBgLmwOpt5F/
 ---
 
-![Instagram - BBgLmwOpt5F](/assets/BBgLmwOpt5F.jpg){:class="instagram"}
+![Instagram - BBgLmwOpt5F](/img/BBgLmwOpt5F.jpg){:class="instagram"}
 
 What? Classic Seasoning isn't candy!? Easy mistake to make 😜

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBtJWD_Jtx_/
 ---
 
-![Instagram - BBtJWD_Jtx_](/assets/BBtJWD_Jtx_.jpg){:class="instagram"}
+![Instagram - BBtJWD_Jtx_](/img/BBtJWD_Jtx_.jpg){:class="instagram"}
 
 My ride.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NmK-xTptzP/
 ---
 
-![Instagram - NmK-xTptzP](/assets/NmK-xTptzP.jpg){:class="instagram"}
+![Instagram - NmK-xTptzP](/img/NmK-xTptzP.jpg){:class="instagram"}
 
 This is where I'm watching the opening ceremony. Where are you watching it?

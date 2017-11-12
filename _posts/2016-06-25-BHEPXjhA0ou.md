@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BHEPXjhA0ou/
 ---
 
-![Instagram - BHEPXjhA0ou](/assets/BHEPXjhA0ou.jpg){:class="instagram"}
+![Instagram - BHEPXjhA0ou](/img/BHEPXjhA0ou.jpg){:class="instagram"}
 
 Cold brew Symmetry style

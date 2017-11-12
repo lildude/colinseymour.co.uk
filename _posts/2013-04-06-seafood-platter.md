@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/XxH5BqptzD/
 ---
 
-![Instagram - XxH5BqptzD](/assets/XxH5BqptzD.jpg){:class="instagram"}
+![Instagram - XxH5BqptzD](/img/XxH5BqptzD.jpg){:class="instagram"}
 
 Seafood Platter | Splashed out for lunch today. Nom nom nom

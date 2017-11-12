@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/phcJJRpt_F/
 ---
 
-![Instagram - phcJJRpt_F](/assets/phcJJRpt_F.jpg){:class="instagram"}
+![Instagram - phcJJRpt_F](/img/phcJJRpt_F.jpg){:class="instagram"}
 
 Some people come up with the strangest band names

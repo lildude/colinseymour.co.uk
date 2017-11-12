@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/axSTaqJt9l/
 ---
 
-![Instagram - axSTaqJt9l](/assets/axSTaqJt9l.jpg){:class="instagram"}
+![Instagram - axSTaqJt9l](/img/axSTaqJt9l.jpg){:class="instagram"}
 
 The Tea Selection | The first hurdle you encounter when having a cuppa in the office in India

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BUymHwQFa4Y/
 ---
 
-![Instagram - BUymHwQFa4Y](/assets/BUymHwQFa4Y.jpg){:class="instagram"}
+![Instagram - BUymHwQFa4Y](/img/BUymHwQFa4Y.jpg){:class="instagram"}
 
 Breakfast of a LCHF/Banting #Comrades2017 champion (I won't be eating the hash brown)

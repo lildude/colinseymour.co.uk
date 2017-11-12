@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BLykoC9BzUd/
 ---
 
-![Instagram - BLykoC9BzUd](/assets/BLykoC9BzUd.jpg){:class="instagram"}
+![Instagram - BLykoC9BzUd](/img/BLykoC9BzUd.jpg){:class="instagram"}
 
 All that remains of Reading's "looks like the inside of a public toilet" building, Kings Point.

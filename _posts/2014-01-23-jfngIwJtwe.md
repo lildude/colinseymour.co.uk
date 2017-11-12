@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/jfngIwJtwe/
 ---
 
-![Instagram - jfngIwJtwe](/assets/jfngIwJtwe.jpg){:class="instagram"}
+![Instagram - jfngIwJtwe](/img/jfngIwJtwe.jpg){:class="instagram"}
 
 Pabst Blue Ribbon | Can I call myself a hipster now?

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BNlucXQgWL5/
 ---
 
-![Instagram - BNlucXQgWL5](/assets/BNlucXQgWL5.jpg){:class="instagram"}
+![Instagram - BNlucXQgWL5](/img/BNlucXQgWL5.jpg){:class="instagram"}
 
 Beautiful frosty morning for a 10 mile trump through the Berkshire countryside #nofilter

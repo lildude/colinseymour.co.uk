@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBZdGltpt2M/
 ---
 
-![Instagram - BBZdGltpt2M](/assets/BBZdGltpt2M.jpg){:class="instagram"}
+![Instagram - BBZdGltpt2M](/img/BBZdGltpt2M.jpg){:class="instagram"}
 
 Another double-yolker. Eating at least two eggs a day has its advantages.

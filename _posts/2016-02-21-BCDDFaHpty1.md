@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BCDDFaHpty1/
 ---
 
-![Instagram - BCDDFaHpty1](/assets/BCDDFaHpty1.jpg){:class="instagram"}
+![Instagram - BCDDFaHpty1](/img/BCDDFaHpty1.jpg){:class="instagram"}
 
 Springtime!!!!

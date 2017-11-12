@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/bmRkzgJtw0/
 ---
 
-![Instagram - bmRkzgJtw0](/assets/bmRkzgJtw0.jpg){:class="instagram"}
+![Instagram - bmRkzgJtw0](/img/bmRkzgJtw0.jpg){:class="instagram"}
 
 Bar Pasajes | Got a narrow passage? Why not put a bar in it? This is one if the things I love about Spain.

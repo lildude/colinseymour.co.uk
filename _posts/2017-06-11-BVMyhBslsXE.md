@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BVMyhBslsXE/
 ---
 
-![Instagram - BVMyhBslsXE](/assets/BVMyhBslsXE.jpg){:class="instagram"}
+![Instagram - BVMyhBslsXE](/img/BVMyhBslsXE.jpg){:class="instagram"}
 
 Sunday live music in Cape Town... Danny Boy gone free style on the bagpipes... and it draws the biggest applause.

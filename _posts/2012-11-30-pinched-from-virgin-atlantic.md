@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Sr6VREpt8K/
 ---
 
-![Instagram - Sr6VREpt8K](/assets/Sr6VREpt8K.jpg){:class="instagram"}
+![Instagram - Sr6VREpt8K](/img/Sr6VREpt8K.jpg){:class="instagram"}
 
 Pinched From Virgin Atlantic | Written on the feet of our squadron of S&P

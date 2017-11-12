@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/RnXJFPptxn/
 ---
 
-![Instagram - RnXJFPptxn](/assets/RnXJFPptxn.jpg){:class="instagram"}
+![Instagram - RnXJFPptxn](/img/RnXJFPptxn.jpg){:class="instagram"}
 
 Fore-rib of Buffalo #meat #food

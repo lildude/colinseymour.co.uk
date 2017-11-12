@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BTawdhiF9xQ/
 ---
 
-![Instagram - BTawdhiF9xQ](/assets/BTawdhiF9xQ.jpg){:class="instagram"}
+![Instagram - BTawdhiF9xQ](/img/BTawdhiF9xQ.jpg){:class="instagram"}
 
 190 knives (many duplicates), including a kitana sword and a huge machete, is really pushing the definition of "cutlery" #onlyinamerica

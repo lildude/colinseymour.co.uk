@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/adsd1Npt6i/
 ---
 
-![Instagram - adsd1Npt6i](/assets/adsd1Npt6i.jpg){:class="instagram"}
+![Instagram - adsd1Npt6i](/img/adsd1Npt6i.jpg){:class="instagram"}
 
 Indian Merlot | I didn't even know India made wine. This merlot really isn't too bad, bit sweet, but not bad.

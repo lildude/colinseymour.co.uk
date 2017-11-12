@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/TRIriuJt6U/
 ---
 
-![Instagram - TRIriuJt6U](/assets/TRIriuJt6U.jpg){:class="instagram"}
+![Instagram - TRIriuJt6U](/img/TRIriuJt6U.jpg){:class="instagram"}
 
 Physical Spam | Africa doesn't need the Internet... Crash barriers and street signs are perfect.

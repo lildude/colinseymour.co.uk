@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/W4u0CZJt04/
 ---
 
-![Instagram - W4u0CZJt04](/assets/W4u0CZJt04.jpg){:class="instagram"}
+![Instagram - W4u0CZJt04](/img/W4u0CZJt04.jpg){:class="instagram"}
 
 Today's Entertainment | Today I mostly be drinking beer

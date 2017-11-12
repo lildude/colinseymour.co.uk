@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/zVcSlQptym/
 ---
 
-![Instagram - zVcSlQptym](/assets/zVcSlQptym.jpg){:class="instagram"}
+![Instagram - zVcSlQptym](/img/zVcSlQptym.jpg){:class="instagram"}
 
 There's never anything good to eat in this town 😜

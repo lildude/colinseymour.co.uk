@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/S-wzdLpt5Z/
 ---
 
-![Instagram - S-wzdLpt5Z](/assets/S-wzdLpt5Z.jpg){:class="instagram"}
+![Instagram - S-wzdLpt5Z](/img/S-wzdLpt5Z.jpg){:class="instagram"}
 
 Sundowners | Enjoying my new favourite SA beer (Jack Black's) after an afternoon in the sun.

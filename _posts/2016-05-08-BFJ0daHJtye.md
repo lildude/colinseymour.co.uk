@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFJ0daHJtye/
 ---
 
-![Instagram - BFJ0daHJtye](/assets/BFJ0daHJtye.jpg){:class="instagram"}
+![Instagram - BFJ0daHJtye](/img/BFJ0daHJtye.jpg){:class="instagram"}
 
 What happens when you let your Mrs borrow the braai for a bit. 😟

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BJsrd1fADvu/
 ---
 
-![Instagram - BJsrd1fADvu](/assets/BJsrd1fADvu.jpg){:class="instagram"}
+![Instagram - BJsrd1fADvu](/img/BJsrd1fADvu.jpg){:class="instagram"}
 
 A stack of crispy bacon has got to be one of the best things to accompany a sundowner.

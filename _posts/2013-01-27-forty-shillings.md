@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/U_kv7rJt9W/
 ---
 
-![Instagram - U_kv7rJt9W](/assets/U_kv7rJt9W.jpg){:class="instagram"}
+![Instagram - U_kv7rJt9W](/img/U_kv7rJt9W.jpg){:class="instagram"}
 
 Forty Shillings

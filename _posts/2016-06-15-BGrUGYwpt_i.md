@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BGrUGYwpt_i/
 ---
 
-![Instagram - BGrUGYwpt_i](/assets/BGrUGYwpt_i.jpg){:class="instagram"}
+![Instagram - BGrUGYwpt_i](/img/BGrUGYwpt_i.jpg){:class="instagram"}
 
 Jeeez, it must have been a really bad accident... I don't remember having it. 😜

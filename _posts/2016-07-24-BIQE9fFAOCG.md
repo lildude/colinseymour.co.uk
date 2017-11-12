@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BIQE9fFAOCG/
 ---
 
-![Instagram - BIQE9fFAOCG](/assets/BIQE9fFAOCG.jpg){:class="instagram"}
+![Instagram - BIQE9fFAOCG](/img/BIQE9fFAOCG.jpg){:class="instagram"}
 
 The action is hotting up in the 15th and 17th ends. Nail biting stuff.

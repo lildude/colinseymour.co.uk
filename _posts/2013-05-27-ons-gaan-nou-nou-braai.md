@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Z0b0vUJt9k/
 ---
 
-![Instagram - Z0b0vUJt9k](/assets/Z0b0vUJt9k.jpg){:class="instagram"}
+![Instagram - Z0b0vUJt9k](/img/Z0b0vUJt9k.jpg){:class="instagram"}
 
 Ons Gaan Nou Nou Braai | Not long now.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEgYuJrJtxV/
 ---
 
-![Instagram - BEgYuJrJtxV](/assets/BEgYuJrJtxV.jpg){:class="instagram"}
+![Instagram - BEgYuJrJtxV](/img/BEgYuJrJtxV.jpg){:class="instagram"}
 
 I've reserved your spot @tabamatu @elusivebrew 😜

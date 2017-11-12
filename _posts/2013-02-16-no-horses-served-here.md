@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/VydKy6JtxG/
 ---
 
-![Instagram - VydKy6JtxG](/assets/VydKy6JtxG.jpg){:class="instagram"}
+![Instagram - VydKy6JtxG](/img/VydKy6JtxG.jpg){:class="instagram"}
 
 No Horses Served Here | Horses have to go to another farm shoppe

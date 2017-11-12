@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/a2qTYrJt0P/
 ---
 
-![Instagram - a2qTYrJt0P](/assets/a2qTYrJt0P.jpg){:class="instagram"}
+![Instagram - a2qTYrJt0P](/img/a2qTYrJt0P.jpg){:class="instagram"}
 
 Indian Nando's | I've got today's lunch sorted.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFtbCtcptwW/
 ---
 
-![Instagram - BFtbCtcptwW](/assets/BFtbCtcptwW.jpg){:class="instagram"}
+![Instagram - BFtbCtcptwW](/img/BFtbCtcptwW.jpg){:class="instagram"}
 
 Introducing the Apple iBoat

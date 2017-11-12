@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/ShsAn2Jt-c/
 ---
 
-![Instagram - ShsAn2Jt-c](/assets/ShsAn2Jt-c.jpg){:class="instagram"}
+![Instagram - ShsAn2Jt-c](/img/ShsAn2Jt-c.jpg){:class="instagram"}
 
 Monmouth, my favourite London shop

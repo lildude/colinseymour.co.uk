@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BSYppEhFFYH/
 ---
 
-![Instagram - BSYppEhFFYH](/assets/BSYppEhFFYH.jpg){:class="instagram"}
+![Instagram - BSYppEhFFYH](/img/BSYppEhFFYH.jpg){:class="instagram"}
 
 Post-race STARTER!? Having roast beef for pudding 😜

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BVXdNrRleIk/
 ---
 
-![Instagram - BVXdNrRleIk](/assets/BVXdNrRleIk.jpg){:class="instagram"}
+![Instagram - BVXdNrRleIk](/img/BVXdNrRleIk.jpg){:class="instagram"}
 
 Sundowners with the cool kids #nofilter

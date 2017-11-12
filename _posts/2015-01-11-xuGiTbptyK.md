@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/xuGiTbptyK/
 ---
 
-![Instagram - xuGiTbptyK](/assets/xuGiTbptyK.jpg){:class="instagram"}
+![Instagram - xuGiTbptyK](/img/xuGiTbptyK.jpg){:class="instagram"}
 
 The best newspaper headline in a long time.
