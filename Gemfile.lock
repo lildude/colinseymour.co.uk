@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 0f35f3e6fd5843b622be51b5bac23ded14e6659b
+  revision: 3da38c80afd4d5361f32f1327b122c20019e1b01
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
@@ -77,7 +77,7 @@ GEM
     pathutil (0.16.0)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.1)
-    rake (12.2.1)
+    rake (12.3.0)
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)

@@ -13,4 +13,5 @@ group :development, :test do
   gem 'stringex'
   gem 'httpclient'
   gem 'html-proofer'
+  #gem 'minima-dude', :path => '/Users/lildude/Sites/static/minima-dude'
 end
