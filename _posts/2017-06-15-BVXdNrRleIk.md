@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-06-15 16:13:20 +0000
 title: "Sundowners with the cool kids #nofilter"
 type: post

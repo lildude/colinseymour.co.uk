@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-08-31 22:24:48 +0000
 title: "I'll have a sipping rum please barman."
 type: post

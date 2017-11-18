@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-11-02 02:15:53 +0000
 title: "How much 💩 have I eaten today? Not…"
 type: post

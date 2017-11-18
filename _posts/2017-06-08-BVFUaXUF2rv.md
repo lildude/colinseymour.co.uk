@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-06-08 15:10:05 +0000
 title: "Great view of Lion's Head from our AirBnB"
 type: post

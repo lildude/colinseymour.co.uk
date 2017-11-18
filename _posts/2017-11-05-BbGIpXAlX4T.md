@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-11-05 01:54:53 +0000
 title: "Who on earth thinks of Safeway when they…"
 type: post

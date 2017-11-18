@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-08-31 19:28:31 +0000
 title: "We opted for the smallest 😜 platter at…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-11-03 04:44:50 +0000
 title: "These are the snazziest looking growlers I've ever…"
 type: post
