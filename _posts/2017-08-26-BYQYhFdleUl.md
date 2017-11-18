@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-08-26 11:51:47 +0000
 title: "How on earth is sodium citrate toxic or…"
 type: post

@@ -1,11 +1,8 @@
 ---
 layout: page
 title: Archives
-date: 2008-09-17 03:50:29.000000000 -07:00
-tags:
-- about
+description: Find links to every post on this site on my archives page.
 type: page
-published: true
 ---
 <ul class="archives">
 {% for post in site.posts %}
@@ -15,15 +12,16 @@ published: true
             {% if forloop.index != 1 %}</ul>{% endif %}
             <h3>{{ post.date | date: '%B %Y' }}</h3><ul>
         {% endif %}
-    <li>{% if post.tags contains "instagram" %}<svg class="i-camera" viewBox="0 0 2048 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1024 672q119 0 203.5 84.5T1312 960t-84.5 203.5T1024 1248t-203.5-84.5T736 960t84.5-203.5T1024 672zm704-416q106 0 181 75t75 181v896q0 106-75 181t-181 75H320q-106 0-181-75t-75-181V512q0-106 75-181t181-75h224l51-136q19-49 69.5-84.5T768 0h512q53 0 103.5 35.5T1453 120l51 136h224zm-704 1152q185 0 316.5-131.5T1472 960t-131.5-316.5T1024 512 707.5 643.5 576 960t131.5 316.5T1024 1408z"/></svg> {% endif %}<a href="{{ post.url }}">{{ post.title }}</a></li>
     <li><a href="{{ post.url }}">
       {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" %}
-      <span class="title"><svg class="i-moleskin" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%">
-        <path d="M2 6 L2 30 30 30 30 6 Z M2 22 L30 22 M7 3 L7 9 M13 3 L13 9 M19 3 L19 9 M25 3 L25 9" />
-      </svg> {{ post.content | strip_html | truncatewords: 8 }}</span>
+      <!-- modified calendar icon from https://github.com/danklammer/bytesize-icons -->
+      <svg xmlns="http://www.w3.org/2000/svg" class="i-moleskin" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%" transform="rotate(270)"><path d="m2 6v24h28V6zm0 16h28M7 3v6m6-6v6m6-6v6m6-6v6"/></svg>{{ post.content | strip_html | truncatewords: 10 }}
       {% else %}
+      {% if post.tags contains "instagram" %}
+      <svg xmlns="http://www.w3.org/2000/svg" class="i-camera" viewBox="0 -5 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m2 8h7l3-4h8l3 4h7v18H2z"/><circle cx="16" cy="16" r="5"/></svg>
+      {% endif %}
       {{ post.title }}
-    {% endif %}
+      {% endif %}
     </a></li>
 {% endfor %}
 </ul>

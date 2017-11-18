@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-07-16 19:40:48 +0000
 title: "We bought blue hydrangeas and they're slowly turning…"
 type: post

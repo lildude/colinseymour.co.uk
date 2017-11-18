@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-11-05 22:22:59 +0000
 title: "I popped into a place advertising drugs and…"
 type: post

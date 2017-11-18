@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-07-30 14:31:34 +0000
 title: "Proof christmas definitely comes earlier and earlier each…"
 type: post

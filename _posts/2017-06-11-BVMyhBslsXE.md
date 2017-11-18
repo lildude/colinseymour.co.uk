@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-06-11 12:47:49 +0000
 title: "Sunday live music in Cape Town... Danny Boy…"
 type: post

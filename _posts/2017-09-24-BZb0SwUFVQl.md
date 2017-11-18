@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-09-24 18:57:32 +0000
 title: "My view during dinner tonight"
 type: post
