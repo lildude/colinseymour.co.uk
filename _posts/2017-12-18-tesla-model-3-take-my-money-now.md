@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Tesla Model 3: Take My Money NOW!!"
-date: 2017-12-18 10:36:53 +0000
+date: 2017-12-18 10:48:06 +0000
 tags:
 - Tesla
 type: post
