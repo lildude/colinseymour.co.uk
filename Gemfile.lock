@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 130ae6f6bd0f4cad0195e8f628fa5e4082a67247
+  revision: 7c4bf7d80739c6c53043a8192bc4eceb3af3ebf7
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
