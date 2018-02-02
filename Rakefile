@@ -42,7 +42,7 @@ end
 desc "Begin new short post in _posts"
 task :note do
   now = DateTime.now
-  number = now.strftime('%s').to_i % (24 * 60 * 60)
+  number = now.strftime('%s').to_i % (28 * 24 * 60 * 60)
   date = now.strftime('%F')
   filename = "_posts/#{date}-#{number.to_s.to_url}.#{new_post_ext}"
   if File.exist?(filename)
