@@ -8,7 +8,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: b9e7ef21946e15bde1be0467dfb9a7ad2e3e79b6
+  revision: d34e8efa861415c97a82577093cc1630751dd97d
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
@@ -79,7 +79,7 @@ GEM
     mercenary (0.3.6)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
-    nokogiri (1.8.1)
+    nokogiri (1.8.2)
       mini_portile2 (~> 2.3.0)
     parallel (1.12.1)
     pathutil (0.16.1)
@@ -89,7 +89,7 @@ GEM
     rb-fsevent (0.10.2)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
-    rouge (3.1.0)
+    rouge (3.1.1)
     ruby_dep (1.5.0)
     safe_yaml (1.0.4)
     sass (3.5.5)
