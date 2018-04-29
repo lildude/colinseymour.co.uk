@@ -1,2 +1,2 @@
 #!/bin/bash
-bundle exec rake server
+JEKYLL_ENV=development bundle exec rake server
