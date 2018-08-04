@@ -24,7 +24,7 @@ Our mortgage rate was pegged at no more than 2% above this rate so it plummeted 
 
 In the end we ended up over paying by £65 560.16:
 
-![](/img/total-overpayments.jpg){:center}
+![Total overpayments](/img/total-overpayments.jpg){:center}
 
 That's more than half the amount of our original mortgage!! 😯
 
