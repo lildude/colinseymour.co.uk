@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Bye-Bye Mortgage"
-date: 2018-08-04 10:50:25 +0100
+date: 2018-08-04 11:58:07 +0100
 tags:
 - finance
 - mortgage
