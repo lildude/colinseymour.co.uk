@@ -1,13 +1,16 @@
 # Netlify redirects - see https://www.netlify.com/docs/redirects/
 #
-# Old                                               New       Code if not 301
+# Old                                                         New       Code if not 301
 
 # Gone pages
-/blog/xmlrpc.php                                    /         410
-/calendar/*                                         /         410
-/downloads/Clarkson-Aug06.pdf                       /         410
-/post-name                                          /         410
-/rss/madamandeve.rss                                /         410
+/$1                                                           /         410
+/archives/2006/01/19/wordpress-20-is-a-mod_rewrite-hijacker   /         410
+/blog/xmlrpc.php                                              /         410
+/calendar/*                                                   /         410
+/christmas-gift-ideas-2010                                    /         410
+/downloads/Clarkson-Aug06.pdf                                 /         410
+/post-name                                                    /         410
+/rss/madamandeve.rss                                          /         410
 
 # Redirects
 /archives/:year/:month/:date/:slug                  /:slug
