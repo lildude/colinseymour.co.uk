@@ -1,0 +1,27 @@
+# Netlify redirects - see https://www.netlify.com/docs/redirects/
+#
+# Old                                               New       Code if not 301
+
+# Gone pages
+/blog/xmlrpc.php                                    /410      410
+/calendar/*                                         /410      410
+/downloads/Clarkson-Aug06.pdf                       /410      410
+/post-name                                          /410      410
+/rss/madamandeve.rss                                /410      410
+
+# Redirects
+/archives/:year/:month/:date/:slug                  /:slug
+/blog                                               /
+/blog/:slug                                         /:slug
+/gallery                                            https://colinseymour.smugmug.com/
+
+# Renames
+/barneys-brew                                       /enpct3jt0o
+/celebrating-everything-british                     /edbmqxpt2u
+/nelson-saison                                      /dm6gbzjt8x
+/powerpoint-40-on-vhs                               /fc9hshpt7j
+/toadstool                                          /gv438sptw9
+
+# Moved sites
+/first-road-race-podium-finish                      https://gonefora.run/first-road-race-podium-finish
+/techie/solaris-10-stuff/:slug                      https://lildude.co.uk/:slug
