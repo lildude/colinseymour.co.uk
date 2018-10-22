@@ -3,11 +3,11 @@
 # Old                                               New       Code if not 301
 
 # Gone pages
-/blog/xmlrpc.php                                    /410      410
-/calendar/*                                         /410      410
-/downloads/Clarkson-Aug06.pdf                       /410      410
-/post-name                                          /410      410
-/rss/madamandeve.rss                                /410      410
+/blog/xmlrpc.php                                    /         410
+/calendar/*                                         /         410
+/downloads/Clarkson-Aug06.pdf                       /         410
+/post-name                                          /         410
+/rss/madamandeve.rss                                /         410
 
 # Redirects
 /archives/:year/:month/:date/:slug                  /:slug
