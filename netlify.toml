@@ -1,0 +1,114 @@
+# See https://www.netlify.com/docs/netlify-toml-reference/
+[Settings]
+ID = "5b860a9d-7766-444e-ac14-b7af7d20c3df"
+
+# Override UI settings
+[build]
+  publish = "_site/"
+  command = "bundle exec jekyll build"
+
+[context.production.environment]
+  JEKYLL_ENV = "production"
+
+# JEKYLL_ENV defaults to development so commenting out
+#[context.branch-deploy.environment]
+#  JEKYLL_ENV = "development"
+
+# Gone AWOL
+[[redirects]]
+  from = "/$1"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/archives/2006/01/19/wordpress-20-is-a-mod_rewrite-hijacker"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/blog/xmlrpc.php"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/calendar/*"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/christmas-gift-ideas-2010"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/downloads/Clarkson-Aug06.pdf"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/post-name"
+  to = "/"
+  status = 410
+  force = true
+
+[[redirects]]
+  from = "/rss/madamandeve.rss"
+  to = "/"
+  status = 410
+  force = true
+
+# Redirects
+[[redirects]]
+  from = "/archives/:year/:month/:date/:slug"
+  to = "/:slug"
+
+[[redirects]]
+  from = "/blog"
+  to = "/"
+
+[[redirects]]
+  from = "/blog/:slug"
+  to = "/:slug"
+
+[[redirects]]
+  from = "/gallery"
+  to = "https://colinseymour.smugmug.com/"
+
+
+# Renames
+[[redirects]]
+  from = "/barneys-brew"
+  to = "/enpct3jt0o"
+
+[[redirects]]
+  from = "/celebrating-everything-british"
+  to = "/edbmqxpt2u"
+
+[[redirects]]
+  from = "/nelson-saison"
+  to = "/dm6gbzjt8x"
+
+[[redirects]]
+  from = "/powerpoint-40-on-vhs"
+  to = "/fc9hshpt7j"
+
+[[redirects]]
+  from = "/toadstool"
+  to = "/gv438sptw9"
+
+
+# Moved sites
+[[redirects]]
+  from = "/first-road-race-podium-finish"
+  to = "https://gonefora.run/first-road-race-podium-finish"
+
+[[redirects]]
+  from = "/techie/solaris-10-stuff/:slug"
+  to = "https://lildude.co.uk/:slug"
+

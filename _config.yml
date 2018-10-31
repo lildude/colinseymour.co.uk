@@ -17,7 +17,8 @@ theme:              minima-dude
 
 # Author
 author:             'Colin Seymour'
-twitter_username:   'lildude'
+twitter:
+  username:   'lildude'
 
 # Google
 google_analytics:   'UA-118457-1'
@@ -57,6 +58,6 @@ feed:
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, img/src]
 # Include _headers and _redirects, else they don't take effect
-include: [_headers, _redirects]
+include: [_headers]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]
