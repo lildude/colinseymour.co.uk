@@ -10,7 +10,7 @@ title:              Colin Seymour
 description:        You Know This Boogie Is For Real
 baseurl:            ""
 url:                https://colinseymour.co.uk
-logo:               true
+logo:               "true"
 lang:               en-GB
 theme:              minima-dude
 #paginate:           10
