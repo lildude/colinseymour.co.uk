@@ -61,8 +61,6 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
-    jekyll-json-feed (1.0.0)
-      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
@@ -114,7 +112,6 @@ DEPENDENCIES
   httpclient
   jekyll
   jekyll-feed
-  jekyll-json-feed
   jekyll-seo-tag
   jekyll-sitemap
   minima-dude!

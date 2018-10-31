@@ -46,7 +46,7 @@ kramdown:
 # Plugins
 plugins:
   - jekyll-sitemap
-  - jekyll-json-feed
+  #- jekyll-json-feed
   - jekyll-seo-tag
   - jekyll-feed
   #- jekyll-paginate

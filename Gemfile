@@ -5,7 +5,7 @@ gem 'jekyll'
 gem 'jekyll-sitemap'
 #gem 'jekyll-seo-tag', :git => 'https://github.com/lildude/jekyll-seo-tag', :branch => 'lildude-customisations'
 gem 'jekyll-seo-tag'
-gem 'jekyll-json-feed'
+#gem 'jekyll-json-feed'
 gem 'jekyll-feed'
 gem 'minima-dude', :git => 'https://github.com/lildude/minima-dude'
 
