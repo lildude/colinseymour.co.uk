@@ -15,10 +15,11 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: db6c4aabd9b2ba9cf8fad442aa902e05cdb35c22
+  revision: 4c4cf38e4c19f4ee86c68003eed40c9ec69f7d0d
   specs:
     minima-dude (1.0.0)
       jekyll (~> 3.5)
+      jekyll-seo-tag (~> 2.5)
 
 GEM
   remote: https://rubygems.org/
