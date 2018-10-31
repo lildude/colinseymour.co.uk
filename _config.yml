@@ -57,7 +57,5 @@ feed:
 
 # Don't copy these files to the generated site
 exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, img/src]
-# Include _headers and _redirects, else they don't take effect
-include: [_headers]
 # Don't attempt to process these - ie leave as-is
 keep_files: [assets, img]

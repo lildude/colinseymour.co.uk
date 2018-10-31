@@ -112,3 +112,29 @@ ID = "5b860a9d-7766-444e-ac14-b7af7d20c3df"
   from = "/techie/solaris-10-stuff/:slug"
   to = "https://lildude.co.uk/:slug"
 
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Link = "</assets/main.css>; rel=preload; as=style"
+
+[[headers]]
+  for = "/assets/*.css"
+  [headers.values]
+    Cache-Control = "public, max-age=86400"
+
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2678400"
+
+[[headers]]
+  for = "*.svg"
+  [headers.values]
+    Content-Type = "image/svg+xml, charset=utf-8"
+
+[[headers]]
+  for = "/img/*"
+  [headers.values]
+    Cache-Control = "public, max-age=2678400"
+
+
