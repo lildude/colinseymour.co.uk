@@ -11,11 +11,11 @@ tags:
 type: post
 published: true
 ---
-<p><a href="http://www.opensolaris.org"><img class="alignright" alt="I Boot OpenSolaris" title="I Boot OpenSolaris" src="http://www.opensolaris.org/os/about/buttons/iboot_os_blu_180.gif" /></a><br />
+<p><a href="http://www.opensolaris.org"><img class="alignright" alt="I Boot OpenSolaris" title="I Boot OpenSolaris" src="https://www.opensolaris.org/os/about/buttons/iboot_os_blu_180.gif" /></a><br />
 Yesterday, I finally got myself on the path to OpenSolaris.  I spent a fair part of my day off sorting out my home PC so I could install the latest release of Solaris Express (Solaris 11 snv_19).  This is needed as a base to which I'll eventually build <a href="http://www.opensolaris.org">OpenSolaris</a>.</p>
 <p>The process was pretty painless, which was surprising as I was expecting my rather obscure hardware to cause issues, but nope... it all installed and ran beautifully.  I do however believe my lack of problems probably stems from the fact that I'm on the internal Solaris 10 users alias, so I've seen problems crop up and as such taylored my install around these.  Full details of my install procedure, for those that may be interested, coming up. If you're not interested, there is no need to read anymore of this post.</p>
 <p><!--more--></p>
-<p>Firstly, the media... you can get the latest ISO images from <a href="http://www.opensolaris.org/os/downloads/">http://www.opensolaris.org/os/downloads/</a> and burn your own CD's. I did this several nights ago, so my collection of 4 CD's were ready and waiting to go.</p>
+<p>Firstly, the media... you can get the latest ISO images from <a href="https://www.opensolaris.org/os/downloads/">https://www.opensolaris.org/os/downloads/</a> and burn your own CD's. I did this several nights ago, so my collection of 4 CD's were ready and waiting to go.</p>
 <p>Now there are loads of other websites detailing the install procedure (including the official Sun Solaris Express Installation <a href="http://docs.sun.com/app/docs/coll/1236.2">documentation</a>) , so I'm not going to go into that, but I will provide a couple of tips that will help ease the installation.</p>
 <p>Before diving head first into the install, I had to take into account several "issues" or limitations that I'd seen crop up in the alias:</p>
 <p> <strong>&raquo;</strong> If installing Solaris onto a disk which already has an OS, the Solaris partition needs to exist before you boot off the CD. This is because Solaris will only allow and install on a Solaris partition or the whole disk.  It doesn't come with something like gparted either.  This is a limitation that is primarily due to the fact that Solaris historically was never made to be a dual boot desktop OS.</p>

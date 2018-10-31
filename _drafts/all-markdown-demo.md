@@ -98,7 +98,7 @@ Requires Kramdown and uses the `{: reversed="reversed"}` syntax at the end of th
 
 #### Hard Linebreak
 
-End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )  
+End a line with two or more spaces will create a hard linebreak, called `<br />` in HTML. ( Control + Return )
 Above line ended with 2 spaces.
 
 #### Horizontal Rules
@@ -142,7 +142,7 @@ _(CNS: Requires `footnotes` Redcarpet extension. Just works with Kramdown.)_
 
 Footnotes work mostly like reference-style links. A footnote is made of two things: a marker in the text that will become a superscript number; a footnote definition that will be placed in a list of footnotes at the end of the document. A footnote looks like this:
 
-That's some text with a footnote.[^1]  
+That's some text with a footnote.[^1]
 
 [^1]: And that's the footnote.
 
@@ -151,7 +151,7 @@ _(CNS: Requires `strikethrough` Redcarpet extension. Not supported with Kramdown
 
 Wrap with 2 tilde characters:
 
-~~Strikethrough~~  
+~~Strikethrough~~
 
 #### Fenced Code Blocks
 
@@ -166,7 +166,7 @@ a start and end fence lines to delimit the code block.
 #### Tables
 _(CNS: Requires `tables` Redcarpet extension. Just works with Kramdown.)_
 
-A simple table looks like this:  
+A simple table looks like this:
 
 First Header | Second Header | Third Header
 ------------ | ------------- | ------------
@@ -225,10 +225,10 @@ This is the 2^(nd) time I've done this, not the 3^rd.
 <img src="/assets/proudlysa.gif" class="alignright" alt="right image" /> Fusce sem lacus, luctus vel dui ut, lobortis rhoncus velit. Nulla facilisi. Donec et erat accumsan purus dapibus vulputate sit amet sit amet tortor. Vestibulum eu vehicula felis. Suspendisse a enim at justo porttitor luctus. Proin ac urna sapien. Curabitur non aliquam neque. Donec tincidunt, nisi sit amet ullamcorper interdum, magna mi imperdiet lorem, sit amet sagittis neque nulla at enim. Morbi efficitur viverra nibh at tempus. Suspendisse molestie commodo posuere. Fusce aliquam fringilla dictum. Mauris viverra eleifend quam, sit amet vehicula est sagittis sit amet. Praesent lobortis nisi non tellus egestas porttitor.
 
 HTML:
-<img src="http://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg" class="center stretch" alt="center image" />
+<img src="https://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg" class="center stretch" alt="center image" />
 
 Kramdown:
-![Smeee](http://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg 'Centered Image'){:class="center stretch"}
+![Smeee](//colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg 'Centered Image'){:class="center stretch"}
 
 ## Syntax Highlighting
 

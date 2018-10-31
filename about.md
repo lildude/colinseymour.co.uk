@@ -16,8 +16,8 @@ I may now live in the UK, however I am still 🇿🇦 at heart.
 
 I now share the ownership of a lovely two bedroom flat just outside Reading with my fantastic <del datetime="2008-07-04T14:00:00+01:00"><a href="/we-got-engaged">fiancée</a></del> <a href="/our-wedding-the-big-day">wife</a> - I'm not this chunky anymore, but my wife is just as gorgeous.
 
-![The Mrs & Me](//colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg){:class="center"}
+![The Mrs & Me](https://colinseymour.smugmug.com/photos/274240894_PWUna-S.jpg){:class="center"}
 
 I'm [@lildude](https://twitter.com/lildude) on Twitter.
 
-<small>PS. As we live in a world of software patents, copyrights and a general "sue for the sake of suing" culture, I'm looking out for #1.  Everything on this site, unless otherwise stated, is covered by a [Creative Commons Attribution-NonCommercial-ShareAlike License](http://creativecommons.org/licenses/by-nc-sa/2.0/)</small>
+<small>PS. As we live in a world of software patents, copyrights and a general "sue for the sake of suing" culture, I'm looking out for #1.  Everything on this site, unless otherwise stated, is covered by a [Creative Commons Attribution-NonCommercial-ShareAlike License](https://creativecommons.org/licenses/by-nc-sa/2.0/)</small>
