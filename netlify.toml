@@ -135,6 +135,6 @@ ID = "5b860a9d-7766-444e-ac14-b7af7d20c3df"
 [[headers]]
   for = "/img/*"
   [headers.values]
-    Cache-Control = "public, max-age=2629000"
+    Cache-Control = "public, max-age=31536000"
 
 
