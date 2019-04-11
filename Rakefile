@@ -157,6 +157,7 @@ task :test do
     :cache => { :timeframe => '2w' },
     :empty_alt_ignore => false,
     :verbose => true,
+    :file_ignore => ["./_site/admin/index.html"],
     :href_swap => {%r{(?<!\/)^\/{1}(?!\/)} => config["url"]}, # Matches /foo/doo but not //foo/doo - useful for protocol-less links.
     :typhoeus => { :verbose => true, :followlocation => true },
     :parallel => { :in_processes => 3}}).run
