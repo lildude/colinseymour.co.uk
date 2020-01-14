@@ -13,11 +13,11 @@ type: page
             <h3>{{ post.date | date: '%B %Y' }}</h3><ul>
         {% endif %}
     <li><a href="{{ post.url }}">
-      {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" %}
+      {% if post.tags contains "shorts" or post.tags contains "aside" or post.tags contains "note" or post.layout == "note" %}
       <!-- modified calendar icon from https://github.com/danklammer/bytesize-icons -->
       <svg xmlns="http://www.w3.org/2000/svg" class="i-moleskin" viewBox="0 0 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="6.25%"><path d="m2 6v24h28V6zm0 16h28M7 3v6m6-6v6m6-6v6m6-6v6"/></svg>{{ post.content | strip_html | truncatewords: 10 }}
       {% else %}
-      {% if post.tags contains "instagram" %}
+      {% if post.tags contains "instagram" or post.layout == "photo" %}
       <svg xmlns="http://www.w3.org/2000/svg" class="i-camera" viewBox="0 -5 32 32" width="16" height="16" fill="none" stroke="currentcolor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"><path d="m2 8h7l3-4h8l3 4h7v18H2z"/><circle cx="16" cy="16" r="5"/></svg>
       {% endif %}
       {{ post.title }}
