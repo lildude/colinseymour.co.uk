@@ -20,10 +20,6 @@ author:             'Colin Seymour'
 twitter:
   username:   'lildude'
 
-# Google
-google_analytics:   'UA-118457-1'
-google_site_verification: o3ndy3P367VLktFTahXr93p9eecE21pdlC70nLMMJh0
-
 # SASS/SCSS
 sass:
   sass_dir:         _scss
