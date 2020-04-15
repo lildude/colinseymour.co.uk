@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bs3cqpsAWLw/
 ---
 
-![Instagram - Bs3cqpsAWLw](https://colinseymour.co.uk/img/Bs3cqpsAWLw.jpg){: .instagram}
+![Instagram - Bs3cqpsAWLw](https://colinseymour.co.uk/img/Bs3cqpsAWLw.jpg){:loading="lazy"}
 
 My first Funion. There's nothing fun about this at all 😞 The beer sticks are definitely more my thing.

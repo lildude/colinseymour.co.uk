@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BbGIpXAlX4T/
 ---
 
-![Instagram - BbGIpXAlX4T](/img/BbGIpXAlX4T.jpg){: .instagram}
+![Instagram - BbGIpXAlX4T](/img/BbGIpXAlX4T.jpg){:loading="lazy"}
 
 Who on earth thinks of Safeway when they want to splash out on insanely expensive wine? Holy moly that's expensive, and from a supermarket too 😱

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Brn5HsMHmii/
 ---
 
-![Instagram - Brn5HsMHmii](https://colinseymour.co.uk/img/Brn5HsMHmii.jpg){: .instagram}
+![Instagram - Brn5HsMHmii](https://colinseymour.co.uk/img/Brn5HsMHmii.jpg){:loading="lazy"}
 
 Train lights are so festive this time of year.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BbBLhRSl3DZ/
 ---
 
-![Instagram - BbBLhRSl3DZ](/img/BbBLhRSl3DZ.jpg){: .instagram}
+![Instagram - BbBLhRSl3DZ](/img/BbBLhRSl3DZ.jpg){:loading="lazy"}
 
 Encountered this hamburger "Rubik's cube" tonight and couldn't help but think this is something my grandad would have loved to have made, and out of exotic smelling woods too.

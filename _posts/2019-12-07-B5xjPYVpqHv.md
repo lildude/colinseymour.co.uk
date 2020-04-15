@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B5xjPYVpqHv/
 ---
 
-![Instagram - B5xjPYVpqHv](https://colinseymour.co.uk/img/B5xjPYVpqHv.jpg){: .instagram}
+![Instagram - B5xjPYVpqHv](https://colinseymour.co.uk/img/B5xjPYVpqHv.jpg){:loading="lazy"}
 
 ‘Tis the season for great dark strong dessert beers. 😋

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BmHBJYMlh1g/
 ---
 
-![Instagram - BmHBJYMlh1g](https://colinseymour.co.uk/img/BmHBJYMlh1g.jpg){: .instagram}
+![Instagram - BmHBJYMlh1g](https://colinseymour.co.uk/img/BmHBJYMlh1g.jpg){:loading="lazy"}
 
 So that's what happens to the dogs and cats that never get homes 🤭

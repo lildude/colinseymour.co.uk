@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BbIVMROlGwF/
 ---
 
-![Instagram - BbIVMROlGwF](/img/BbIVMROlGwF.jpg){: .instagram}
+![Instagram - BbIVMROlGwF](/img/BbIVMROlGwF.jpg){:loading="lazy"}
 
 I popped into a place advertising drugs... and got me one heck of a fix. I think I have a serious veg addiction 🤣😂

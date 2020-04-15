@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B-ma_EJputB/
 ---
 
-![Instagram - B-ma_EJputB](https://colinseymour.co.uk/img/B-ma_EJputB.jpg){: .instagram}
+![Instagram - B-ma_EJputB](https://colinseymour.co.uk/img/B-ma_EJputB.jpg){:loading="lazy"}{:loading="lazy"}
 
-Dalgona Coffee… cos this is what you do with your free time when you can’t go to the pub  
+Dalgona Coffee… cos this is what you do with your free time when you can’t go to the pub

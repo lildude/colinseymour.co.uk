@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Brakrb7gNFy/
 ---
 
-![Instagram - Brakrb7gNFy](https://colinseymour.co.uk/img/Brakrb7gNFy.jpg){: .instagram}
+![Instagram - Brakrb7gNFy](https://colinseymour.co.uk/img/Brakrb7gNFy.jpg){:loading="lazy"}
 
-If you're visiting @sirencraftbrew today, look across the way for @elusivebrew and pop in for one for the road. 
+If you're visiting @sirencraftbrew today, look across the way for @elusivebrew and pop in for one for the road.

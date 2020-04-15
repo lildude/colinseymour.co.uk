@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BsTPUkJgLXz/
 ---
 
-![Instagram - BsTPUkJgLXz](https://colinseymour.co.uk/img/BsTPUkJgLXz.jpg){: .instagram}
+![Instagram - BsTPUkJgLXz](https://colinseymour.co.uk/img/BsTPUkJgLXz.jpg){:loading="lazy"}
 
 Ooooooo toasty 🔥

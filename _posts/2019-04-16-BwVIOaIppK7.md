@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwVIOaIppK7/
 ---
 
-![Instagram - BwVIOaIppK7](https://colinseymour.co.uk/img/BwVIOaIppK7.jpg){: .instagram}
+![Instagram - BwVIOaIppK7](https://colinseymour.co.uk/img/BwVIOaIppK7.jpg){:loading="lazy"}
 
 Cheers New York City

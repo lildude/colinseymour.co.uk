@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1eaODVJWVT/
 ---
 
-![Instagram - B1eaODVJWVT](https://colinseymour.co.uk/img/B1eaODVJWVT.jpg){: .instagram}
+![Instagram - B1eaODVJWVT](https://colinseymour.co.uk/img/B1eaODVJWVT.jpg){:loading="lazy"}
 
 Holy sheeet, I've got some saving to do... £69 + £105 + SQ for three quarts of beer 🤭

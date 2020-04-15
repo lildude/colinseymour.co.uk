@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B6eCZLXJcDR/
 ---
 
-![Instagram - B6eCZLXJcDR](https://colinseymour.co.uk/img/B6eCZLXJcDR.jpg){: .instagram}
+![Instagram - B6eCZLXJcDR](https://colinseymour.co.uk/img/B6eCZLXJcDR.jpg){:loading="lazy"}
 
-Oooo eeeerrrr. Tasty tasty Christmas pudding stout. So much so the Mrs just stole my last sip whilst I wrote this.  
+Oooo eeeerrrr. Tasty tasty Christmas pudding stout. So much so the Mrs just stole my last sip whilst I wrote this.

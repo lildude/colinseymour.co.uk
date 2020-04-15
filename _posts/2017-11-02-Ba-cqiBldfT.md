@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Ba-cqiBldfT/
 ---
 
-![Instagram - Ba-cqiBldfT](/img/Ba-cqiBldfT.jpg){: .instagram}
+![Instagram - Ba-cqiBldfT](/img/Ba-cqiBldfT.jpg){:loading="lazy"}
 
 How much 💩 have I eaten today? Not much, but enough for me to only want to eat picked veg, deviled eggs and an IPA for my dinner.
