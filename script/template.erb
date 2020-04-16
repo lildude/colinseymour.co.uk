@@ -1,5 +1,5 @@
 ---
-layout: <%= post.format == 'aside' ? 'note' : post.format %>
+layout: <%= if post.format == 'aside'; 'note'; elsif post.format == 'image'; 'photo'; else post.format; end %>
 date: <%= DateTime.parse(post.date).strftime('%F %T %z') %>
 type: <%= post.type %>
 <% unless post.tags.empty? -%>
