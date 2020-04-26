@@ -7,16 +7,17 @@ Jekyll::Hooks.register(:site, :post_write) do |_site|
   # Delete existing config file, if it exists.
   File.delete(config_file) if File.exist?(config_file)
   # Configuration JS to write to the file. (Docs: https://www.purgecss.com/configuration)
-  config_text = """module.exports = #{{
+  h = {
     # Wildcard glob of the site's HTML files.
     content: ['_site/**/*.html'],
     # CSS file in the expected output directory.
-    css: [Dir.glob('_site/assets/*.css').first],
+    css: [Dir.glob('_site/assets/*.css').first]
     # We'll get to this shortly ...
     #whitelist: %w(wl-class-1 wl-class-2)
-  }.stringify_keys.to_json}"""
+  }
+  config_text = "module.exports = #{h.to_json}"
   # Write configuration file.
   File.open(config_file, 'w+') { |f| f.write(config_text) }
   # Run purgecss command.
-  system("purgecss --config #{config_file} --out _site/assets")
+  system("purgecss --config #{config_file} --output _site/assets")
 end
