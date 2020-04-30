@@ -18,8 +18,10 @@ theme:              minima-dude
 # Author
 author:             'Colin Seymour'
 twitter:
-  username:   'lildude'
+  username:         'lildude'
 
+microblog:
+  username:         lildude
 # SASS/SCSS
 sass:
   sass_dir:         _scss

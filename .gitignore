@@ -31,3 +31,5 @@ nbproject
 *.sublime-workspace
 .idea
 .netlify
+vendor
+.jekyll-cache

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 086517d177e26ed3d01da3155329ae77c2a5d624
+  revision: caab33af12b042855e5e9f30f6090cb0b218b57f
   specs:
     minima-dude (1.0.0)
       jekyll
@@ -78,7 +78,7 @@ GEM
     public_suffix (4.0.4)
     rainbow (3.0.0)
     rake (13.0.1)
-    rb-fsevent (0.10.3)
+    rb-fsevent (0.10.4)
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
