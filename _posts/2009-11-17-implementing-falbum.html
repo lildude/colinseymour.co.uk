@@ -19,7 +19,7 @@ published: true
 <li>
 <h5>Create a Wordpress Page Template.</h5>
 <p>Create a template file (falbum-wp.php<a href="#note-1">*</a>) in your theme directory and add to it the template name, the header call, footer call, the Falbum javascript calls and the fa_show_photos() function call.  At it's simplest, this file will look as follows:</p>
-<p><viewcode src="http://colinseymour.co.uk/examples/falbum-wp.phps" link="yes" linenos="no" /></p>
+<p><viewcode src="http://colinseymour.co.uk/examples/falbum-wp.phps" link="yes" linenos="no"></p>
 <p>Remember, this is the template in it's simplest form.  You may want to  add other stuff like a call to your theme's sidebar or maybe you want to use your own header and footers just for this page.</p>
 <p><a id="note-1"></a><br />
 * Due to the way Falbum is currently coded, you will need to use the filename falbum-wp.php. This requirement will be removed in the future, but these details should take this into account.</p>
@@ -63,7 +63,7 @@ RewriteRule ^(photos)/page/?([0-9]{1,})/?$ /blog/index.php?pagename=$1&amp;paged
 <p>Just comment this out and the 404 errors in paging will stop.
 </li>
 <li>
-<h5>Get â€œWarning: Invalid argument â€¦ on line 378.â€ in sidebar with K2 theme</h5>
+<h5>Get "Warning: Invalid argument on line 378. in sidebar with K2 theme</h5>
 <p>Once again, this is due to the following code in K2 sidebar.php:</p>
 <pre lang="php">
 &lt;?php /* Creates a menu for pages beneath the level of the current page */
