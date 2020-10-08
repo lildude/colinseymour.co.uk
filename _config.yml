@@ -48,6 +48,7 @@ plugins:
   #- jekyll-json-feed
   - jekyll-seo-tag
   - jekyll-feed
+  - jekyll-loading-lazy
   #- jekyll-paginate
 
 # Plugin-specific configs
