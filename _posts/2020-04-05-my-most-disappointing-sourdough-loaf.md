@@ -1,6 +1,7 @@
 ---
 layout: photo
 date: 2020-04-05 18:29:19 +0000
+title: My most disappointing sourdough loaf
 type: post
 ---
 
