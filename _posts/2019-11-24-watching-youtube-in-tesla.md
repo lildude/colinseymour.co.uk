@@ -1,6 +1,7 @@
 ---
 layout: photo
 date: 2019-11-24 15:09:06 +0000
+title: Watching YouTube in Tesla
 type: post
 ---
 

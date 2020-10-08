@@ -1,5 +1,6 @@
 ---
 layout: photo
+title: Mini deserts
 date: 2019-11-20 03:38:51 +0000
 type: post
 tags:

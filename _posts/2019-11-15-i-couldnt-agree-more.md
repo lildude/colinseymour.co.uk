@@ -1,5 +1,6 @@
 ---
 layout: photo
+title: I Couldn't Agree More
 date: 2019-11-15 18:46:48 +0000
 type: post
 ---

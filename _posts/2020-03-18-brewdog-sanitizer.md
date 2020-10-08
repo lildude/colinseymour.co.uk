@@ -1,5 +1,6 @@
 ---
 layout: photo
+title: BrewDog Sanitizer
 date: 2020-03-18 16:47:45 +0000
 type: post
 ---
