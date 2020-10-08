@@ -1,7 +1,7 @@
 ---
 layout: photo
 date: 2019-06-16 18:25:39 +0000
-title: "Hmmm meeeeaaat!! 🍖🥩😋 #nofilter #meat #braai #tomahawk #steak"
+title: "Hmmm meeeeaaat!! 🍖🥩😋"
 type: post
 tags:
 - instagram
