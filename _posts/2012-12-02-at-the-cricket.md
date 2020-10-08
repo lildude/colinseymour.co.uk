@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-12-02 11:22:16 +0000
 title: "At the Cricket"
 type: post

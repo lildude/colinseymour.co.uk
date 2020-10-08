@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-06-20 15:16:14 +0000
 title: "Hotel rooms always have waaaay too many switches.…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-10-28 21:30:20 +0000
 title: "Corporate Stress?"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-11-27 08:31:37 +0000
 title: "Monmouth, my favourite London shop"
 type: post

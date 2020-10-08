@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-05-18 11:30:41 +0000
 title: "Just a teeny weeny dessert please."
 type: post

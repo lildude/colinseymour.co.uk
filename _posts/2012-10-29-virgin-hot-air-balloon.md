@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-10-29 16:44:04 +0000
 title: "Virgin Hot Air Balloon"
 type: post

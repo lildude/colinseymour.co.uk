@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-08-29 15:45:11 +0000
 title: "A stack of crispy bacon has got to…"
 type: post

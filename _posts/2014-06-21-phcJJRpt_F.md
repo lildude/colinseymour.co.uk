@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2014-06-21 22:15:02 +0000
 title: "Some people come up with the strangest band…"
 type: post

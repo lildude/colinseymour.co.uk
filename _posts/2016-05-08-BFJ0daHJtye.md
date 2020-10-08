@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-05-08 16:44:47 +0000
 title: "What happens when you let your Mrs borrow…"
 type: post

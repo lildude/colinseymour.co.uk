@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-04-28 17:02:06 +0000
 title: "Nom nom."
 type: post

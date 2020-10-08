@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-02-06 22:31:40 +0000
 title: "Spotted in the BA191 lavs. Times are certainly…"
 type: post

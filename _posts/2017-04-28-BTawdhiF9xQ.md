@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-04-28 05:56:27 +0000
 title: "190 knives (many duplicates), including a kitana sword…"
 type: post

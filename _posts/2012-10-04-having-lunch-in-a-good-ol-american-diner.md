@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-10-04 20:59:42 +0000
 title: "Having lunch in a good ol' American diner"
 type: post

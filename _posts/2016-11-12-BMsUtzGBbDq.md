@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-12 02:00:34 +0000
 title: "Oh come on! Surely the African ☀️& 🖥…"
 type: post

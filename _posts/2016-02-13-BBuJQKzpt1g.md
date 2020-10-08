@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-02-13 09:13:33 +0000
 title: "I'm so it out of touch with posh…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-08-29 16:56:00 +0000
 title: "Bacon biltong!!! This stuff is amazing!!!"
 type: post

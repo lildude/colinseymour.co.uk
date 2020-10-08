@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-04-17 16:52:29 +0000
 title: "The lamb was part of today's lunch... cooked…"
 type: post

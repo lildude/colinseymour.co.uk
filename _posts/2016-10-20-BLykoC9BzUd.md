@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-10-20 15:43:39 +0000
 title: "All that remains of Reading's looks like the…"
 type: post

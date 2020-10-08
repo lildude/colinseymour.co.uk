@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2013-01-27 16:08:10 +0000
 title: "Forty Shillings"
 type: post

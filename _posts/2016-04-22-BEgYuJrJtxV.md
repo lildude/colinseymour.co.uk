@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-04-22 14:33:32 +0000
 title: "I've reserved your spot @tabamatu @elusivebrew 😜"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-24 18:32:13 +0000
 title: "Graffiti is often incredibly honest"
 type: post

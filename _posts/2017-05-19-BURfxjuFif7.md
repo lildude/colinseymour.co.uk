@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-05-19 12:08:52 +0000
 title: "I'm so retro... Listening to old tunes on…"
 type: post

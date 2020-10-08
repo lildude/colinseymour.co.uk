@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-10-30 03:30:47 +0000
 title: "No Fluffy. The people in this very expensive…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-01-18 18:30:13 +0000
 title: "An Audience with Roger Bannister. Looky what my…"
 type: post

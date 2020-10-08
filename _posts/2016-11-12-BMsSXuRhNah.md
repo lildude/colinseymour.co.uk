@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-12 01:40:05 +0000
 title: "My @monzo card always makes me feel like…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-10-20 09:14:05 +0000
 title: "A new woman had just moved into our…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-09-23 15:39:19 +0000
 title: "Children, selling beer since 1394"
 type: post

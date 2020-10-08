@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-11 01:30:13 +0000
 title: "Really!?"
 type: post

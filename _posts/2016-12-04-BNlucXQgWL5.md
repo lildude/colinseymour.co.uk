@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-12-04 09:02:06 +0000
 title: "Beautiful frosty morning for a 10 mile trump…"
 type: post

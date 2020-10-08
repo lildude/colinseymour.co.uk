@@ -1,7 +1,7 @@
 ---
-layout: post
+layout: photo
 date: 2012-12-15 18:46:27 +0000
-title: "Physical Spam | Africa doesn't need the Internet...…"
+title: "Physical Spam"
 type: post
 tags:
 - instagram
@@ -10,4 +10,4 @@ instagram_url: https://www.instagram.com/p/TRIriuJt6U/
 
 ![Instagram - TRIriuJt6U](/img/TRIriuJt6U.jpg){:class="instagram"}
 
-Physical Spam | Africa doesn't need the Internet... Crash barriers and street signs are perfect.
+Africa doesn't need the Internet... Crash barriers and street signs are perfect.

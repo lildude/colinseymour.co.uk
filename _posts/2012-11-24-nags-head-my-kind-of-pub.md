@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-11-24 17:00:18 +0000
 title: "Nag's Head. My kind of pub."
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2012-11-24 16:22:28 +0000
 title: "Middle-class Pub: Zulus AND Fargo"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-06-25 05:47:15 +0000
 title: "Cold brew Symmetry style"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-03-31 19:34:30 +0000
 title: "This is brilliant... a craft 🍺 can where…"
 type: post

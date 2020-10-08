@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-02-05 08:22:57 +0000
 title: "Another double-yolker. Eating at least two eggs a…"
 type: post

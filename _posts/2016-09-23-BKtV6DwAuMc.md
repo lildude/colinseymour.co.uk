@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-09-23 18:27:26 +0000
 title: "Dear 🎅, I'd like this teeny weeny stein…"
 type: post

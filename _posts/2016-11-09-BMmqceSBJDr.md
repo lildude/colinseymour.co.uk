@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-11-09 21:15:00 +0000
 title: "I think someone got a little carried away.…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2017-04-23 23:02:23 +0000
 title: "Holy cow!!! I would, but it's only got…"
 type: post

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2016-04-17 14:28:07 +0000
 title: "M&amp;S, these are not puppies. These are anaemic,…"
 type: post

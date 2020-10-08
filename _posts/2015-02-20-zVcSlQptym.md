@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2015-02-20 19:39:23 +0000
 title: "There's never anything good to eat in this…"
 type: post

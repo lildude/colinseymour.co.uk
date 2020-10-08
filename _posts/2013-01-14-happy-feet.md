@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: photo
 date: 2013-01-14 11:20:00 +0000
 title: "Happy Feet"
 type: post
