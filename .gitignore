@@ -33,3 +33,4 @@ nbproject
 .netlify
 vendor
 .jekyll-cache
+tmp/
