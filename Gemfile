@@ -8,7 +8,7 @@ gem 'jekyll-loading-lazy'
 gem 'jekyll-sitemap'
 # gem 'jekyll-seo-tag', git: 'https://github.com/lildude/jekyll-seo-tag', branch: 'lildude-customisations'
 gem 'jekyll-seo-tag'
-gem 'minima-dude', git: 'https://github.com/lildude/minima-dude'
+gem 'minima-dude', git: 'https://github.com/lildude/minima-dude', branch: 'main'
 
 group :development, :test do
   gem 'html-proofer'
