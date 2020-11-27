@@ -123,6 +123,7 @@ end
 
 desc 'Test site'
 task :test do
+  sh 'JEKYLL_ENV=test bundle exec jekyll doctor'
   sh 'JEKYLL_ENV=test bundle exec jekyll build'
   HTMLProofer.check_directory('./_site', {
                                 assume_extension: true,
@@ -144,7 +145,7 @@ end
 
 desc 'Generate and display locally'
 task :server do
-  system('JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20')
+  system('JEKYLL_ENV=local bundle exec jekyll serve --profile --watch --drafts --baseurl= --limit_posts=20 --livereload')
 end
 
 ## -- Misc Functions -- ##
