@@ -34,3 +34,4 @@ nbproject
 vendor
 .jekyll-cache
 tmp/
+node_modules
