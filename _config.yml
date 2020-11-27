@@ -52,12 +52,30 @@ plugins:
   - jekyll-feed
   - jekyll-loading-lazy
   #- jekyll-paginate
+  - jekyll-include-cache
 
 # Plugin-specific configs
 feed:
   path: atom.xml
 
 # Don't copy these files to the generated site
-exclude: [CNAME, Gemfile, Gemfile.lock, LICENSE.md, Rakefile, README.md, vendor, img/src, script]
+exclude:
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - LICENSE
+  - Rakefile
+  - README.md
+  - vendor
+  - sitespeed-result
+  - script
+  - .jekyll-cache
+  - package.json
+  - package-lock.json
+  - postcss.config.js
+  - tmp
 # Don't attempt to process these - ie leave as-is
-keep_files: [assets, img]
+keep_files:
+  - assets
+  - img
