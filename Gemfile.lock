@@ -1,10 +1,11 @@
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: 38a7707fa6f94bf5d5d1f8a96c42aea014074b0a
+  revision: 75f00c06424d3d84ddc51d52926fa4ea4599ee74
   branch: main
   specs:
     minima-dude (1.0.0)
       jekyll
+      jekyll-include-cache
       jekyll-seo-tag
 
 GEM
@@ -51,6 +52,8 @@ GEM
       terminal-table (~> 1.8)
     jekyll-feed (0.15.1)
       jekyll (>= 3.7, < 5.0)
+    jekyll-include-cache (0.2.1)
+      jekyll (>= 3.7, < 5.0)
     jekyll-loading-lazy (0.1.1)
       jekyll (>= 3.0, < 5.0)
       nokogiri (>= 1.10, < 2.0)
@@ -67,7 +70,9 @@ GEM
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
     liquid (4.0.3)
-    listen (3.2.1)
+    liquid-c (4.0.0)
+      liquid (>= 3.0.0)
+    listen (3.3.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
@@ -86,7 +91,7 @@ GEM
     rb-inotify (0.10.1)
       ffi (~> 1.0)
     rexml (3.2.4)
-    rouge (3.24.0)
+    rouge (3.25.0)
     safe_yaml (1.0.5)
     sassc (2.4.0)
       ffi (~> 1.9)
@@ -106,9 +111,11 @@ DEPENDENCIES
   httpclient
   jekyll
   jekyll-feed
+  jekyll-include-cache
   jekyll-loading-lazy
   jekyll-seo-tag
   jekyll-sitemap
+  liquid-c
   minima-dude!
   rake
   stringex
