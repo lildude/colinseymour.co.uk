@@ -26,6 +26,7 @@ twitter:
 microblog:
   username:         lildude
   site:             /cs # Needs the slash cos I'm lazy in my theme.
+webmentions:        colinseymour.co.uk
 
 # SASS/SCSS
 sass:
