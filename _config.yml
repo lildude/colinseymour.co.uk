@@ -48,6 +48,11 @@ kramdown:
   input:            GFM
   smart_quotes:     ["apos", "apos", "quot", "quot"]  # Don't do smart quoting by replacing like for like.
 
+# Theme settings
+minima_dude:
+  date_format: "%-d %b %Y"
+  show_author: false
+
 # Plugins
 plugins:
   - jekyll-sitemap
