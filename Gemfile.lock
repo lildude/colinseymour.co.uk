@@ -1,9 +1,9 @@
 GIT
   remote: https://github.com/lildude/jekyll-image-cache
-  revision: 9ea154d404b503e5be7646545338c5c3430c949d
+  revision: c69d91d2accf713980afb39d1c224c70c1e86b03
   branch: main
   specs:
-    jekyll-image-cache (0.0.1)
+    jekyll-image-cache (0.0.2)
       jekyll (>= 3.0, < 5.0)
       nokogiri (>= 1.10, < 2.0)
 
@@ -74,7 +74,7 @@ GEM
       jekyll (>= 3.7, < 5.0)
     jekyll-watch (2.2.1)
       listen (~> 3.0)
-    kramdown (2.3.0)
+    kramdown (2.3.1)
       rexml
     kramdown-parser-gfm (1.1.0)
       kramdown (~> 2.0)
@@ -86,7 +86,7 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.10)
     mercenary (0.4.0)
     mini_portile2 (2.5.0)
-    nokogiri (1.11.1)
+    nokogiri (1.11.2)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     nokogumbo (2.0.4)
