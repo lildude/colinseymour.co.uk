@@ -1,6 +1,8 @@
 ---
 layout: photo
 date: 2021-03-28 15:55:52 +0000
+syndication:
+- https://twitter.com/lildude/status/1376202875601354754
 ---
 
 ![](/img/2f3f4a4dc71d.jpeg){: .u-photo}
