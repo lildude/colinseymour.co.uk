@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: photo
 date: 2021-03-28 15:55:52 +0000
 ---
 
