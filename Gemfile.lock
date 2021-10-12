@@ -9,7 +9,7 @@ GIT
 
 GIT
   remote: https://github.com/lildude/minima-dude
-  revision: ad7d24b59e8d88cf6d1be8a1fad7cd772bcdc277
+  revision: e233bc2df9b38be35703f62997442add46375317
   branch: main
   specs:
     minima-dude (1.0.0)
@@ -112,6 +112,7 @@ GEM
     typhoeus (1.4.0)
       ethon (>= 0.9.0)
     unicode-display_width (1.8.0)
+    webrick (1.7.0)
     yell (2.2.2)
 
 PLATFORMS
@@ -132,6 +133,7 @@ DEPENDENCIES
   minima-dude!
   rake
   stringex
+  webrick (~> 1.7)
 
 BUNDLED WITH
    2.2.29
