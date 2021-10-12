@@ -12,7 +12,7 @@ gem 'jekyll-seo-tag'
 # gem 'jekyll-seo-tag', git: 'https://github.com/lildude/jekyll-seo-tag', branch: 'lildude-customisations'
 gem 'jekyll-sitemap'
 gem 'liquid-c'
-gem 'minima-dude', git: 'https://github.com/lildude/minima-dude', branch: 'remove-compress'
+gem 'minima-dude', git: 'https://github.com/lildude/minima-dude', branch: 'main'
 
 group :development, :test do
   gem 'html-proofer'
