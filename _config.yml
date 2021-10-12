@@ -13,10 +13,20 @@ url:                https://colinseymour.co.uk
 logo:               "true"
 lang:               en-GB
 theme:              minima-dude
-#paginate:           10
+
 dns_prefetch:
   - images.weserv.nl
   - d33wubrfki0l68.cloudfront.net
+
+# Defaults for the entire site - this ensures my notes and photos which use implied titles don't get a title in the feed
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      title: ""
 
 # Author
 author:             'lildude'
@@ -41,7 +51,7 @@ compress_html:
   endings:          [html, head, body, li, dt, dd, rt, rp, optgroup, option, colgroup, caption, thead, tbody, tfoot, tr, td, th]
   startings:        [html, body]  # We need the <head> as Google Site verification needs it.
   ignore:
-    envs:           [test, local]
+    envs:           [test, local, development]
   profile:          false
 
 kramdown:
@@ -56,17 +66,16 @@ minima_dude:
 # Plugins
 plugins:
   - jekyll-sitemap
-  #- jekyll-json-feed
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-loading-lazy
-  #- jekyll-paginate
   - jekyll-include-cache
   - jekyll-image-cache
 
 # Plugin-specific configs
 feed:
   path: atom.xml
+  use_excerpts: false
 
 # Don't copy these files to the generated site
 exclude:
