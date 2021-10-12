@@ -22,4 +22,5 @@ group :development, :test do
   # gem 'minima-dude', path: '/Users/lildude/Sites/static/jekyll/minima-dude'
   gem 'rake'
   gem 'stringex'
+  gem 'webrick', '~> 1.7'
 end
