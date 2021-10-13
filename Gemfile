@@ -19,7 +19,7 @@ group :development, :test do
   gem 'httpclient'
   # gem 'html-proofer', git: 'https://github.com/lildude/html-proofer.git', branch: 'iframe-check-https-default'
   # gem 'html-proofer', path: '/Users/lildude/Development/html-proofer'
-  # gem 'minima-dude', path: '/Users/lildude/Sites/static/jekyll/minima-dude'
+  # gem 'minima-dude', path: '/Users/lildude/Sites/minima-dude'
   gem 'rake'
   gem 'stringex'
   gem 'webrick', '~> 1.7'
