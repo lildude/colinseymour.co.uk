@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BIaqv0kA1Nk/
 ---
 
-![Instagram - BIaqv0kA1Nk](/img/BIaqv0kA1Nk.jpg){:class="instagram"}
+{% picture u-photo img/BIaqv0kA1Nk.jpg %}
 
 You are NOT an almond!! What are you doing in my bag of almonds?

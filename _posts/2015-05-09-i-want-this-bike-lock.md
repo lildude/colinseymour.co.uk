@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/2d-eY-Jt_E/
 ---
 
-![Instagram - 2d-eY-Jt_E](/img/2d-eY-Jt_E.jpg){:class="instagram"}
+{% picture u-photo img/2d-eY-Jt_E.jpg %}
 
 I want this bike lock

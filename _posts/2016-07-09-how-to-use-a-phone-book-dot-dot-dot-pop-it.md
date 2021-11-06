@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BHpVy2hgwE_/
 ---
 
-![Instagram - BHpVy2hgwE_](/img/BHpVy2hgwE_.jpg){:class="instagram"}
+{% picture u-photo img/BHpVy2hgwE_.jpg %}
 
 How to use a phone book... pop it straight into the recycling bin the minute it falls thru the letterbox.

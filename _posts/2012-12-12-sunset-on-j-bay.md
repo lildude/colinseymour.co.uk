@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/TJP4r9pt5-/
 ---
 
-![Instagram - TJP4r9pt5-](/img/TJP4r9pt5-.jpg){:class="instagram"}
+{% picture u-photo img/TJP4r9pt5-.jpg %}
 
 Last evening in J-Bay. Back to Jozi tomorrow.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/aljBnCJt-O/
 ---
 
-![Instagram - aljBnCJt-O](/img/aljBnCJt-O.jpg){:class="instagram"}
+{% picture u-photo img/aljBnCJt-O.jpg %}
 
 Unbelievable! They've made a beer that tastes like the fireballs I ate as a kid.

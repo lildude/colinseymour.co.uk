@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMxn0UYhtk6/
 ---
 
-![Instagram - BMxn0UYhtk6](/img/BMxn0UYhtk6.jpg){:class="instagram"}
+{% picture u-photo img/BMxn0UYhtk6.jpg %}
 
 Who'd have thunk it, me eating a meat-free steak; a cauliflower steak. With a steak knife too 😁

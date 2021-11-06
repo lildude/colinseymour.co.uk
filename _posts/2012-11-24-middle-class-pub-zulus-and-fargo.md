@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/SazgmYJt6h/
 ---
 
-![Instagram - SazgmYJt6h](/img/SazgmYJt6h.jpg){:class="instagram"}
+{% picture u-photo img/SazgmYJt6h.jpg %}
 
 Middle-class Pub: Zulus AND Fargo

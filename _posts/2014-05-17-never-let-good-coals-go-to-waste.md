@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/oG-6pSpt4p/
 ---
 
-![Instagram - oG-6pSpt4p](/img/oG-6pSpt4p.jpg){:class="instagram"}
+{% picture u-photo img/oG-6pSpt4p.jpg %}
 
 Never let good coals go to waste.

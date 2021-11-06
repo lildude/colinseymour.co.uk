@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/8n-zFAJt3H/
 ---
 
-![Instagram - 8n-zFAJt3H](/img/8n-zFAJt3H.jpg){:class="instagram"}
+{% picture u-photo img/8n-zFAJt3H.jpg %}
 
 M&S "Winter Berries & Prosecco Hand Cooked Crisps" come with little gold stars... cos that's precisely what pretentious middle-class crisps need 😜 The crisps taste a bit odd too.

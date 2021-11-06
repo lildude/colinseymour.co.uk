@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/tbqXWzpt5J/
 ---
 
-![Instagram - tbqXWzpt5J](/img/tbqXWzpt5J.jpg){:class="instagram"}
+{% picture u-photo img/tbqXWzpt5J.jpg %}
 
 My Friday evening entertainment... learning baseball.

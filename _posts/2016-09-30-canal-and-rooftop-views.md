@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BK-_j9yBwvB/
 ---
 
-![Instagram - BK-_j9yBwvB](/img/BK-_j9yBwvB.jpg){:class="instagram"}
+{% picture u-photo img/BK-_j9yBwvB.jpg %}
 
 Canal and rooftop views 😍

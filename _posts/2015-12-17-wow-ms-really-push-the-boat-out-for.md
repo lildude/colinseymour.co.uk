@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/aOJQhpt68/
 ---
 
-![Instagram - aOJQhpt68](/img/aOJQhpt68.jpg){:class="instagram"}
+{% picture u-photo img/aOJQhpt68.jpg %}
 
 Wow! MS really push the boat out for the veggies and GF peeps 😜

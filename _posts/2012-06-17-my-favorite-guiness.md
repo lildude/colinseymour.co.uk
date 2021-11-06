@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/L-4OONpt_m/
 ---
 
-![Instagram - L-4OONpt_m](/img/L-4OONpt_m.jpg){:class="instagram"}
+{% picture u-photo img/L-4OONpt_m.jpg %}
 
 My Favorite Guiness

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/os-TABpt1N/
 ---
 
-![Instagram - os-TABpt1N](/img/os-TABpt1N.jpg){:class="instagram"}
+{% picture u-photo img/os-TABpt1N.jpg %}
 
 Awwwww sweeeet cygnets.

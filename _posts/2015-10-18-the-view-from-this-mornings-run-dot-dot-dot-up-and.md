@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/8_c764Jt5l/
 ---
 
-![Instagram - 8_c764Jt5l](/img/8_c764Jt5l.jpg){:class="instagram"}
+{% picture u-photo img/8_c764Jt5l.jpg %}
 
 The view from this morning's run... up and over Twin Peaks.

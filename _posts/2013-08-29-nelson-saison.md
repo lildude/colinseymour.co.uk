@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/dm6gBzJt8X/
 ---
 
-![Instagram - dm6gBzJt8X](/img/dm6gBzJt8X.jpg){:class="instagram"}
+{% picture u-photo img/dm6gBzJt8X.jpg %}
 
 Just about to tuck into an ex-colleague, @tabamatu's, highly praised beer. Thanks to another colleague, Dave, for the bottle.

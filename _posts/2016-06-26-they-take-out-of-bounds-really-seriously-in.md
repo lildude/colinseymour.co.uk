@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BHG_vv8gHWE/
 ---
 
-![Instagram - BHG_vv8gHWE](/img/BHG_vv8gHWE.jpg){:class="instagram"}
+{% picture u-photo img/BHG_vv8gHWE.jpg %}
 
 They take out of bounds really seriously in Singapore 😂

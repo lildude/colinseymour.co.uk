@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3FUJUwJt7L/
 ---
 
-![Instagram - 3FUJUwJt7L](/img/3FUJUwJt7L.jpg){:class="instagram"}
+{% picture u-photo img/3FUJUwJt7L.jpg %}
 
 16:30 isn't too late for a Bulletproof coffee is it?

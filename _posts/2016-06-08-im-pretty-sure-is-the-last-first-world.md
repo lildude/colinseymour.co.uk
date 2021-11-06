@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BGZ7996ptwb/
 ---
 
-![Instagram - BGZ7996ptwb](/img/BGZ7996ptwb.jpg){:class="instagram"}
+{% picture u-photo img/BGZ7996ptwb.jpg %}
 
 I'm pretty sure 🇬🇧 is the last first-world county in which you have to hang out the window of a high speed train to open the door. #heath&safetygonemad 😜

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QIWEtqpt0E/
 ---
 
-![Instagram - QIWEtqpt0E](/img/QIWEtqpt0E.jpg){:class="instagram"}
+{% picture u-photo img/QIWEtqpt0E.jpg %}
 
 Wow! Someone is a brilliant husband for buying their wife these beautiful flowers for her birthday ;-)

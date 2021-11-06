@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/S5crW5Jt3n/
 ---
 
-![Instagram - S5crW5Jt3n](/img/S5crW5Jt3n.jpg){:class="instagram"}
+{% picture u-photo img/S5crW5Jt3n.jpg %}
 
 Now this is my kind of platter. Meat meat meat-eaty-meat (ignoring the wedges)

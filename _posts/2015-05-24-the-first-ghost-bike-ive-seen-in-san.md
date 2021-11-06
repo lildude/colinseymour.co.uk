@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3C_9Xnpt13/
 ---
 
-![Instagram - 3C_9Xnpt13](/img/3C_9Xnpt13.jpg){:class="instagram"}
+{% picture u-photo img/3C_9Xnpt13.jpg %}
 
 The first ghost bike I've seen in San Francisco. 😢

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/8suv4PJt6t/
 ---
 
-![Instagram - 8suv4PJt6t](/img/8suv4PJt6t.jpg){:class="instagram"}
+{% picture u-photo img/8suv4PJt6t.jpg %}
 
 What is the collective noun for shrooms?

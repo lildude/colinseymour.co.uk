@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMxfgDFhNfO/
 ---
 
-![Instagram - BMxfgDFhNfO](/img/BMxfgDFhNfO.jpg){:class="instagram"}
+{% picture u-photo img/BMxfgDFhNfO.jpg %}
 
 Cranking the brightness of the moon up to 11

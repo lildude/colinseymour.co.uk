@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Yj0Tcbpt3r/
 ---
 
-![Instagram - Yj0Tcbpt3r](/img/Yj0Tcbpt3r.jpg){:class="instagram"}
+{% picture u-photo img/Yj0Tcbpt3r.jpg %}
 
 We decided to try something new for our veggies. Two boxes of lovely veggies silently arrived this morning. Yum.

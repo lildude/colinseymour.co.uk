@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/kaLxTSpt2R/
 ---
 
-![Instagram - kaLxTSpt2R](/img/kaLxTSpt2R.jpg){:class="instagram"}
+{% picture u-photo img/kaLxTSpt2R.jpg %}
 
 Middle-class spam

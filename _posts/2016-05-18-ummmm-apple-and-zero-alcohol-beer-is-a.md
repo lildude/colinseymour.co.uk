@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFjh-dspt30/
 ---
 
-![Instagram - BFjh-dspt30](/img/BFjh-dspt30.jpg){:class="instagram"}
+{% picture u-photo img/BFjh-dspt30.jpg %}
 
 Ummmm, apple and zero alcohol beer is a very, um interesting concept. 😖

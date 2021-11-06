@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/mTPh5XJtyL/
 ---
 
-![Instagram - mTPh5XJtyL](/img/mTPh5XJtyL.jpg){:class="instagram"}
+{% picture u-photo img/mTPh5XJtyL.jpg %}
 
 Countdown fans or just middle class graffiti?

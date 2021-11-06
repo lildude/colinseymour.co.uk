@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Uo74eEJtzo/
 ---
 
-![Instagram - Uo74eEJtzo](/img/Uo74eEJtzo.jpg){:class="instagram"}
+{% picture u-photo img/Uo74eEJtzo.jpg %}
 
 Who needs pasta when you can make oodles of zoodles

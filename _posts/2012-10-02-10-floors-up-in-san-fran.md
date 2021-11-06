@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QRIfTXpt3H/
 ---
 
-![Instagram - QRIfTXpt3H](/img/QRIfTXpt3H.jpg){:class="instagram"}
+{% picture u-photo img/QRIfTXpt3H.jpg %}
 
 10 floors up in San Fran.

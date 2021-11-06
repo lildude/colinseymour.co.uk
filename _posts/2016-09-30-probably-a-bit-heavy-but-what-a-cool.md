@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BK_GO0Vhy77/
 ---
 
-![Instagram - BK_GO0Vhy77](/img/BK_GO0Vhy77.jpg){:class="instagram"}
+{% picture u-photo img/BK_GO0Vhy77.jpg %}
 
 Probably a bit heavy but what a cool bike.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Wr3whvJt8a/
 ---
 
-![Instagram - Wr3whvJt8a](/img/Wr3whvJt8a.jpg){:class="instagram"}
+{% picture u-photo img/Wr3whvJt8a.jpg %}
 
 And that's how you sell a bike

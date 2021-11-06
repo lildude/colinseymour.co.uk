@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/eNpCt3Jt0o/
 ---
 
-![Instagram - eNpCt3Jt0o](/img/eNpCt3Jt0o.jpg){:class="instagram"}
+{% picture u-photo img/eNpCt3Jt0o.jpg %}
 
 Just found a beer that reminds me of the Indus Prides I drank in India. Lovely subtle cardamom & coriander after-taste. Will def get this again if I can find it.

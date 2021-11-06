@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-CXNJGJt8G/
 ---
 
-![Instagram - -CXNJGJt8G](/img/-CXNJGJt8G.jpg){:class="instagram"}
+{% picture u-photo img/-CXNJGJt8G.jpg %}
 
 Valencia Metro tickets are fun, disposable and rechargeable too.

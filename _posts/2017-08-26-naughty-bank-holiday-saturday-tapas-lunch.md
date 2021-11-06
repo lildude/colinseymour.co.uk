@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BYQqyIxFdJB/
 ---
 
-![Instagram - BYQqyIxFdJB](/img/BYQqyIxFdJB.jpg){:class="instagram"}
+{% picture u-photo img/BYQqyIxFdJB.jpg %}
 
 Naughty bank holiday Saturday tapas lunch 😋

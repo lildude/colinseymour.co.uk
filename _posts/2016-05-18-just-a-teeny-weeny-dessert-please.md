@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFjAdqLJt5G/
 ---
 
-![Instagram - BFjAdqLJt5G](/img/BFjAdqLJt5G.jpg){:class="instagram"}
+{% picture u-photo img/BFjAdqLJt5G.jpg %}
 
 Just a teeny weeny dessert please.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/UmQpiCJt6t/
 ---
 
-![Instagram - UmQpiCJt6t](/img/UmQpiCJt6t.jpg){:class="instagram"}
+{% picture u-photo img/UmQpiCJt6t.jpg %}
 
 No mirrors were used in the making of this photo

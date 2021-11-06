@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NmU01opt59/
 ---
 
-![Instagram - NmU01opt59](/img/NmU01opt59.jpg){:class="instagram"}
+{% picture u-photo img/NmU01opt59.jpg %}
 
 My Olympic Dinner

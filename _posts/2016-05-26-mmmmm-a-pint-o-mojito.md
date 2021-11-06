@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BF4fBDLJt5s/
 ---
 
-![Instagram - BF4fBDLJt5s](/img/BF4fBDLJt5s.jpg){:class="instagram"}
+{% picture u-photo img/BF4fBDLJt5s.jpg %}
 
 Mmmmm, a pint o' mojito

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BUjqhEaFvFg/
 ---
 
-![Instagram - BUjqhEaFvFg](/img/BUjqhEaFvFg.jpg){:class="instagram"}
+{% picture u-photo img/BUjqhEaFvFg.jpg %}
 
 The spiders are back in action on the neighbour's bush

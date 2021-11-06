@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-Eaq_Spt_M/
 ---
 
-![Instagram - -Eaq_Spt_M](/img/-Eaq_Spt_M.jpg){:class="instagram"}
+{% picture u-photo img/-Eaq_Spt_M.jpg %}
 
 Mulling my race tomorrow whilst gazing over the city from our apartment balcony.

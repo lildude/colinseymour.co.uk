@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/UjkSxfpt2p/
 ---
 
-![Instagram - UjkSxfpt2p](/img/UjkSxfpt2p.jpg){:class="instagram"}
+{% picture u-photo img/UjkSxfpt2p.jpg %}
 
 Lovely lamb curry served on cauliflower rice.

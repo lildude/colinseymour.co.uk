@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/sdCTUgJt6F/
 ---
 
-![Instagram - sdCTUgJt6F](/img/sdCTUgJt6F.jpg){:class="instagram"}
+{% picture u-photo img/sdCTUgJt6F.jpg %}
 
 Another mild day in Toledo.

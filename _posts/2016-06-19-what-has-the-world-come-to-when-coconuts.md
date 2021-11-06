@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BG12h6tJt5w/
 ---
 
-![Instagram - BG12h6tJt5w](/img/BG12h6tJt5w.jpg){:class="instagram"}
+{% picture u-photo img/BG12h6tJt5w.jpg %}
 
 What has the world come to when coconuts come with ring pulls?

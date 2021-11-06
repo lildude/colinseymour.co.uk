@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BXLJVyQFbfV/
 ---
 
-![Instagram - BXLJVyQFbfV](/img/BXLJVyQFbfV.jpg){:class="instagram"}
+{% picture u-photo img/BXLJVyQFbfV.jpg %}
 
 Proof christmas definitely comes earlier and earlier each year... It's not even August!!!

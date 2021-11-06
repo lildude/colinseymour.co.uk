@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/7NX7EGptxC/
 ---
 
-![Instagram - 7NX7EGptxC](/img/7NX7EGptxC.jpg){:class="instagram"}
+{% picture u-photo img/7NX7EGptxC.jpg %}
 
 Take your pick of one of our free drinks.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QFyD8VJtzU/
 ---
 
-![Instagram - QFyD8VJtzU](/img/QFyD8VJtzU.jpg){:class="instagram"}
+{% picture u-photo img/QFyD8VJtzU.jpg %}
 
 Elf Warning #beer

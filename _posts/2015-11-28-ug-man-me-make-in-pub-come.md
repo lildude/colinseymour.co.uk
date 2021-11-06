@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-o5m67Jt5s/
 ---
 
-![Instagram - -o5m67Jt5s](/img/-o5m67Jt5s.jpg){:class="instagram"}
+{% picture u-photo img/-o5m67Jt5s.jpg %}
 
 Ug, man (me) make 🔥 in pub come alive.

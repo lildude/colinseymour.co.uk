@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/xXG3WdJt6A/
 ---
 
-![Instagram - xXG3WdJt6A](/img/xXG3WdJt6A.jpg){:class="instagram"}
+{% picture u-photo img/xXG3WdJt6A.jpg %}
 
 Hot cross buns... on the 2nd of January!!!!!

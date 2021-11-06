@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/2QWgIbJtxK/
 ---
 
-![Instagram - 2QWgIbJtxK](/img/2QWgIbJtxK.jpg){:class="instagram"}
+{% picture u-photo img/2QWgIbJtxK.jpg %}
 
 Extra legroom at no extra cost.

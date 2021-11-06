@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MN7CQnJt0R/
 ---
 
-![Instagram - MN7CQnJt0R](/img/MN7CQnJt0R.jpg){:class="instagram"}
+{% picture u-photo img/MN7CQnJt0R.jpg %}
 
 Interesting name for biltong

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/W4u0CZJt04/
 ---
 
-![Instagram - W4u0CZJt04](/img/W4u0CZJt04.jpg){:class="instagram"}
+{% picture u-photo img/W4u0CZJt04.jpg %}
 
 Today I mostly be drinking beer

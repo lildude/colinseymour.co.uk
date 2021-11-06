@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/oikdhXpt1f/
 ---
 
-![Instagram - oikdhXpt1f](/img/oikdhXpt1f.jpg){:class="instagram"}
+{% picture u-photo img/oikdhXpt1f.jpg %}
 
 Passed this speed demon on my commute this morning.

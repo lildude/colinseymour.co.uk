@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEo-xlZJt19/
 ---
 
-![Instagram - BEo-xlZJt19](/img/BEo-xlZJt19.jpg){:class="instagram"}
+{% picture u-photo img/BEo-xlZJt19.jpg %}
 
 I took my wife 158m up the BT Tower 😜

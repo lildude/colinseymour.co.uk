@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Oeve8yJtzX/
 ---
 
-![Instagram - Oeve8yJtzX](/img/Oeve8yJtzX.jpg){:class="instagram"}
+{% picture u-photo img/Oeve8yJtzX.jpg %}
 
 Not quite ready for cooking.

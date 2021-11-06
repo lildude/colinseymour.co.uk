@@ -5,6 +5,6 @@ syndication:
 - https://twitter.com/lildude/status/1376202875601354754
 ---
 
-![](/img/2f3f4a4dc71d.jpeg){: .u-photo}
+{% picture u-photo img/2f3f4a4dc71d.jpeg %}
  
 I thought I’d run out of screen wash but it turns out I have a small rodent problem 😕

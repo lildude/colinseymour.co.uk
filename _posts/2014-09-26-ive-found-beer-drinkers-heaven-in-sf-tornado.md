@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/tZC8Lnpt0p/
 ---
 
-![Instagram - tZC8Lnpt0p](/img/tZC8Lnpt0p.jpg){:class="instagram"}
+{% picture u-photo img/tZC8Lnpt0p.jpg %}
 
 I've found beer drinkers heaven in SF. Tornado is an awesome bar with a huge range of beers.

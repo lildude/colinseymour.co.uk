@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/jfngIwJtwe/
 ---
 
-![Instagram - jfngIwJtwe](/img/jfngIwJtwe.jpg){:class="instagram"}
+{% picture u-photo img/jfngIwJtwe.jpg %}
 
 Can I call myself a hipster now?

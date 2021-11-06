@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/RX5Ty1Jtwg/
 ---
 
-![Instagram - RX5Ty1Jtwg](/img/RX5Ty1Jtwg.jpg){:class="instagram"}
+{% picture u-photo img/RX5Ty1Jtwg.jpg %}
 
 Virgin Hot Air Balloon

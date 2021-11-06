@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BAsMSiWJt1Q/
 ---
 
-![Instagram - BAsMSiWJt1Q](/img/BAsMSiWJt1Q.jpg){:class="instagram"}
+{% picture u-photo img/BAsMSiWJt1Q.jpg %}
 
 An Audience with Roger Bannister. Looky what my lovely wife arranged for us tonight. I'm a lucky boy me.

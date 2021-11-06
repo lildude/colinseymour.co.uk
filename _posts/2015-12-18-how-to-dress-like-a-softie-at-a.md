@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/_aabazpt_v/
 ---
 
-![Instagram - aabazpt_v](/img/aabazpt_v.jpg){:class="instagram"}
+{% picture u-photo img/aabazpt_v.jpg %}
 
 How to dress like a 'softie at a company "do".

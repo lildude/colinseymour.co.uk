@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/xPbRWIJt-1/
 ---
 
-![Instagram - xPbRWIJt-1](/img/xPbRWIJt-1.jpg){:class="instagram"}
+{% picture u-photo img/xPbRWIJt-1.jpg %}
 
 Consider your manners when visiting my local

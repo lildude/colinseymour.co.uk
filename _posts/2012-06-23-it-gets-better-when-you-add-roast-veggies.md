@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MOjh0aJt7N/
 ---
 
-![Instagram - MOjh0aJt7N](/img/MOjh0aJt7N.jpg){:class="instagram"}
+{% picture u-photo img/MOjh0aJt7N.jpg %}
 
 It gets better when you add roast veggies.

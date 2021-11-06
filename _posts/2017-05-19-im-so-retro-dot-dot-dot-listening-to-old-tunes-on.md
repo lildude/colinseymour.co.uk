@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BURfxjuFif7/
 ---
 
-![Instagram - BURfxjuFif7](/img/BURfxjuFif7.jpg){:class="instagram"}
+{% picture u-photo img/BURfxjuFif7.jpg %}
 
 I'm so retro... Listening to old tunes on a mini disc Walkman I forgot I had in the loft 🤘🤙

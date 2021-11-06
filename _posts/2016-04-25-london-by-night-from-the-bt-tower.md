@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEoth7GJt25/
 ---
 
-![Instagram - BEoth7GJt25](/img/BEoth7GJt25.jpg){:class="instagram"}
+{% picture u-photo img/BEoth7GJt25.jpg %}
 
 London by night from the BT Tower

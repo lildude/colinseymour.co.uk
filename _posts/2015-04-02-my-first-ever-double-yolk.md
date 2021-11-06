@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/09zOlKJt4L/
 ---
 
-![Instagram - 09zOlKJt4L](/img/09zOlKJt4L.jpg){:class="instagram"}
+{% picture u-photo img/09zOlKJt4L.jpg %}
 
 My first ever double-yolk.

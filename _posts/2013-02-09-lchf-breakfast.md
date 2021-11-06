@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/VgbubYJt4-/
 ---
 
-![Instagram - VgbubYJt4-](/img/VgbubYJt4-.jpg){:class="instagram"}
+{% picture u-photo img/VgbubYJt4-.jpg %}
 
 Eggs, sweet potato hash, slices of baked bacon joint & guacamole. #lchf #paleo

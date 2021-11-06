@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMxgkUkBgp1/
 ---
 
-![Instagram - BMxgkUkBgp1](/img/BMxgkUkBgp1.jpg){:class="instagram"}
+{% picture u-photo img/BMxgkUkBgp1.jpg %}
 
 Getting arty now with a bit of foreground interest too 😁

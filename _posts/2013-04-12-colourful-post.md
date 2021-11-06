@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/YAKrm7pt9c/
 ---
 
-![Instagram - YAKrm7pt9c](/img/YAKrm7pt9c.jpg){:class="instagram"}
+{% picture u-photo img/YAKrm7pt9c.jpg %}
 
 Letters from South Africa always brighten up our post. Pity it takes so long to arrive if you leave off the Par Avion sticker.

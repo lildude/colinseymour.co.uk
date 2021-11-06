@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/npPVX1Jtwv/
 ---
 
-![Instagram - npPVX1Jtwv](/img/npPVX1Jtwv.jpg){:class="instagram"}
+{% picture u-photo img/npPVX1Jtwv.jpg %}
 
 This game is called "cornhole". Sounds so wrong to me.

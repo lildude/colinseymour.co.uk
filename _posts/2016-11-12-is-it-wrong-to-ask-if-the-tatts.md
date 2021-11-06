@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMsQdl2BOhd/
 ---
 
-![Instagram - BMsQdl2BOhd](/img/BMsQdl2BOhd.jpg){:class="instagram"}
+{% picture u-photo img/BMsQdl2BOhd.jpg %}
 
 Is it wrong to ask if the tatts translate to left and right? 😜

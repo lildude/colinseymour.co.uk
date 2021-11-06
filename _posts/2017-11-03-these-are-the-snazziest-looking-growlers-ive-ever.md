@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BbBSgWzl4Zh/
 ---
 
-![Instagram - BbBSgWzl4Zh](/img/BbBSgWzl4Zh.jpg){:loading="lazy"}
+{% picture u-photo img/BbBSgWzl4Zh.jpg %}
 
 These are the snazziest looking growlers I've ever seen. Still trying to decide if they're worth the money though.

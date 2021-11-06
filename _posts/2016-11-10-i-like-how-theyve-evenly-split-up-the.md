@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMnBn1pBXsh/
 ---
 
-![Instagram - BMnBn1pBXsh](/img/BMnBn1pBXsh.jpg){:class="instagram"}
+{% picture u-photo img/BMnBn1pBXsh.jpg %}
 
 I like how they've evenly split up the mass-produced swill on their tap board.

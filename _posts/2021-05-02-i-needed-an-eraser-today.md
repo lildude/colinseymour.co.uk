@@ -5,6 +5,6 @@ syndication:
 - https://twitter.com/lildude/status/1388918113337479171
 ---
 
-![](/img/41101d7618cc.jpeg){: .u-photo}
+{% picture u-photo img/41101d7618cc.jpeg %}
  
 I needed an eraser today so I dug out my 30 year old pencil case. It’s pretty much as it was when I matriculated, even with the pen I wrote my finals with (the one with the scooby wire, and it still works), my house colour badges, and even my emergency “Coke & Bar-one” R5 coin.

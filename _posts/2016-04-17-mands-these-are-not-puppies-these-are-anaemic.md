@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BETgIDRpt4J/
 ---
 
-![Instagram - BETgIDRpt4J](/img/BETgIDRpt4J.jpg){:class="instagram"}
+{% picture u-photo img/BETgIDRpt4J.jpg %}
 
 M&S, these are not puppies. These are anaemic, short, fat, pappy chicken sausages. Oh wait, it's a typo right?

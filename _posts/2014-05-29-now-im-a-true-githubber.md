@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/okx59Fpt5t/
 ---
 
-![Instagram - okx59Fpt5t](/img/okx59Fpt5t.jpg){:class="instagram"}
+{% picture u-photo img/okx59Fpt5t.jpg %}
 
 Now I'm a true GitHubber

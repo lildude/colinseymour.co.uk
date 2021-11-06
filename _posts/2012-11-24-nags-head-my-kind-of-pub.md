@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Sa31vapt-R/
 ---
 
-![Instagram - Sa31vapt-R](/img/Sa31vapt-R.jpg){:class="instagram"}
+{% picture u-photo img/Sa31vapt-R.jpg %}
 
 Nag's Head. My kind of pub.

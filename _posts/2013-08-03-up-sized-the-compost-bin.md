@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/cj1lOVpt_a/
 ---
 
-![Instagram - cj1lOVpt_a](/img/cj1lOVpt_a.jpg){:class="instagram"}
+{% picture u-photo img/cj1lOVpt_a.jpg %}
 
 You know you're into paleo when you need to up-size the kitchen compost bin.

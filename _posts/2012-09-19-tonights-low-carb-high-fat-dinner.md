@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/PxScrwJt33/
 ---
 
-![Instagram - PxScrwJt33](/img/PxScrwJt33.jpg){:class="instagram"}
+{% picture u-photo img/PxScrwJt33.jpg %}
 
 Tonight's low-carb, high fat dinner

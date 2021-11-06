@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BS6fvPol9dY/
 ---
 
-![Instagram - BS6fvPol9dY](/img/BS6fvPol9dY.jpg){:class="instagram"}
+{% picture u-photo img/BS6fvPol9dY.jpg %}
 
 TSFW (that smug feeling when) you can properly pronounce the name of a wine in the UK. Who'd have thought Afrikaans would be useful outside 🇿🇦?

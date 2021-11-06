@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/zQPa_9pt20/
 ---
 
-![Instagram - zQPa_9pt20](/img/zQPa_9pt20.jpg){:class="instagram"}
+{% picture u-photo img/zQPa_9pt20.jpg %}
 
 Oh no, more meat for lunch. 😜

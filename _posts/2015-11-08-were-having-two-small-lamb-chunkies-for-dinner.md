@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/91Pm_Vpt5j/
 ---
 
-![Instagram - 91Pm_Vpt5j](/img/91Pm_Vpt5j.jpg){:class="instagram"}
+{% picture u-photo img/91Pm_Vpt5j.jpg %}
 
 We're having two "small" lamb chunkies for dinner tonight. 😋😋😋

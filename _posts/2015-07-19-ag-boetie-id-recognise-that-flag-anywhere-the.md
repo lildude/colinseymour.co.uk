@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/5VB_imJt6_/
 ---
 
-![Instagram - 5VB_imJt6](/img/5VB_imJt6.jpg){:class="instagram"}
+{% picture u-photo img/5VB_imJt6.jpg %}
 
 Ag boetie, I'd recognise that flag anywhere. The hidden gem I've just discovered, @EldonArmsPub, is a Saffer pub & serves food from home. I'll be back.

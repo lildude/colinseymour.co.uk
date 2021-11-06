@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BTalLM8Fg1R/
 ---
 
-![Instagram - BTalLM8Fg1R](/img/BTalLM8Fg1R.jpg){:class="instagram"}
+{% picture u-photo img/BTalLM8Fg1R.jpg %}
 
 I ordered the parfait as I was in the mood for chocolate mouse. Imagine my disappointment when my dessert arrived with chocolate mousse instead of mouse 😢

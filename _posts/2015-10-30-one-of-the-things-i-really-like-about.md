@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/9cndySptx_/
 ---
 
-![Instagram - 9cndySptx_](/img/9cndySptx_.jpg){:class="instagram"}
+{% picture u-photo img/9cndySptx_.jpg %}
 
 One of the things I really like about SF is I can catch an old fashioned trolley home at the end of the day, and it's only $2.25.

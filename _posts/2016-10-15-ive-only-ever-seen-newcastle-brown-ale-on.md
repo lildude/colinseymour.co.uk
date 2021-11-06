@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BLl5mUgh8zM/
 ---
 
-![Instagram - BLl5mUgh8zM](/img/BLl5mUgh8zM.jpg){:class="instagram"}
+{% picture u-photo img/BLl5mUgh8zM.jpg %}
 
 I've only ever seen Newcastle Brown Ale on tap outside 🇬🇧 but I wouldn't call it a "world beer" whilst in 🇬🇧

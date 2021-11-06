@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/zJM_8AJtwd/
 ---
 
-![Instagram - zJM_8AJtwd](/img/zJM_8AJtwd.jpg){:class="instagram"}
+{% picture u-photo img/zJM_8AJtwd.jpg %}
 
 I'm all by myself at a table for four. I think this may be too much meat even for me.

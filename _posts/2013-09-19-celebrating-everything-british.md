@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/edBMqXpt2U/
 ---
 
-![Instagram - edBMqXpt2U](/img/edBMqXpt2U.jpg){:class="instagram"}
+{% picture u-photo img/edBMqXpt2U.jpg %}
 
 Finally found a bottle of British wine... made with wine of Romania?!

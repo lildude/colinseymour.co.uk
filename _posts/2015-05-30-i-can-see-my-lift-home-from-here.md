@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3UwLiCJt19/
 ---
 
-![Instagram - 3UwLiCJt19](/img/3UwLiCJt19.jpg){:class="instagram"}
+{% picture u-photo img/3UwLiCJt19.jpg %}
 
 I can see my lift home from here

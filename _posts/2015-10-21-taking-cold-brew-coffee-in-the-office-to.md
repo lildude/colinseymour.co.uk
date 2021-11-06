@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/9HeitOJt2u/
 ---
 
-![Instagram - 9HeitOJt2u](/img/9HeitOJt2u.jpg){:class="instagram"}
+{% picture u-photo img/9HeitOJt2u.jpg %}
 
 Taking cold brew coffee in the office to the next level.

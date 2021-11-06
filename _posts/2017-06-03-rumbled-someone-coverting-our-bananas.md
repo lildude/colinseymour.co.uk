@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BU4NUO7l47t/
 ---
 
-![Instagram - BU4NUO7l47t](/img/BU4NUO7l47t.jpg){:class="instagram"}
+{% picture u-photo img/BU4NUO7l47t.jpg %}
 
 Rumbled someone coverting our bananas

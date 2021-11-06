@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/fc9HShpt7J/
 ---
 
-![Instagram - fc9HShpt7J](/img/fc9HShpt7J.jpg){:class="instagram"}
+{% picture u-photo img/fc9HShpt7J.jpg %}
 
 Look what I found in the pub.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BIBUTArgXJP/
 ---
 
-![Instagram - BIBUTArgXJP](/img/BIBUTArgXJP.jpg){:class="instagram"}
+{% picture u-photo img/BIBUTArgXJP.jpg %}
 
 I made a new friend.

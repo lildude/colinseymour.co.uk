@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/7PxNCYpt_T/
 ---
 
-![Instagram - 7PxNCYpt_T](/img/7PxNCYpt_T.jpg){:class="instagram"}
+{% picture u-photo img/7PxNCYpt_T.jpg %}
 
 Is this Club Tuts or an honest indication of the services offered?

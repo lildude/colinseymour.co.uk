@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/alcX45Jtx1/
 ---
 
-![Instagram - alcX45Jtx1](/img/alcX45Jtx1.jpg){:class="instagram"}
+{% picture u-photo img/alcX45Jtx1.jpg %}
 
 Now this is an extra-ordinary beer. I've never had a liquorice tasting beer before.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NrArFgpt3M/
 ---
 
-![Instagram - NrArFgpt3M](/img/NrArFgpt3M.jpg){:class="instagram"}
+{% picture u-photo img/NrArFgpt3M.jpg %}
 
 Milly & Billy could do with learning grammar

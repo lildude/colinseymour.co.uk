@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMKzZf9B0fV/
 ---
 
-![Instagram - BMKzZf9B0fV](/img/BMKzZf9B0fV.jpg){:class="instagram"}
+{% picture u-photo img/BMKzZf9B0fV.jpg %}
 
 Want strange looks in a brewpub? Grab a seat at the bar, slap down two cans of sardines & ask for a flight of their finest ales 😂

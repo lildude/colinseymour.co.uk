@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MQ3eFIJt5k/
 ---
 
-![Instagram - MQ3eFIJt5k](/img/MQ3eFIJt5k.jpg){:class="instagram"}
+{% picture u-photo img/MQ3eFIJt5k.jpg %}
 
 Walgreens Effect on Boots

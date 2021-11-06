@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MQwDJ3pt1S/
 ---
 
-![Instagram - MQwDJ3pt1S](/img/MQwDJ3pt1S.jpg){:class="instagram"}
+{% picture u-photo img/MQwDJ3pt1S.jpg %}
 
 Only in Britain: It was too wet to go swimming yesterday

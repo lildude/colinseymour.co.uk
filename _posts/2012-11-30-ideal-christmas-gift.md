@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/SqHx1ypt5a/
 ---
 
-![Instagram - SqHx1ypt5a](/img/SqHx1ypt5a.jpg){:class="instagram"}
+{% picture u-photo img/SqHx1ypt5a.jpg %}
 
 Ideal Christmas Gift; just think of the dads in Wokingham discovering one of these on Crimbo morn

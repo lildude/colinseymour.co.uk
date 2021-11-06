@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BUXF65Nl_Jo/
 ---
 
-![Instagram - BUXF65Nl_Jo](/img/BUXF65Nl_Jo.jpg){:class="instagram"}
+{% picture u-photo img/BUXF65Nl_Jo.jpg %}
 
 Dog...GONE!!! 😭

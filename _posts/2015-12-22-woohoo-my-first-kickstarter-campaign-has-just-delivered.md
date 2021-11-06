@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/mb2S6ptxs/
 ---
 
-![Instagram - mb2S6ptxs](/img/mb2S6ptxs.jpg){:class="instagram"}
+{% picture u-photo img/mb2S6ptxs.jpg %}
 
 Woohoo! My first Kickstarter campaign has just delivered. 🎉 A @flyte.se levitating light bulb.

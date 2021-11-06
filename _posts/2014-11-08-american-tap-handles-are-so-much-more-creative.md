@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/vIK_wNJt6F/
 ---
 
-![Instagram - vIK_wNJt6F](/img/vIK_wNJt6F.jpg){:class="instagram"}
+{% picture u-photo img/vIK_wNJt6F.jpg %}
 
 American tap handles are so much more creative than English pump clips

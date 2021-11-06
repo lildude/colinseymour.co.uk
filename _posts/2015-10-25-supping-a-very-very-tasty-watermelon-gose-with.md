@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/9RyCWXptyJ/
 ---
 
-![Instagram - 9RyCWXptyJ](/img/9RyCWXptyJ.jpg){:class="instagram"}
+{% picture u-photo img/9RyCWXptyJ.jpg %}
 
 Supping a very very tasty watermelon gose with a cute neighbour whilst thrash metal plays in the background. Means only one thing: I'm in Toronado,  SF.

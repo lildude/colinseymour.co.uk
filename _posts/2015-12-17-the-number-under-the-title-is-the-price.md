@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/aVvrPpt37/
 ---
 
-![Instagram - aVvrPpt37](/img/aVvrPpt37.jpg){:class="instagram"}
+{% picture u-photo img/aVvrPpt37.jpg %}
 
 The number under the title is the price in £ for the bottle alone!!! You pay extra for the bucket fillers!!! #YoureTakingThePissNow

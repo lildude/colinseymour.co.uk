@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/T6Q3rcpt3m/
 ---
 
-![Instagram - T6Q3rcpt3m](/img/T6Q3rcpt3m.jpg){:class="instagram"}
+{% picture u-photo img/T6Q3rcpt3m.jpg %}
 
 Look Ma, we're finally using the first set of pâté knives and gerkin fork you gave us.

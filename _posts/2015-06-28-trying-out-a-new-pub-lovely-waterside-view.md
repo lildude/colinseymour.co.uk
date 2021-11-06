@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/4eoJWBpt35/
 ---
 
-![Instagram - 4eoJWBpt35](/img/4eoJWBpt35.jpg){:class="instagram"}
+{% picture u-photo img/4eoJWBpt35.jpg %}
 
 Trying out a new pub. Lovely waterside view.

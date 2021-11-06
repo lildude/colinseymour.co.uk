@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/pcKvFEJt9f/
 ---
 
-![Instagram - pcKvFEJt9f](/img/pcKvFEJt9f.jpg){:class="instagram"}
+{% picture u-photo img/pcKvFEJt9f.jpg %}
 
 A rare sight in Britain... an abandoned FULL pint. Guess that's what happens when your team loses.

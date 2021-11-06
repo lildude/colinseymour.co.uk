@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QQ4pwmpt9t/
 ---
 
-![Instagram - QQ4pwmpt9t](/img/QQ4pwmpt9t.jpg){:class="instagram"}
+{% picture u-photo img/QQ4pwmpt9t.jpg %}
 
 Beer tasting at Thirsty Bear Brewing company.

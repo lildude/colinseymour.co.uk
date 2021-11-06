@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/9PKFEeJtwJ/
 ---
 
-![Instagram - 9PKFEeJtwJ](/img/9PKFEeJtwJ.jpg){:class="instagram"}
+{% picture u-photo img/9PKFEeJtwJ.jpg %}
 
 How can you tell the low-carber has been eating pizza?
