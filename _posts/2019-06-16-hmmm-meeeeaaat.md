@@ -13,6 +13,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Byx9caTpeeH/
 ---
 
-![Instagram - Byx9caTpeeH](https://colinseymour.co.uk/img/Byx9caTpeeH.jpg){:loading="lazy"}
+{% picture u-photo img/Byx9caTpeeH.jpg %}
 
 Hmmm meeeeaaat!! 🍖🥩😋

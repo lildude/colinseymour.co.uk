@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwNJRkbJYZl/
 ---
 
-![Instagram - BwNJRkbJYZl](https://colinseymour.co.uk/img/BwNJRkbJYZl.jpg){:loading="lazy"}
+{% picture u-photo img/BwNJRkbJYZl.jpg %}
 
 There's nothing untoward about encountering turkeys crossing the road on your morning run in residential Brookline, Boston 😂. Bet they won't be this cocky in the fall

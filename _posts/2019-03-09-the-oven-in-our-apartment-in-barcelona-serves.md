@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Buy74H9nklI/
 ---
 
-![Instagram - Buy74H9nklI](https://colinseymour.co.uk/img/Buy74H9nklI.jpg){:loading="lazy"}
+{% picture u-photo img/Buy74H9nklI.jpg %}
 
 The oven in our apartment in Barcelona serves as a great way to see the roof of the Casa Milà without getting up from the sofa 🤣

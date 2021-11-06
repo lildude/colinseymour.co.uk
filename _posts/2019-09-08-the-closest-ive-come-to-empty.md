@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B2KI8peJnBk/
 ---
 
-![Instagram - B2KI8peJnBk](https://colinseymour.co.uk/img/B2KI8peJnBk.jpg){:loading="lazy"}
+{% picture u-photo img/B2KI8peJnBk.jpg %}
 
 The closest I've come to empty.

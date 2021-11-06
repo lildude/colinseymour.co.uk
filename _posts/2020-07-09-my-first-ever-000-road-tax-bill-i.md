@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CCajQAbpf_9/
 ---
 
-![Instagram - CCajQAbpf_9](https://colinseymour.co.uk/img/CCajQAbpf_9.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CCajQAbpf_9.jpg %}
 
 My first ever £0.00 road tax bill. I love it when tax is this taxing 😁

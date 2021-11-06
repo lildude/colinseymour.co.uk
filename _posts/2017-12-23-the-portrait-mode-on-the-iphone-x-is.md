@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BdECiaKFwwX/
 ---
 
-![Instagram - BdECiaKFwwX](https://colinseymour.co.uk/img/BdECiaKFwwX.jpg){:loading="lazy"}
+{% picture u-photo img/BdECiaKFwwX.jpg %}
 
 The portrait mode on the iPhone X is incredible. Ron looks great in this photo

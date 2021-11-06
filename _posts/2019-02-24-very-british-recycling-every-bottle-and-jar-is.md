@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BuQ3owen2E-/
 ---
 
-![Instagram - BuQ3owen2E-](https://colinseymour.co.uk/img/BuQ3owen2E-.jpg){:loading="lazy"}
+{% picture u-photo img/BuQ3owen2E-.jpg %}
 
 Very British recycling... every bottle and jar is upright 😁

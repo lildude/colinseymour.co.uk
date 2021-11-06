@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1RG98mpRGJ/
 ---
 
-![Instagram - B1RG98mpRGJ](https://colinseymour.co.uk/img/B1RG98mpRGJ.jpg){:loading="lazy"}
+{% picture u-photo img/B1RG98mpRGJ.jpg %}
 
 Finally visited the @westberksbrew brewery and tap room. Great place, beer and food.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BzA87GMpd9c/
 ---
 
-![Instagram - BzA87GMpd9c](https://colinseymour.co.uk/img/BzA87GMpd9c.jpg){:loading="lazy"}
+{% picture u-photo img/BzA87GMpd9c.jpg %}
 
 Woohoo!! The rain has buggered off and summer has finally arrived.

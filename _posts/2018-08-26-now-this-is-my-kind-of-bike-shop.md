@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bm9A3PGl6w8/
 ---
 
-![Instagram - Bm9A3PGl6w8](https://colinseymour.co.uk/img/Bm9A3PGl6w8.jpg){:loading="lazy"}
+{% picture u-photo img/Bm9A3PGl6w8.jpg %}
 
 Now this is my kind of bike shop. I can drool over bikes I can't substatiate buying then replenish all that drool at the in-store bar

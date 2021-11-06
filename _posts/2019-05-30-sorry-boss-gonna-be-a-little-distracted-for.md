@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/ByFW5oFJEZb/
 ---
 
-![Instagram - ByFW5oFJEZb](https://colinseymour.co.uk/img/ByFW5oFJEZb.jpg){:loading="lazy"}
+{% picture u-photo img/ByFW5oFJEZb.jpg %}
 
 Sorry boss, gonna be a little distracted for the next month and a bit; I've moved to my summer office for the cricket world cup

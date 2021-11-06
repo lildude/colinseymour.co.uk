@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BnoNlVxl1tb/
 ---
 
-![Instagram - BnoNlVxl1tb](https://colinseymour.co.uk/img/BnoNlVxl1tb.jpg){:loading="lazy"}
+{% picture u-photo img/BnoNlVxl1tb.jpg %}
 
 It's my favourite week of the month again. Got a biltong delivery today too 😋

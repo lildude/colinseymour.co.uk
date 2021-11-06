@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CA0lFohJzsu/
 ---
 
-![Instagram - CA0lFohJzsu](https://colinseymour.co.uk/img/CA0lFohJzsu.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CA0lFohJzsu.jpg %}
 
 Wat the fudge!? Some one stole all of Blighty’s clouds. (If you see more than one white spec - the moon - your screen’s dirty 🤣😂) 

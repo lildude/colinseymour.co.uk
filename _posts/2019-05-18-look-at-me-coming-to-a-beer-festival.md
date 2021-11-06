@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bxm5UMxJw1o/
 ---
 
-![Instagram - Bxm5UMxJw1o](https://colinseymour.co.uk/img/Bxm5UMxJw1o.jpg){:loading="lazy"}
+{% picture u-photo img/Bxm5UMxJw1o.jpg %}
 
 Look at me coming to a beer festival all prepared with my own meaty snacks. Biltong & droëwors go so well with craft beer

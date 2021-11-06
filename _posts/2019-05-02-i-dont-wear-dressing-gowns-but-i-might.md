@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bw-H-bSJDAf/
 ---
 
-![Instagram - Bw-H-bSJDAf](https://colinseymour.co.uk/img/Bw-H-bSJDAf.jpg){:loading="lazy"}
+{% picture u-photo img/Bw-H-bSJDAf.jpg %}
 
 I don't wear dressing gowns but I might be tempted with one of these, but for modern local craft breweries.

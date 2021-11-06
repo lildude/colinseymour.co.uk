@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B_aU3oaJ2HD/
 ---
 
-![Instagram - B_aU3oaJ2HD](https://colinseymour.co.uk/img/B_aU3oaJ2HD.jpg){:loading="lazy"}
+{% picture u-photo img/B_aU3oaJ2HD.jpg %}
 
 I have my own beer monkey for the “Intergalactic BrewDog AGM on my balcony”. Killing it!! 🤘  

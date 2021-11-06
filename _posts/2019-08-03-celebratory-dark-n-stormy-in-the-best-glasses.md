@@ -12,6 +12,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B0toIxXpNpj/
 ---
 
-![Instagram - B0toIxXpNpj](https://colinseymour.co.uk/img/B0toIxXpNpj.jpg){:loading="lazy"}
+{% picture u-photo img/B0toIxXpNpj.jpg %}
 
 Celebratory dark 'n stormy in the best glasses from @sirencraftbrew. Thanks @roundreading

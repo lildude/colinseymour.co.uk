@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CLkeXcApCYg/
 ---
 
-![Instagram - CLkeXcApCYg](https://colinseymour.co.uk/img/CLkeXcApCYg.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CLkeXcApCYg.jpg %}
 
 Our most recent cheese order from The Grumpy Goat is amazing. Each of these cheeses is new to us and they’re all winners!

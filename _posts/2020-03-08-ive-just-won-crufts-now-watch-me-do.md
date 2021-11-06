@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B9fK0ISpN66/
 ---
 
-![Instagram - B9fK0ISpN66](https://colinseymour.co.uk/img/B9fK0ISpN66.jpg){:loading="lazy"}
+{% picture u-photo img/B9fK0ISpN66.jpg %}
 
 I’ve just won Crufts, now watch me do a Paula Radcliffe 🤣😂🤣😂

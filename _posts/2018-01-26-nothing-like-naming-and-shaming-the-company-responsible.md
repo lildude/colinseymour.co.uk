@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BebGfbZF39V/
 ---
 
-![Instagram - BebGfbZF39V](https://colinseymour.co.uk/img/BebGfbZF39V.jpg){:loading="lazy"}
+{% picture u-photo img/BebGfbZF39V.jpg %}
 
 Nothing like naming and shaming the company responsible for Wetherspoons to cancel Steak Night across all 900+ pubs
