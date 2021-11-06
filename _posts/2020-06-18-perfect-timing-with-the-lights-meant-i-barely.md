@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CBk_VklJviD/
 ---
 
-![Instagram - CBk_VklJviD](https://colinseymour.co.uk/img/CBk_VklJviD.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CBk %}
 
 Perfect timing with the lights meant I barely had to stop mid-run to snap this outside the Royal Berkshire Hospital without fear of getting run over 

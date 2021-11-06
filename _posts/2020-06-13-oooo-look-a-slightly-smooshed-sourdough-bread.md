@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CBYoDqlpsnd/
 ---
 
-![Instagram - CBYoDqlpsnd](https://colinseymour.co.uk/img/CBYoDqlpsnd.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CBYoDqlpsnd.jpg %}
 
 Oooo, look 👉 a slightly smooshed sourdough bread!! No one is making these anymore so I’m getting in ahead of the second 🦠 wave 🤣

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B0tCq8Fnj5S/
 ---
 
-![Instagram - B0tCq8Fnj5S](https://colinseymour.co.uk/img/B0tCq8Fnj5S.jpg){:loading="lazy"}
+{% picture u-photo img/B0tCq8Fnj5S.jpg %}
 
 Getting our swing on at @markethouse_rg1

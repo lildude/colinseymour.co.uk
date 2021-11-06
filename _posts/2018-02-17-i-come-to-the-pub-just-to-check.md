@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BfTuIYgF4jz/
 ---
 
-![Instagram - BfTuIYgF4jz](https://colinseymour.co.uk/img/BfTuIYgF4jz.jpg){:loading="lazy"}
+{% picture u-photo img/BfTuIYgF4jz.jpg %}
 
 I come to the pub just to check out the dogs. This chappie is gorgeous.

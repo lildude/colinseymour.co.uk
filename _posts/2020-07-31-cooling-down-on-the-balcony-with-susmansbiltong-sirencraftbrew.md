@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CDUjvhap8q6/
 ---
 
-![Instagram - CDUjvhap8q6](https://colinseymour.co.uk/img/CDUjvhap8q6.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CDUjvhap8q6.jpg %}
 
 Cooling down on the balcony with @susmansbiltong, @sirencraftbrew and my NowLight (first use after months of owning) which is giving us light whilst powering the toons  

@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B24YhL9JAe_/
 ---
 
-![Instagram - B24YhL9JAe_](https://colinseymour.co.uk/img/B24YhL9JAe_.jpg){:loading="lazy"}
+{% picture u-photo img/B24YhL9JAe %}
 
 Porto in the sunshine

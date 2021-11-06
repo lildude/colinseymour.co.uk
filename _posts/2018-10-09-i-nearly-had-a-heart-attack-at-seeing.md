@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Botyv4NA4Gp/
 ---
 
-![Instagram - Botyv4NA4Gp](https://colinseymour.co.uk/img/Botyv4NA4Gp.jpg){:loading="lazy"}
+{% picture u-photo img/Botyv4NA4Gp.jpg %}
 
 I nearly had a heart attack at seeing a watch in a window for £78k and then spotted these 😮 Wilmslow is really nice otherwise 😂

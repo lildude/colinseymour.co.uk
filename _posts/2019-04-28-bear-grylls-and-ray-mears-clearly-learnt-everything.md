@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bwz2QgdJDv-/
 ---
 
-![Instagram - Bwz2QgdJDv-](https://colinseymour.co.uk/img/Bwz2QgdJDv-.jpg){:loading="lazy"}
+{% picture u-photo img/Bwz2QgdJDv-.jpg %}
 
 Bear Grylls and Ray Mears clearly learnt everything they know from @northernmonk collab beer can labels 🤣😂

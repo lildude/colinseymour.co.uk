@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Br29_BEApMT/
 ---
 
-![Instagram - Br29_BEApMT](https://colinseymour.co.uk/img/Br29_BEApMT.jpg){:loading="lazy"}
+{% picture u-photo img/Br29 %}
 
 After 19 years of begging I've finally been allowed to set fire to the Christmas pud... and it's a fantastic Fortnum & Mason King George pud 😋😋 19 more years and I might be allowed to break people's teeth with hidden coins 🤣

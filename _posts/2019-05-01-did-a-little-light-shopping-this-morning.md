@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bw6g6bZp1kR/
 ---
 
-![Instagram - Bw6g6bZp1kR](https://colinseymour.co.uk/img/Bw6g6bZp1kR.jpg){:loading="lazy"}
+{% picture u-photo img/Bw6g6bZp1kR.jpg %}
 
 Did a little light shopping this morning 😁 Gotta wait until late June at the earliest though 😭

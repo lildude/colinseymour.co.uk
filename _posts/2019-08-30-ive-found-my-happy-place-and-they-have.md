@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1y3_oJJ28r/
 ---
 
-![Instagram - B1y3_oJJ28r](https://colinseymour.co.uk/img/B1y3_oJJ28r.jpg){:loading="lazy"}
+{% picture u-photo img/B1y3 %}
 
 I've found my happy place, and they have a great selection of craft beers to help all this meat go down 😋😋😋😋

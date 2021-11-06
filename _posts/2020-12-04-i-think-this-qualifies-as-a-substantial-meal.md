@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CIYX7pQJeqA/
 ---
 
-![Instagram - CIYX7pQJeqA](https://colinseymour.co.uk/img/CIYX7pQJeqA.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CIYX7pQJeqA.jpg %}
 
 I think this qualifies as a “substantial meal” 😛

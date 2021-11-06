@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CAutLBQJg6A/
 ---
 
-![Instagram - CAutLBQJg6A](https://colinseymour.co.uk/img/CAutLBQJg6A.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CAutLBQJg6A.jpg %}
 
 Three large boxes and a packet for 5 pairs of short 🏃‍♂️ shorts seems like an apt amount of packaging. The two pairs at the bottom came in a bag that could have fitted all 5 pairs. Great work Amazon.

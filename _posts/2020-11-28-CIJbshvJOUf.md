@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CIJbshvJOUf/
 ---
 
-![Instagram - CIJbshvJOUf](https://colinseymour.co.uk/img/CIJbshvJOUf.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CIJbshvJOUf.jpg %}
 
 My advent calendar tree 🎄 courtesy of @brewdogofficial, @beer52hq and @sirencraftbrew. It’ll be interesting to see how many result in new unique @untappd check-ins 🤔

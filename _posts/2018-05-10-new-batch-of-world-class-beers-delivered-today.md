@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BimrEfxFgU5/
 ---
 
-![Instagram - BimrEfxFgU5](https://colinseymour.co.uk/img/BimrEfxFgU5.jpg){:loading="lazy"}
+{% picture u-photo img/BimrEfxFgU5.jpg %}
 
 New batch of world class beers delivered today. I've had the peachy one before but not disappointed to get it again 😋

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bo1SVaZApET/
 ---
 
-![Instagram - Bo1SVaZApET](https://colinseymour.co.uk/img/Bo1SVaZApET.jpg){:loading="lazy"}
+{% picture u-photo img/Bo1SVaZApET.jpg %}
 
 Millennials can keep their smashed avo toast, beef dripping on toast is where it's at these days 😋

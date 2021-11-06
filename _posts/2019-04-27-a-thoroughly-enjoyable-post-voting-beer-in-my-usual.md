@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwwjDQzJirm/
 ---
 
-![Instagram - BwwjDQzJirm](https://colinseymour.co.uk/img/BwwjDQzJirm.jpg){:loading="lazy"}
+{% picture u-photo img/BwwjDQzJirm.jpg %}
 
 A thoroughly enjoyable post-🇿🇦-voting beer in my usual spot (to the seat) for my post-marathon beer which I won't be having tomorrow as I'm not running VLM tomorrow.

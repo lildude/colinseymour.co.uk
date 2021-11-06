@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BxvPtj5Jx_M/
 ---
 
-![Instagram - BxvPtj5Jx_M](https://colinseymour.co.uk/img/BxvPtj5Jx_M.jpg){:loading="lazy"}
+{% picture u-photo img/BxvPtj5Jx %}
 
 This is definitely my best batch of patacones/tostones ever, thanks to using a block of lard for the frying 😋

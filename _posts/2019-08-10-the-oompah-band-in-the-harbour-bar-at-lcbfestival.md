@@ -12,6 +12,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B0_QFlPHwON/
 ---
 
-![Instagram - B0_QFlPHwON](https://colinseymour.co.uk/img/B0_QFlPHwON.jpg){:loading="lazy"}
+{% picture u-photo img/B0 %}
 
 The oompah band in the Harbour bar @lcbfestival is definitely the best entertainment, pity the Brit coordination sucks 😂🤣

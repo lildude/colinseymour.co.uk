@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CD4HndSpRcB/
 ---
 
-![Instagram - CD4HndSpRcB](https://colinseymour.co.uk/img/CD4HndSpRcB.jpg){:loading="lazy"}{: .u-photo}
+{% picture u-photo img/CD4HndSpRcB.jpg %}
 
 Sneaking in claiming our free schooners on the very last day @brewdogreading Thank-you BrewDog 🙇‍♂️
