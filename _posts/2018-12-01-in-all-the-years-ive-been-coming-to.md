@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bq2hO7TgI8j/
 ---
 
-{% picture u-photo img/Bq2hO7TgI8j.jpg %}
+![Instagram - Bq2hO7TgI8j](https://colinseymour.co.uk/img/Bq2hO7TgI8j.jpg){:loading="lazy"}
 
 In all the years I've been coming to Reading and now frequenting the BrewDog pub over the road, I've never noticed this until now.

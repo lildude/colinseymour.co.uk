@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B7Wb3t2JgnL/
 ---
 
-{% picture u-photo img/B7Wb3t2JgnL.jpg %}
+![Instagram - B7Wb3t2JgnL](https://colinseymour.co.uk/img/B7Wb3t2JgnL.jpg){:loading="lazy"}
 
 I never tire of African sunsets, even in the city.

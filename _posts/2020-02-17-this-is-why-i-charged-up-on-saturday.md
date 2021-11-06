@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B8q9pEAJEDX/
 ---
 
-{% picture u-photo img/B8q9pEAJEDX.jpg %}
+![Instagram - B8q9pEAJEDX](https://colinseymour.co.uk/img/B8q9pEAJEDX.jpg){:loading="lazy"}
 
 This is why I charged up on Saturday morning

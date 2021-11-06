@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BopKbC4Ajzf/
 ---
 
-{% picture u-photo img/BopKbC4Ajzf.jpg %}
+![Instagram - BopKbC4Ajzf](https://colinseymour.co.uk/img/BopKbC4Ajzf.jpg){:loading="lazy"}
 
 Chester has the best bollard decorations 🤣

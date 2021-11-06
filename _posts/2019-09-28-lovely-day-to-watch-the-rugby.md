@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B283Th5p2Zn/
 ---
 
-{% picture u-photo img/B283Th5p2Zn.jpg %}
+![Instagram - B283Th5p2Zn](https://colinseymour.co.uk/img/B283Th5p2Zn.jpg){:loading="lazy"}
 
 Lovely day to watch the rugby

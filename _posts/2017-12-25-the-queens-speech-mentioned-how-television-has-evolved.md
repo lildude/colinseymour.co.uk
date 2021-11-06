@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BdIUXoCloVc/
 ---
 
-{% picture u-photo img/BdIUXoCloVc.jpg %}
+![Instagram - BdIUXoCloVc](https://colinseymour.co.uk/img/BdIUXoCloVc.jpg){:loading="lazy"}
 
 The Queen's speech mentioned how television has evolved and here we are watching the Queen's speech on an iPad whilst munching our crimbo lunch.

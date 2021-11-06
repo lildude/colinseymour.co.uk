@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Br-Mdb2Abvh/
 ---
 
-{% picture u-photo img/Br-Mdb2Abvh.jpg %}
+![Instagram - Br-Mdb2Abvh](https://colinseymour.co.uk/img/Br-Mdb2Abvh.jpg){:loading="lazy"}
 
 Stopped on my run to take in the mad skillz of some local street artists. The witch and hummingbird works are my favourite.

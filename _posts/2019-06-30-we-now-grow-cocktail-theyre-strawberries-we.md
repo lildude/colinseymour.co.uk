@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BzV3CYGpTGd/
 ---
 
-{% picture u-photo img/BzV3CYGpTGd.jpg %}
+![Instagram - BzV3CYGpTGd](https://colinseymour.co.uk/img/BzV3CYGpTGd.jpg){:loading="lazy"}
 
 We now grow cocktail 🍓… they're strawberries we planted about 5 years ago and keep coming back every summer without any consistency in size or when they fruit 😁

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BeBDvSzFgnr/
 ---
 
-{% picture u-photo img/BeBDvSzFgnr.jpg %}
+![Instagram - BeBDvSzFgnr](https://colinseymour.co.uk/img/BeBDvSzFgnr.jpg){:loading="lazy"}
 
 Joined the The BottleShop's (@bottleshoponline/@bottle_shop) World Class Beer Club and got my January box today. Interesting selection from all over the world. 😋

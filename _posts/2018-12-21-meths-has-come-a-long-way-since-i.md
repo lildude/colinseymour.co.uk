@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrqPfntgXgy/
 ---
 
-{% picture u-photo img/BrqPfntgXgy.jpg %}
+![Instagram - BrqPfntgXgy](https://colinseymour.co.uk/img/BrqPfntgXgy.jpg){:loading="lazy"}
 
 Meths has come a long way since I was a kid. It used to be sold in a plastic bottle, now it's sold in glass with a fancy label 🤣

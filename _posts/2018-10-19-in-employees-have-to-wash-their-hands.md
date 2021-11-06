@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BpH-MPGAfDx/
 ---
 
-{% picture u-photo img/BpH-MPGAfDx.jpg %}
+![Instagram - BpH-MPGAfDx](https://colinseymour.co.uk/img/BpH-MPGAfDx.jpg){:loading="lazy"}
 
 In 🇺🇸 employees have to wash their hands after having a whizz. In @brewdogofficial, this is the norm 🤣

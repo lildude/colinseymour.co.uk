@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BenTWnoF0uh/
 ---
 
-{% picture u-photo img/BenTWnoF0uh.jpg %}
+![Instagram - BenTWnoF0uh](https://colinseymour.co.uk/img/BenTWnoF0uh.jpg){:loading="lazy"}
 
 February's @BottleShopWeb World Class Beer Club haul will go nicely towards my 3000 unique count milestone on @untappd

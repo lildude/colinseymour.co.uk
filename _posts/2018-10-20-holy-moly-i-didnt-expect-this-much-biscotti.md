@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BpK3nvogQoB/
 ---
 
-{% picture u-photo img/BpK3nvogQoB.jpg %}
+![Instagram - BpK3nvogQoB](https://colinseymour.co.uk/img/BpK3nvogQoB.jpg){:loading="lazy"}
 
 Holy moly! I didn't expect this much biscotti when I ordered a half bottle of vin santo.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Brx-fXRAna4/
 ---
 
-{% picture u-photo img/Brx-fXRAna4.jpg %}
+![Instagram - Brx-fXRAna4](https://colinseymour.co.uk/img/Brx-fXRAna4.jpg){:loading="lazy"}
 
 Low veg, full fat crimbo eve munchies 😋

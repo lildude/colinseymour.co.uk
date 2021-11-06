@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CB_dN0XJ46c/
 ---
 
-{% picture u-photo img/CB %}
+![Instagram - CB_dN0XJ46c](https://colinseymour.co.uk/img/CB_dN0XJ46c.jpg){:loading="lazy"}{: .u-photo}
 
 They call these tiny cantaloupe-sized green things “watermelons” in the UK 🧐 For me, a watermelon has always been a fruit that can only ever be carried with two hands. 😬

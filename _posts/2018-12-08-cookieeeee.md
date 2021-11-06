@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrI1ThxA5ZJ/
 ---
 
-{% picture u-photo img/BrI1ThxA5ZJ.jpg %}
+![Instagram - BrI1ThxA5ZJ](https://colinseymour.co.uk/img/BrI1ThxA5ZJ.jpg){:loading="lazy"}
 
 Cookieeeee

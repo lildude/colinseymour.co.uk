@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CEKVjSmJ8Qh/
 ---
 
-{% picture u-photo img/CEKVjSmJ8Qh.jpg %}
+![Instagram - CEKVjSmJ8Qh](https://colinseymour.co.uk/img/CEKVjSmJ8Qh.jpg){:loading="lazy"}{: .u-photo}
 
 Quintessential British brew with a view

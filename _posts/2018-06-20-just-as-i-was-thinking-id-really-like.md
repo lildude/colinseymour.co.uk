@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BkQDBV4lFq1/
 ---
 
-{% picture u-photo img/BkQDBV4lFq1.jpg %}
+![Instagram - BkQDBV4lFq1](https://colinseymour.co.uk/img/BkQDBV4lFq1.jpg){:loading="lazy"}
 
 Just as I was thinking I'd really like a few great beers tonight, June's yummy beer haul was delivered.

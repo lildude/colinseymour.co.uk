@@ -6,6 +6,6 @@ tags:
 - note
 type: post
 ---
-{% picture u-photo img/7F00214A-CA02-4CD9-9265-4896BEE815AD.jpeg %}
+![Grammar is important](https://colinseymour.co.uk/img/7F00214A-CA02-4CD9-9265-4896BEE815AD.jpeg)
 
 🤔 This is why punctuation and grammar is important.

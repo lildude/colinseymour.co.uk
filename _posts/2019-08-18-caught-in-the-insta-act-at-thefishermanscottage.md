@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1T-9-5pHof/
 ---
 
-{% picture u-photo img/B1T-9-5pHof.jpg %}
+![Instagram - B1T-9-5pHof](https://colinseymour.co.uk/img/B1T-9-5pHof.jpg){:loading="lazy"}
 
 Caught in the Insta-act @thefishermanscottage 😂🤣

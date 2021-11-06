@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrIgLW6g2AP/
 ---
 
-{% picture u-photo img/BrIgLW6g2AP.jpg %}
+![Instagram - BrIgLW6g2AP](https://colinseymour.co.uk/img/BrIgLW6g2AP.jpg){:loading="lazy"}
 
 This is a great initiative. Guess where I was when I saw this 😂🤣

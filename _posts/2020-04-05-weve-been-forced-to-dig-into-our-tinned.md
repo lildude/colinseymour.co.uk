@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B-m4LnUpeAn/
 ---
 
-{% picture u-photo img/B-m4LnUpeAn.jpg %}
+![Instagram - B-m4LnUpeAn](https://colinseymour.co.uk/img/B-m4LnUpeAn.jpg){:loading="lazy"}
 
 We’ve been forced to dig into our tinned food stash 😬

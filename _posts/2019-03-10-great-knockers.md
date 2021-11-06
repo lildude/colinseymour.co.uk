@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bu1bN0qH-B-/
 ---
 
-{% picture u-photo img/Bu1bN0qH-B-.jpg %}
+![Instagram - Bu1bN0qH-B-](https://colinseymour.co.uk/img/Bu1bN0qH-B-.jpg){:loading="lazy"}
 
 Great knockers 🤣😂

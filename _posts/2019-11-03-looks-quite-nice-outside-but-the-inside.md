@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B4aSJq-JDe9/
 ---
 
-{% picture u-photo img/B4aSJq-JDe9.jpg %}
+![Instagram - B4aSJq-JDe9](https://colinseymour.co.uk/img/B4aSJq-JDe9.jpg){:loading="lazy"}
 
 Looks quite nice outside, but the 🍺 inside @the_weather_station is nicer.

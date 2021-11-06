@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwdAiFVJF3d/
 ---
 
-{% picture u-photo img/BwdAiFVJF3d.jpg %}
+![Instagram - BwdAiFVJF3d](https://colinseymour.co.uk/img/BwdAiFVJF3d.jpg){:loading="lazy"}
 
 Sounds like my kind of breakfast

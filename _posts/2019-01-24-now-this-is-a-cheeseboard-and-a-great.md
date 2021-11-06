@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BtB5trDgDn0/
 ---
 
-{% picture u-photo img/BtB5trDgDn0.jpg %}
+![Instagram - BtB5trDgDn0](https://colinseymour.co.uk/img/BtB5trDgDn0.jpg){:loading="lazy"}
 
 Now this is a cheeseboard!!! And a great way to finish off our trip to the Lake District

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CCOEdGiJ6o5/
 ---
 
-{% picture u-photo img/CCOEdGiJ6o5.jpg %}
+![Instagram - CCOEdGiJ6o5](https://colinseymour.co.uk/img/CCOEdGiJ6o5.jpg){:loading="lazy"}{: .u-photo}
 
 My first flight in more than 103 days. 😋

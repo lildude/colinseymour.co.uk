@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bs0qIl9AvEf/
 ---
 
-{% picture u-photo img/Bs0qIl9AvEf.jpg %}
+![Instagram - Bs0qIl9AvEf](https://colinseymour.co.uk/img/Bs0qIl9AvEf.jpg){:loading="lazy"}
 
 Practising being an old boy. I think I might like it.

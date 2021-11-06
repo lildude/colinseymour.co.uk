@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CDW4mS1pkcg/
 ---
 
-{% picture u-photo img/CDW4mS1pkcg.jpg %}
+![Instagram - CDW4mS1pkcg](https://colinseymour.co.uk/img/CDW4mS1pkcg.jpg){:loading="lazy"}{: .u-photo}
 
 I don’t know what offends me more… the fact someone thought they needed an apostrophe or the fact they even got that wrong 🤦‍♂️

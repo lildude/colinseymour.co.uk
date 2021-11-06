@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CBdxAXgpQ7U/
 ---
 
-{% picture u-photo img/CBdxAXgpQ7U.jpg %}
+![Instagram - CBdxAXgpQ7U](https://colinseymour.co.uk/img/CBdxAXgpQ7U.jpg){:loading="lazy"}{: .u-photo}
 
 I was forced to socially distance from a family hogging the path whilst out for a stroll during my run today 🤣😂

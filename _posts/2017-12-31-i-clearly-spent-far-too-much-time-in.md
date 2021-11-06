@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BdYXVRll_uN/
 ---
 
-{% picture u-photo img/BdYXVRll %}
+![Instagram - BdYXVRll_uN](https://colinseymour.co.uk/img/BdYXVRll_uN.jpg){:loading="lazy"}
 
 I clearly spent far too much time in 🇿🇦 and 🏃‍♂️this year.

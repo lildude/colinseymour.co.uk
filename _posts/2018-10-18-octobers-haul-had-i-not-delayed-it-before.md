@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BpEafevA-nZ/
 ---
 
-{% picture u-photo img/BpEafevA-nZ.jpg %}
+![Instagram - BpEafevA-nZ](https://colinseymour.co.uk/img/BpEafevA-nZ.jpg){:loading="lazy"}
 
 October's haul. Had I not delayed it before I went up to MCR I wouldn't have had the @cloudwaterbrew beer whilst I was there 😁

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B3sb8f4JxRN/
 ---
 
-{% picture u-photo img/B3sb8f4JxRN.jpg %}
+![Instagram - B3sb8f4JxRN](https://colinseymour.co.uk/img/B3sb8f4JxRN.jpg){:loading="lazy"}
 
 Errmmm, excuse me for asking Mr or Mrs Slug, but how the f^€k did you get up two storeys and into our kitchen sink?

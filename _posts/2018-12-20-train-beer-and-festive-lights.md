@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Brn6mLTn6i8/
 ---
 
-{% picture u-photo img/Brn6mLTn6i8.jpg %}
+![Instagram - Brn6mLTn6i8](https://colinseymour.co.uk/img/Brn6mLTn6i8.jpg){:loading="lazy"}
 
 Train beer and festive lights 😂

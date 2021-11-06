@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BhhGQOvlAiU/
 ---
 
-{% picture u-photo img/BhhGQOvlAiU.jpg %}
+![Instagram - BhhGQOvlAiU](https://colinseymour.co.uk/img/BhhGQOvlAiU.jpg){:loading="lazy"}
 
 Just the welcome I needed after a week away on business

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrnKXDNALTz/
 ---
 
-{% picture u-photo img/BrnKXDNALTz.jpg %}
+![Instagram - BrnKXDNALTz](https://colinseymour.co.uk/img/BrnKXDNALTz.jpg){:loading="lazy"}
 
 Hmmmm meat, meat, meatidy-meat 😋😋 Gonna go pop now we've eaten all of that.

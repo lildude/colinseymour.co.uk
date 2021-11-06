@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwaWUFpJ8Wt/
 ---
 
-{% picture u-photo img/BwaWUFpJ8Wt.jpg %}
+![Instagram - BwaWUFpJ8Wt](https://colinseymour.co.uk/img/BwaWUFpJ8Wt.jpg){:loading="lazy"}
 
 This is such a 🆒 idea for serving a 🍺 flight

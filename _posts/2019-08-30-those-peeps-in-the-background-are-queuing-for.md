@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1zTV32Ja3G/
 ---
 
-{% picture u-photo img/B1zTV32Ja3G.jpg %}
+![Instagram - B1zTV32Ja3G](https://colinseymour.co.uk/img/B1zTV32Ja3G.jpg){:loading="lazy"}
 
 Those peeps in the background are queuing for this, but I got the last one 🤣 Nom nom nom 😋

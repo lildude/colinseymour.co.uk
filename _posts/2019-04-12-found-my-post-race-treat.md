@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BwIpZnupyX4/
 ---
 
-{% picture u-photo img/BwIpZnupyX4.jpg %}
+![Instagram - BwIpZnupyX4](https://colinseymour.co.uk/img/BwIpZnupyX4.jpg){:loading="lazy"}
 
 Found my post-race treat 🤮

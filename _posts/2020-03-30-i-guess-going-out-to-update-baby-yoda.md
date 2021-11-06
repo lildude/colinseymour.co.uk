@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B-W9b35JzZC/
 ---
 
-{% picture u-photo img/B-W9b35JzZC.jpg %}
+![Instagram - B-W9b35JzZC](https://colinseymour.co.uk/img/B-W9b35JzZC.jpg){:loading="lazy"}
 
 I guess going out to update Baby Yoda with a face mask could be considered an “essential” outing

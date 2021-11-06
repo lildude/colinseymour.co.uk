@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bs1MnI4Ani1/
 ---
 
-{% picture u-photo img/Bs1MnI4Ani1.jpg %}
+![Instagram - Bs1MnI4Ani1](https://colinseymour.co.uk/img/Bs1MnI4Ani1.jpg){:loading="lazy"}
 
 Worcestershire sauce has just been usurped in our household. 😋😋

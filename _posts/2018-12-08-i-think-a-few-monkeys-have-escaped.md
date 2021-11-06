@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrIy99Yg_qB/
 ---
 
-{% picture u-photo img/BrIy99Yg %}
+![Instagram - BrIy99Yg_qB](https://colinseymour.co.uk/img/BrIy99Yg_qB.jpg){:loading="lazy"}
 
 I think a few monkeys have escaped 🤣😂

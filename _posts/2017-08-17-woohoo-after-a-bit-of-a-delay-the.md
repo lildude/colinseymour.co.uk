@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BX43cgrFIP9/
 ---
 
-{% picture u-photo img/BX43cgrFIP9.jpg %}
+![Instagram - BX43cgrFIP9](https://colinseymour.co.uk/img/BX43cgrFIP9.jpg){:loading="lazy"}
 
 Woohoo!!! After a bit of a delay, the "thanks for investing in @vivobarefoot" metal casts of my feet have arrived.

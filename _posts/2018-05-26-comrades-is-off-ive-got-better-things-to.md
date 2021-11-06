@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BjP2SxoF_MN/
 ---
 
-{% picture u-photo img/BjP2SxoF %}
+![Instagram - BjP2SxoF_MN](https://colinseymour.co.uk/img/BjP2SxoF_MN.jpg){:loading="lazy"}
 
 Comrades is off!! I've got better things to do. 🤣😂🤣 I fear my left arm isn't as well trained as my legs tho 😞

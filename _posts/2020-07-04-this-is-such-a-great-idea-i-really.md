@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/CCOLbEiJ69J/
 ---
 
-{% picture u-photo img/CCOLbEiJ69J.jpg %}
+![Instagram - CCOLbEiJ69J](https://colinseymour.co.uk/img/CCOLbEiJ69J.jpg){:loading="lazy"}{: .u-photo}
 
 This is such a great idea. I really just ordered two portions. 😋

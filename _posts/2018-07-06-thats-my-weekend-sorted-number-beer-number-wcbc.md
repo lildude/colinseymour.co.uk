@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bk5GE7vlYqp/
 ---
 
-{% picture u-photo img/Bk5GE7vlYqp.jpg %}
+![Instagram - Bk5GE7vlYqp](https://colinseymour.co.uk/img/Bk5GE7vlYqp.jpg){:loading="lazy"}
 
 That's my weekend sorted

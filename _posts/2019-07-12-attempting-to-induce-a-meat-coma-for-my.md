@@ -11,6 +11,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bz0wWK2JHyK/
 ---
 
-{% picture u-photo img/Bz0wWK2JHyK.jpg %}
+![Instagram - Bz0wWK2JHyK](https://colinseymour.co.uk/img/Bz0wWK2JHyK.jpg){:loading="lazy"}
 
 Attempting to induce a meat coma for my flight this evening 😋😋

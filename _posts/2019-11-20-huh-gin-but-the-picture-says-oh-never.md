@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B5EqUb-J05y/
 ---
 
-{% picture u-photo img/B5EqUb-J05y.jpg %}
+![Instagram - B5EqUb-J05y](https://colinseymour.co.uk/img/B5EqUb-J05y.jpg){:loading="lazy"}
 
 Huh!? GIN!? But the picture says... oh never mind; it’s an easy mistake to make - booze is booze 🤣😂 (no one challenged this at all)
