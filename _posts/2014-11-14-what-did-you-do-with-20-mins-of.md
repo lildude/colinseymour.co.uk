@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/vZG5qDpt-G/
 ---
 
-![Instagram - vZG5qDpt-G](/img/vZG5qDpt-G.jpg){:class="instagram"}
+{% picture u-photo img/vZG5qDpt-G.jpg %}
 
 What did you do with 20 mins of your day? I sat staring at the Vegas Strip from a stationary plane.

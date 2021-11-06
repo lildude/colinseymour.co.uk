@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BpJk6msgeeb/
 ---
 
-![Instagram - BpJk6msgeeb](https://colinseymour.co.uk/img/BpJk6msgeeb.jpg){:loading="lazy"}
+{% picture u-photo img/BpJk6msgeeb.jpg %}
 
 One of the benefits of making and using your own compost: unintentional free cherry tomatoes once all the summer flowers have died.

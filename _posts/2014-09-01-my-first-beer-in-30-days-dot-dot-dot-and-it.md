@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/sZ5wbrpt1f/
 ---
 
-![Instagram - sZ5wbrpt1f](/img/sZ5wbrpt1f.jpg){:class="instagram"}
+{% picture u-photo img/sZ5wbrpt1f.jpg %}
 
 My first beer in 30 days... and it tastes so good.

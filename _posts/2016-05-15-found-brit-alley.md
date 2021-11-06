@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFcG3kxJt6V/
 ---
 
-![Instagram - BFcG3kxJt6V](/img/BFcG3kxJt6V.jpg){:class="instagram"}
+{% picture u-photo img/BFcG3kxJt6V.jpg %}
 
 Found Brit alley

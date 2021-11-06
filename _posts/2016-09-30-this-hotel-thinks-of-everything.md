@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BK_AAgyBu8H/
 ---
 
-![Instagram - BK_AAgyBu8H](/img/BK_AAgyBu8H.jpg){:class="instagram"}
+{% picture u-photo img/BK_AAgyBu8H.jpg %}
 
 This hotel thinks of everything 😜

@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B7HAZOEJceS/
 ---
 
-![Instagram - B7HAZOEJceS](https://colinseymour.co.uk/img/B7HAZOEJceS.jpg){:loading="lazy"}
+{% picture u-photo img/B7HAZOEJceS.jpg %}
 
 My humble abode for the next 11 hours. The next sunrise I’ll see will be my favourite… an African sunrise.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/zQ3MDIptwk/
 ---
 
-![Instagram - zQ3MDIptwk](/img/zQ3MDIptwk.jpg){:class="instagram"}
+{% picture u-photo img/zQ3MDIptwk.jpg %}
 
 Variety is king at Bangers

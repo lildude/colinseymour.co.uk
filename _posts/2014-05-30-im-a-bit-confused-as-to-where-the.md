@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/ooYyZ0pt3o/
 ---
 
-![Instagram - ooYyZ0pt3o](/img/ooYyZ0pt3o.jpg){:class="instagram"}
+{% picture u-photo img/ooYyZ0pt3o.jpg %}
 
 I'm a bit confused as to where the wet paint is. 😜

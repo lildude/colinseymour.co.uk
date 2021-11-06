@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/prgplIpt9t/
 ---
 
-![Instagram - prgplIpt9t](/img/prgplIpt9t.jpg){:class="instagram"}
+{% picture u-photo img/prgplIpt9t.jpg %}
 
 Wait a moment, why does it have MORE calories if I order it WITHOUT dressing or coleslaw?

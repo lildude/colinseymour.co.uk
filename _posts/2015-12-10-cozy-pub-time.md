@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/HJiK6pt6f/
 ---
 
-![Instagram - HJiK6pt6f](/img/HJiK6pt6f.jpg){:class="instagram"}
+{% picture u-photo img/HJiK6pt6f.jpg %}
 
 Cozy pub time

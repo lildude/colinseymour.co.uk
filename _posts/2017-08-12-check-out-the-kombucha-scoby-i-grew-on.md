@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BXs4qjUl7i1/
 ---
 
-![Instagram - BXs4qjUl7i1](/img/BXs4qjUl7i1.jpg){:class="instagram"}
+{% picture u-photo img/BXs4qjUl7i1.jpg %}
 
 Check out the kombucha scoby I grew on rooibos tea. The "vinegar" left over is fantastic too. I think I prefer it to normal kombucha.

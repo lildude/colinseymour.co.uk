@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/le310NJt2A/
 ---
 
-![Instagram - le310NJt2A](/img/le310NJt2A.jpg){:class="instagram"}
+{% picture u-photo img/le310NJt2A.jpg %}
 
 My office for the next 35 minutes.

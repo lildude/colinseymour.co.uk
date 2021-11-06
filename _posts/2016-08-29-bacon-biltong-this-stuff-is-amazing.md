@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BJszkbTAWQU/
 ---
 
-![Instagram - BJszkbTAWQU](/img/BJszkbTAWQU.jpg){:class="instagram"}
+{% picture u-photo img/BJszkbTAWQU.jpg %}
 
 Bacon biltong!!! This stuff is amazing!!!

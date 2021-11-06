@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BUzWom1FTci/
 ---
 
-![Instagram - BUzWom1FTci](/img/BUzWom1FTci.jpg){:class="instagram"}
+{% picture u-photo img/BUzWom1FTci.jpg %}
 
 The last part of my #Comrades2017 prep is definitely the hardest

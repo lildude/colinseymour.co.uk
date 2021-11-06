@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/pyzH5Spt7P/
 ---
 
-![Instagram - pyzH5Spt7P](/img/pyzH5Spt7P.jpg){:class="instagram"}
+{% picture u-photo img/pyzH5Spt7P.jpg %}
 
 This seems wrong to me on so many levels.

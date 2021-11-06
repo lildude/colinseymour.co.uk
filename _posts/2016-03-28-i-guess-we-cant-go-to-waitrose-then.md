@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BDf39Q2Jt2G/
 ---
 
-![Instagram - BDf39Q2Jt2G](/img/BDf39Q2Jt2G.jpg){:class="instagram"}
+{% picture u-photo img/BDf39Q2Jt2G.jpg %}
 
 I guess we can't go to Waitrose then. #StormKatie

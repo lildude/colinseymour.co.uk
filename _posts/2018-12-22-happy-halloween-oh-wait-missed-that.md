@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Brs3v_dADIl/
 ---
 
-![Instagram - Brs3v_dADIl](https://colinseymour.co.uk/img/Brs3v_dADIl.jpg){:loading="lazy"}
+{% picture u-photo img/Brs3v_dADIl.jpg %}
 
 Happy halloween 🎃 Oh. Wait. Missed that 🚤. I mean happy saturnalia everyone.

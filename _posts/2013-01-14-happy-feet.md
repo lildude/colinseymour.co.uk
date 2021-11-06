@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Udlb4pJt2E/
 ---
 
-![Instagram - Udlb4pJt2E](/img/Udlb4pJt2E.jpg){:class="instagram"}
+{% picture u-photo img/Udlb4pJt2E.jpg %}
 
 Happy Feet

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3Sgpnjpt25/
 ---
 
-![Instagram - 3Sgpnjpt25](/img/3Sgpnjpt25.jpg){:class="instagram"}
+{% picture u-photo img/3Sgpnjpt25.jpg %}
 
 

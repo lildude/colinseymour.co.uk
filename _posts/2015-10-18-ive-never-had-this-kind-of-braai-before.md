@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/89ug37Jt-1/
 ---
 
-![Instagram - 89ug37Jt-1](/img/89ug37Jt-1.jpg){:class="instagram"}
+{% picture u-photo img/89ug37Jt-1.jpg %}
 
 I've never had this kind of braai before.

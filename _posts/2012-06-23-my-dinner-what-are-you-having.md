@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MOilDYJt6b/
 ---
 
-![Instagram - MOilDYJt6b](/img/MOilDYJt6b.jpg){:class="instagram"}
+{% picture u-photo img/MOilDYJt6b.jpg %}
 
 My dinner. What are you having?

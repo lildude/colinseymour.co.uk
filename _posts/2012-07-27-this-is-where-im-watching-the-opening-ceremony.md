@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NmK-xTptzP/
 ---
 
-![Instagram - NmK-xTptzP](/img/NmK-xTptzP.jpg){:class="instagram"}
+{% picture u-photo img/NmK-xTptzP.jpg %}
 
 This is where I'm watching the opening ceremony. Where are you watching it?

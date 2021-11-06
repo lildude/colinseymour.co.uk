@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NrEoo1Jt5O/
 ---
 
-![Instagram - NrEoo1Jt5O](/img/NrEoo1Jt5O.jpg){:class="instagram"}
+{% picture u-photo img/NrEoo1Jt5O.jpg %}
 
 I've never had a problem having a Wii in Zero Degrees

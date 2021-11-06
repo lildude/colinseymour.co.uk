@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/L6FRSFJt5F/
 ---
 
-![Instagram - L6FRSFJt5F](/img/L6FRSFJt5F.jpg){:class="instagram"}
+{% picture u-photo img/L6FRSFJt5F.jpg %}
 
 Prepared for Floods

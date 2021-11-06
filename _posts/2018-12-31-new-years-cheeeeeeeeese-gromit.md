@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BsERWIcg_vC/
 ---
 
-![Instagram - BsERWIcg_vC](https://colinseymour.co.uk/img/BsERWIcg_vC.jpg){:loading="lazy"}
+{% picture u-photo img/BsERWIcg_vC.jpg %}
 
 New year's cheeeeeeeeese (Gromit 😬)

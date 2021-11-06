@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-HU54rJtwq/
 ---
 
-![Instagram - -HU54rJtwq](/img/-HU54rJtwq.jpg){:class="instagram"}
+{% picture u-photo img/-HU54rJtwq.jpg %}
 
 "Pastries" and bag clementines from my race goodie bag today.

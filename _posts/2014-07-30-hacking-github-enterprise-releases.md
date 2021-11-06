@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/rExfB5Jt-t/
 ---
 
-![Instagram - rExfB5Jt-t](/img/rExfB5Jt-t.jpg){:class="instagram"}
+{% picture u-photo img/rExfB5Jt-t.jpg %}
 
 Hacking GitHub Enterprise Releases.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/VydKy6JtxG/
 ---
 
-![Instagram - VydKy6JtxG](/img/VydKy6JtxG.jpg){:class="instagram"}
+{% picture u-photo img/VydKy6JtxG.jpg %}
 
 Horses have to go to another farm shoppe

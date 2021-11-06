@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBfpjZlpt0_/
 ---
 
-![Instagram - BBfpjZlpt0_](/img/BBfpjZlpt0_.jpg){:class="instagram"}
+{% picture u-photo img/BBfpjZlpt0_.jpg %}
 
 Cold brew in the sunshine.

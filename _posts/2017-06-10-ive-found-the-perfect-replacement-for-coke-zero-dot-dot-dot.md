@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BVKe8a8FRoM/
 ---
 
-![Instagram - BVKe8a8FRoM](/img/BVKe8a8FRoM.jpg){:class="instagram"}
+{% picture u-photo img/BVKe8a8FRoM.jpg %}
 
 I've found the perfect replacement for Coke Zero... and it's not alcohol free either

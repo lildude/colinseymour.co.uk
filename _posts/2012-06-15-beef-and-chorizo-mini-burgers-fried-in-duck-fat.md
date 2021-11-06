@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/L6KUVdpt8A/
 ---
 
-![Instagram - L6KUVdpt8A](/img/L6KUVdpt8A.jpg){:class="instagram"}
+{% picture u-photo img/L6KUVdpt8A.jpg %}
 
 Beef & Chorizo mini-burgers fried in duck fat. Nom.

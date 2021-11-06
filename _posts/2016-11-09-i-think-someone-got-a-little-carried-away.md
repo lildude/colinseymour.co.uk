@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BMmqceSBJDr/
 ---
 
-![Instagram - BMmqceSBJDr](/img/BMmqceSBJDr.jpg){:class="instagram"}
+{% picture u-photo img/BMmqceSBJDr.jpg %}
 
 I think someone got a little carried away. How are they going to get that little digger down now?

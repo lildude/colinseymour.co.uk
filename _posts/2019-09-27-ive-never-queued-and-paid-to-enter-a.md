@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B26fJrzJHat/
 ---
 
-![Instagram - B26fJrzJHat](https://colinseymour.co.uk/img/B26fJrzJHat.jpg){:loading="lazy"}
+{% picture u-photo img/B26fJrzJHat.jpg %}
 
 I’ve never queued and paid to enter a bookstore, and that’s not going to change today either 😀

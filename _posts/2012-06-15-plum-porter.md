@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/L58seAptz7/
 ---
 
-![Instagram - L58seAptz7](/img/L58seAptz7.jpg){:class="instagram"}
+{% picture u-photo img/L58seAptz7.jpg %}
 
 Plum Porter

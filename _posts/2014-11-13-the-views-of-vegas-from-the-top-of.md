@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/vU67DYpt9q/
 ---
 
-![Instagram - vU67DYpt9q](/img/vU67DYpt9q.jpg){:class="instagram"}
+{% picture u-photo img/vU67DYpt9q.jpg %}
 
 The views of Vegas from the top of the Palazzo

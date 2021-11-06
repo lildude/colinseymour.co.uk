@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3DZzaYJtzG/
 ---
 
-![Instagram - 3DZzaYJtzG](/img/3DZzaYJtzG.jpg){:class="instagram"}
+{% picture u-photo img/3DZzaYJtzG.jpg %}
 
 Damn!!! Being a hipster in SF is expensive!

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/ngI_CHJt0e/
 ---
 
-![Instagram - ngI_CHJt0e](/img/ngI_CHJt0e.jpg){:class="instagram"}
+{% picture u-photo img/ngI_CHJt0e.jpg %}
 
 Is it possible to have too much choice? #beer

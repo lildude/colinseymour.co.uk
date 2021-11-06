@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NGv2e1Jt5T/
 ---
 
-![Instagram - NGv2e1Jt5T](/img/NGv2e1Jt5T.jpg){:class="instagram"}
+{% picture u-photo img/NGv2e1Jt5T.jpg %}
 
 Very yummy cheese

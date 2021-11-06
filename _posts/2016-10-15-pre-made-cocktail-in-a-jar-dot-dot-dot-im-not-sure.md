@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BLmJtM9h8Az/
 ---
 
-![Instagram - BLmJtM9h8Az](/img/BLmJtM9h8Az.jpg){:class="instagram"}
+{% picture u-photo img/BLmJtM9h8Az.jpg %}
 
 Pre-made cocktail in a jar... I'm not sure if this is creative, ingenious or just plain lazy.

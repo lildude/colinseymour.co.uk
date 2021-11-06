@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BDvTLg2pt-I/
 ---
 
-![Instagram - BDvTLg2pt-I](/img/BDvTLg2pt-I.jpg){:class="instagram"}
+{% picture u-photo img/BDvTLg2pt-I.jpg %}
 
 The mirrored crimbo buable red paint works surprisingly well on this BMW i8

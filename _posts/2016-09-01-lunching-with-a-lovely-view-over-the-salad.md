@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BJz75sRgQPG/
 ---
 
-![Instagram - BJz75sRgQPG](/img/BJz75sRgQPG.jpg){:class="instagram"}
+{% picture u-photo img/BJz75sRgQPG.jpg %}
 
 Lunching with a lovely view over the salad and veggies grown to go in my lunch #nofilter

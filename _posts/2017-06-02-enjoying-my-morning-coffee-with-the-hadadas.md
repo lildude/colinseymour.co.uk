@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BU1A4A9leOd/
 ---
 
-![Instagram - BU1A4A9leOd](/img/BU1A4A9leOd.jpg){:class="instagram"}
+{% picture u-photo img/BU1A4A9leOd.jpg %}
 
 Enjoying my morning coffee with the hadadas

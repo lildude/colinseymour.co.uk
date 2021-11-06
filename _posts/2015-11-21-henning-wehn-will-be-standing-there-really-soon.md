@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-W_aaDJt_-/
 ---
 
-![Instagram - -W_aaDJt_-](/img/-W_aaDJt_-.jpg){:class="instagram"}
+{% picture u-photo img/-W_aaDJt_-.jpg %}
 
 Henning Wehn will be standing there really soon. #frontrowseats

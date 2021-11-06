@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BLBi6-yhG0v/
 ---
 
-![Instagram - BLBi6-yhG0v](/img/BLBi6-yhG0v.jpg){:class="instagram"}
+{% picture u-photo img/BLBi6-yhG0v.jpg %}
 
 I think I've just found my beer home in AMS

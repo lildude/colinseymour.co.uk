@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/nzeEYEptx1/
 ---
 
-![Instagram - nzeEYEptx1](/img/nzeEYEptx1.jpg){:class="instagram"}
+{% picture u-photo img/nzeEYEptx1.jpg %}
 
 It's amazing what you spot on the ceilings of pubs.

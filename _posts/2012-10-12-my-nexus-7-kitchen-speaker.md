@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QscbSqpty-/
 ---
 
-![Instagram - QscbSqpty-](/img/QscbSqpty-.jpg){:class="instagram"}
+{% picture u-photo img/QscbSqpty-.jpg %}
 
 My Nexus 7 kitchen speaker

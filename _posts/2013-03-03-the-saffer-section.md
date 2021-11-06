@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/WZOPwIJt3P/
 ---
 
-![Instagram - WZOPwIJt3P](/img/WZOPwIJt3P.jpg){:class="instagram"}
+{% picture u-photo img/WZOPwIJt3P.jpg %}
 
 Check it out folks... Saffer goodies now available at Tescos Reading

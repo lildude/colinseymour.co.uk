@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/0NmI5_pt1F/
 ---
 
-![Instagram - 0NmI5_pt1F](/img/0NmI5_pt1F.jpg){:class="instagram"}
+{% picture u-photo img/0NmI5_pt1F.jpg %}
 
 Ooo errrrr, looks like something from 50 Shades. 😜

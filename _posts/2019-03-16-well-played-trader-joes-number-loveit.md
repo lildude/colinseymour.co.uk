@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BvFCNzLnlCg/
 ---
 
-![Instagram - BvFCNzLnlCg](https://colinseymour.co.uk/img/BvFCNzLnlCg.jpg){:loading="lazy"}
+{% picture u-photo img/BvFCNzLnlCg.jpg %}
 
 Well played Trader Joe's 👏👏👏

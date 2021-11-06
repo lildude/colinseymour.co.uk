@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFJ49dKJtyQ/
 ---
 
-![Instagram - BFJ49dKJtyQ](/img/BFJ49dKJtyQ.jpg){:class="instagram"}
+{% picture u-photo img/BFJ49dKJtyQ.jpg %}
 
 Finally got my chance on the coals. Sadly we're out of wors so chicken, duck & lamb will have to do 😛

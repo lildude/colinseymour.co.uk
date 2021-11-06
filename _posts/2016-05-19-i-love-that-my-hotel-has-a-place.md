@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFmL0v5pt6E/
 ---
 
-![Instagram - BFmL0v5pt6E](/img/BFmL0v5pt6E.jpg){:class="instagram"}
+{% picture u-photo img/BFmL0v5pt6E.jpg %}
 
 I love that my hotel has a place for you to tinker with your bike and pump up your tyres before heading out for the day.

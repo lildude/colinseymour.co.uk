@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFbOHRqpt21/
 ---
 
-![Instagram - BFbOHRqpt21](/img/BFbOHRqpt21.jpg){:class="instagram"}
+{% picture u-photo img/BFbOHRqpt21.jpg %}
 
 Woohoo!!! Found the cervezas artisanas. This is going to be a fine holiday.

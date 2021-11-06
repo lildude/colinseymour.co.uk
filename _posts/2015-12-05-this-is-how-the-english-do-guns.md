@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/-6l45DJt-_/
 ---
 
-![Instagram - -6l45DJt-_](/img/-6l45DJt-_.jpg){:class="instagram"}
+{% picture u-photo img/-6l45DJt-_.jpg %}
 
 🇺🇸 this is how the English do guns: we put them on the windowsills of our pubs.

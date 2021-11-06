@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BD_hmnJJt4n/
 ---
 
-![Instagram - BD_hmnJJt4n](/img/BD_hmnJJt4n.jpg){:class="instagram"}
+{% picture u-photo img/BD_hmnJJt4n.jpg %}
 
 Took great pleasure in pulling apart this puzzle that has sat built in a clip frame down the side of the bed in the spare bedroom for well over 10 years.

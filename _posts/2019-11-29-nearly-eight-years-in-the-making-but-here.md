@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B5diLw_JL3V/
 ---
 
-![Instagram - B5diLw_JL3V](https://colinseymour.co.uk/img/B5diLw_JL3V.jpg){:loading="lazy"}
+{% picture u-photo img/B5diLw_JL3V.jpg %}
 
 Nearly eight years in the making but here it is, my 5000th unique beer check-in.

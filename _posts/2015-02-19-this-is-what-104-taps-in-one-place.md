@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/zRA9G_ptxw/
 ---
 
-![Instagram - zRA9G_ptxw](/img/zRA9G_ptxw.jpg){:class="instagram"}
+{% picture u-photo img/zRA9G_ptxw.jpg %}
 
 This is what 104 taps in one place look like.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BryHWqyAuce/
 ---
 
-![Instagram - BryHWqyAuce](https://colinseymour.co.uk/img/BryHWqyAuce.jpg){:loading="lazy"}
+{% picture u-photo img/BryHWqyAuce.jpg %}
 
 My new favourite liqueur. This stuff is fantastic!!!

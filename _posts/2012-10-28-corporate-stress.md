@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/RV1Rt4Jt37/
 ---
 
-![Instagram - RV1Rt4Jt37](/img/RV1Rt4Jt37.jpg){:class="instagram"}
+{% picture u-photo img/RV1Rt4Jt37.jpg %}
 
 Corporate Stress?

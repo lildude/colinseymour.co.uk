@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BrH3M6MAH1m/
 ---
 
-![Instagram - BrH3M6MAH1m](https://colinseymour.co.uk/img/BrH3M6MAH1m.jpg){:loading="lazy"}
+{% picture u-photo img/BrH3M6MAH1m.jpg %}
 
 Woohoo!!! December's haul has arrived. Shame it'll all be gone before 🎅 arrives

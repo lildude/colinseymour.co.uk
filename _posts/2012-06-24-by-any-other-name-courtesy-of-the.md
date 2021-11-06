@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/MQzOjNJt20/
 ---
 
-![Instagram - MQzOjNJt20](/img/MQzOjNJt20.jpg){:class="instagram"}
+{% picture u-photo img/MQzOjNJt20.jpg %}
 
 By Any Other Name - courtesy of the Sunday Times

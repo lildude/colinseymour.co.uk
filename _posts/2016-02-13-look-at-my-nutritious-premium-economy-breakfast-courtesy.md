@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBuJSO-pt1k/
 ---
 
-![Instagram - BBuJSO-pt1k](/img/BBuJSO-pt1k.jpg){:class="instagram"}
+{% picture u-photo img/BBuJSO-pt1k.jpg %}
 
 Look at my nutritious premium economy breakfast courtesy of British Airways. More impressive is the ingredients list.

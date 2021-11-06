@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/3ega6rptz6/
 ---
 
-![Instagram - 3ega6rptz6](/img/3ega6rptz6.jpg){:class="instagram"}
+{% picture u-photo img/3ega6rptz6.jpg %}
 
 "Just the essential cards" my wife carries in her purse.

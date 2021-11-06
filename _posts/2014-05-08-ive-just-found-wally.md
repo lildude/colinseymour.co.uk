@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/nvb4iNpt8G/
 ---
 
-![Instagram - nvb4iNpt8G](/img/nvb4iNpt8G.jpg){:class="instagram"}
+{% picture u-photo img/nvb4iNpt8G.jpg %}
 
 I've just found Wally

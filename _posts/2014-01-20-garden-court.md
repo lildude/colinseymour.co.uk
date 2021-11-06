@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/jZeQYlptyx/
 ---
 
-![Instagram - jZeQYlptyx](/img/jZeQYlptyx.jpg){:class="instagram"}
+{% picture u-photo img/jZeQYlptyx.jpg %}
 
 What a place to dine at the Palace Hotel.

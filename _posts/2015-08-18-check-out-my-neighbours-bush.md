@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/6h2RTCJtyW/
 ---
 
-![Instagram - 6h2RTCJtyW](/img/6h2RTCJtyW.jpg){:class="instagram"}
+{% picture u-photo img/6h2RTCJtyW.jpg %}
 
 Check out my neighbour's bush

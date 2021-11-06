@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BSqxQXoFnF2/
 ---
 
-![Instagram - BSqxQXoFnF2](/img/BSqxQXoFnF2.jpg){:class="instagram"}
+{% picture u-photo img/BSqxQXoFnF2.jpg %}
 
 If I could live in Waitrose, I would too

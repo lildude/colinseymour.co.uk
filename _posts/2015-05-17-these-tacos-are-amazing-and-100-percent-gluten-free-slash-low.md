@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/2xIV7MJtxT/
 ---
 
-![Instagram - 2xIV7MJtxT](/img/2xIV7MJtxT.jpg){:class="instagram"}
+{% picture u-photo img/2xIV7MJtxT.jpg %}
 
 These tacos are amazing and 100% gluten free/low carb thanks to jicama wrappers instead of wheat or corn.

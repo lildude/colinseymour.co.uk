@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BBdjBjbpt_P/
 ---
 
-![Instagram - BBdjBjbpt_P](/img/BBdjBjbpt_P.jpg){:class="instagram"}
+{% picture u-photo img/BBdjBjbpt_P.jpg %}
 
 Spotted in the BA191 lavs. Times are certainly changing.

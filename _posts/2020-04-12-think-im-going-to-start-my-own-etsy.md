@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B-3_vkPpWy6/
 ---
 
-![Instagram - B-3_vkPpWy6](https://colinseymour.co.uk/img/B-3_vkPpWy6.jpg){:loading="lazy"}
+{% picture u-photo img/B-3_vkPpWy6.jpg %}
 
 Think I’m going to start my own Etsy business: Artisanal V60-02 Coffee Filter Holders @ £3 with free p+p. It’s slightly more expensive than twists but that’s for my excellent scissor skills and the new trousers I’ll need after every 10 orders 😂🤣

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BTNRN6EFYL7/
 ---
 
-![Instagram - BTNRN6EFYL7](/img/BTNRN6EFYL7.jpg){:class="instagram"}
+{% picture u-photo img/BTNRN6EFYL7.jpg %}
 
 Now this is how you fight jet lag 😋

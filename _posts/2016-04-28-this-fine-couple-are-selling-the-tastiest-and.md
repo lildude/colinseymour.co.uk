@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEwOm2apt91/
 ---
 
-![Instagram - BEwOm2apt91](/img/BEwOm2apt91.jpg){:class="instagram"}
+{% picture u-photo img/BEwOm2apt91.jpg %}
 
 This fine couple are selling the tastiest and most exciting treats at the Reading Beer Festival. #cowleysfinefood

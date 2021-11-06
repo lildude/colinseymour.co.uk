@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFrk4CMpt8G/
 ---
 
-![Instagram - BFrk4CMpt8G](/img/BFrk4CMpt8G.jpg){:class="instagram"}
+{% picture u-photo img/BFrk4CMpt8G.jpg %}
 
 I ❤️ generous 🍹

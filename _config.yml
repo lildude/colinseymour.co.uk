@@ -65,18 +65,26 @@ minima_dude:
 
 # Plugins
 plugins:
-  - jekyll-sitemap
-  - jekyll-seo-tag
   - jekyll-feed
-  - jekyll-loading-lazy
+  #- jekyll-image-cache
   - jekyll-include-cache
-  - jekyll-image-cache
+  #- jekyll-loading-lazy
+  - jekyll_picture_tag
+  - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Plugin-specific configs
 feed:
   path: atom.xml
   use_excerpts: false
 
+picture:
+  #source: "img"
+  output: "g"
+  relative_url: false
+  ignore_baseurl: true
+  fast_build: development
+  
 # Don't copy these files to the generated site
 exclude:
   - CNAME

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/tOhzgOpt8y/
 ---
 
-![Instagram - tOhzgOpt8y](/img/tOhzgOpt8y.jpg){:class="instagram"}
+{% picture u-photo img/tOhzgOpt8y.jpg %}
 
 All the best beers are controlled by a flux capacitor. Everyone knows that 😁

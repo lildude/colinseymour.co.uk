@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B6doz5FpYxT/
 ---
 
-![Instagram - B6doz5FpYxT](https://colinseymour.co.uk/img/B6doz5FpYxT.jpg){:loading="lazy"}
+{% picture u-photo img/B6doz5FpYxT.jpg %}
 
 Someone’s not having a very good Christmas this year. I think that’s a car on fire on the motorway we can now see after National Rail decimated the trees outside our flat.

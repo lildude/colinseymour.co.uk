@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/WpXTKeJt3t/
 ---
 
-![Instagram - WpXTKeJt3t](/img/WpXTKeJt3t.jpg){:class="instagram"}
+{% picture u-photo img/WpXTKeJt3t.jpg %}
 
 Think it'll be a cold duathlon tomorrow up on the hills of Grizedale

@@ -10,6 +10,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B1d8otYpEol/
 ---
 
-![Instagram - B1d8otYpEol](https://colinseymour.co.uk/img/B1d8otYpEol.jpg){:loading="lazy"}
+{% picture u-photo img/B1d8otYpEol.jpg %}
 
 My first ever theatre experience and it's Hamilton and I don't think we could get any closer to the action without getting thrown out.

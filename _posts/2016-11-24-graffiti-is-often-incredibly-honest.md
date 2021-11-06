@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BNM_vUbBULc/
 ---
 
-![Instagram - BNM_vUbBULc](/img/BNM_vUbBULc.jpg){:class="instagram"}
+{% picture u-photo img/BNM_vUbBULc.jpg %}
 
 Graffiti is often incredibly honest

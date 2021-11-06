@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/k62-kcpt68/
 ---
 
-![Instagram - k62-kcpt68](/img/k62-kcpt68.jpg){:class="instagram"}
+{% picture u-photo img/k62-kcpt68.jpg %}
 
 My financial advice is so good, even AXA is selling my services ;-)

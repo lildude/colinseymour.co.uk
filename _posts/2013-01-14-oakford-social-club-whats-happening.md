@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/UeWA3jpt35/
 ---
 
-![Instagram - UeWA3jpt35](/img/UeWA3jpt35.jpg){:class="instagram"}
+{% picture u-photo img/UeWA3jpt35.jpg %}
 
 I'm always pleasantly surprised by the Oakford SC. Def need to remember it before other places.

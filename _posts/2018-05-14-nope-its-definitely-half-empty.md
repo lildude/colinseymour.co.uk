@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BixHtyOlY5O/
 ---
 
-![Instagram - BixHtyOlY5O](https://colinseymour.co.uk/img/BixHtyOlY5O.jpg){:loading="lazy"}
+{% picture u-photo img/BixHtyOlY5O.jpg %}
 
 Nope. It's definitely half empty 😂🤣

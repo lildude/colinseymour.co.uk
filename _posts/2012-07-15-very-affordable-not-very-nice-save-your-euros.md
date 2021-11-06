@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NGvQfqpt44/
 ---
 
-![Instagram - NGvQfqpt44](/img/NGvQfqpt44.jpg){:class="instagram"}
+{% picture u-photo img/NGvQfqpt44.jpg %}
 
 Very affordable. Not very nice. Save your Euros.

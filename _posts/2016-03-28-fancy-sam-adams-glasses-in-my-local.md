@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BDgPX52ptxb/
 ---
 
-![Instagram - BDgPX52ptxb](/img/BDgPX52ptxb.jpg){:class="instagram"}
+{% picture u-photo img/BDgPX52ptxb.jpg %}
 
 Fancy Sam Adams glasses in my local

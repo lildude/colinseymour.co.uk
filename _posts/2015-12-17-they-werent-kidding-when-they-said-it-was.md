@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/_Z_R-9pt86/
 ---
 
-![Instagram - Z_R-9pt86](/img/Z_R-9pt86.jpg){:class="instagram"}
+{% picture u-photo img/Z_R-9pt86.jpg %}
 
 They weren't kidding when they said it was  a "Ski boot" cocktail sharer. #aprereading

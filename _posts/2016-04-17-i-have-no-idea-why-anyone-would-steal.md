@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BETSCgwpt32/
 ---
 
-![Instagram - BETSCgwpt32](/img/BETSCgwpt32.jpg){:class="instagram"}
+{% picture u-photo img/BETSCgwpt32.jpg %}
 
 I have no idea why anyone would steal this badge 😜 It's a fantastic citrus (grapefruit) IPA tho. Def worth a pint or three.

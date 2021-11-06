@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/NZGyC0Jt2L/
 ---
 
-![Instagram - NZGyC0Jt2L](/img/NZGyC0Jt2L.jpg){:class="instagram"}
+{% picture u-photo img/NZGyC0Jt2L.jpg %}
 
 Boned Leg of Lamb, cooked to perfection on the braai

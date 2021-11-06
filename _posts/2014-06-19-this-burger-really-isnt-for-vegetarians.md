@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/pbvlcDpt6q/
 ---
 
-![Instagram - pbvlcDpt6q](/img/pbvlcDpt6q.jpg){:class="instagram"}
+{% picture u-photo img/pbvlcDpt6q.jpg %}
 
 This burger really isn't for vegetarians.

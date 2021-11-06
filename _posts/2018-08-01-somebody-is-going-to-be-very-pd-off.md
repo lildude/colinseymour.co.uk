@@ -9,6 +9,6 @@ tags:
 instagram_url: https://www.instagram.com/p/Bl8o8KUFlvT/
 ---
 
-![Instagram - Bl8o8KUFlvT](https://colinseymour.co.uk/img/Bl8o8KUFlvT.jpg){:loading="lazy"}
+{% picture u-photo img/Bl8o8KUFlvT.jpg %}
 
 Somebody is going to be very P'd off

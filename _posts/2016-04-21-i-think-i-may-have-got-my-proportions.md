@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BEeYtWWpt64/
 ---
 
-![Instagram - BEeYtWWpt64](/img/BEeYtWWpt64.jpg){:class="instagram"}
+{% picture u-photo img/BEeYtWWpt64.jpg %}
 
 I think I may have got my proportions wrong when following the recipe. 😛

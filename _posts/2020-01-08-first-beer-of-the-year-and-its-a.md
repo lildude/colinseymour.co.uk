@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/B7EniqqpWAX/
 ---
 
-![Instagram - B7EniqqpWAX](https://colinseymour.co.uk/img/B7EniqqpWAX.jpg){:loading="lazy"}
+{% picture u-photo img/B7EniqqpWAX.jpg %}
 
 First beer of the year and it’s a fantastic one to start the year with.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/rXNAY5pt_Y/
 ---
 
-![Instagram - rXNAY5pt_Y](/img/rXNAY5pt_Y.jpg){:class="instagram"}
+{% picture u-photo img/rXNAY5pt_Y.jpg %}
 
 I'd forgotten Costa Coffee's large Americano was served in a bucket.

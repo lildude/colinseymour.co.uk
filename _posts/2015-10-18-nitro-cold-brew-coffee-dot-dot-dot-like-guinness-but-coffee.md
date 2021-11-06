@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/8_cpYzJt49/
 ---
 
-![Instagram - 8_cpYzJt49](/img/8_cpYzJt49.jpg){:class="instagram"}
+{% picture u-photo img/8_cpYzJt49.jpg %}
 
 Nitro cold brew coffee... like Guinness but coffee. Tasty too.

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/on7_Zapt6g/
 ---
 
-![Instagram - on7_Zapt6g](/img/on7_Zapt6g.jpg){:class="instagram"}
+{% picture u-photo img/on7_Zapt6g.jpg %}
 
 It's terrible when you get a cold wet pay-and-display machine & bin. Good ol' Woodley has a solution for that.

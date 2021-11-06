@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/o8-Fn4Jt88/
 ---
 
-![Instagram - o8-Fn4Jt88](/img/o8-Fn4Jt88.jpg){:class="instagram"}
+{% picture u-photo img/o8-Fn4Jt88.jpg %}
 
 Woohoo!! Dexion racking as a free gift!  This would look lovely in my front room.

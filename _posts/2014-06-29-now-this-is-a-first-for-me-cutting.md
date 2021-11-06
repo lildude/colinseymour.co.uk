@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/p1sk0DJt5k/
 ---
 
-![Instagram - p1sk0DJt5k](/img/p1sk0DJt5k.jpg){:class="instagram"}
+{% picture u-photo img/p1sk0DJt5k.jpg %}
 
 Now this is a first for me; cutting open a butternut to find the seeds sprouting.

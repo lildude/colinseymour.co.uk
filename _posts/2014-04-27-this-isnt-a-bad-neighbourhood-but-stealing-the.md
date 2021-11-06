@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/nTPpRKJt_0/
 ---
 
-![Instagram - nTPpRKJt_0](/img/nTPpRKJt_0.jpg){:class="instagram"}
+{% picture u-photo img/nTPpRKJt_0.jpg %}
 
 This isn't a bad neighbourhood, but stealing the whole axle!? 😉

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BWnpmZAFktH/
 ---
 
-![Instagram - BWnpmZAFktH](/img/BWnpmZAFktH.jpg){:class="instagram"}
+{% picture u-photo img/BWnpmZAFktH.jpg %}
 
 We bought blue hydrangeas and they're slowly turning pink. Says a lot about my home grown compost.

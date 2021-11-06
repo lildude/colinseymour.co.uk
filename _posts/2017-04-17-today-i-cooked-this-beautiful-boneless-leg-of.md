@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BS_l-k7lOQE/
 ---
 
-![Instagram - BS_l-k7lOQE](/img/BS_l-k7lOQE.jpg){:class="instagram"}
+{% picture u-photo img/BS_l-k7lOQE.jpg %}
 
 Today I cooked this beautiful boneless leg of lamb on the braai, with a little smoke for extra flavour 😋

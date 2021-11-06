@@ -8,6 +8,6 @@ tags:
 instagramurl: https://www.instagram.com/p/HQQiSpt17/
 ---
 
-![Instagram - HQQiSpt17](/img/HQQiSpt17.jpg){:class="instagram"}
+{% picture u-photo img/HQQiSpt17.jpg %}
 
 This is why I like The Lake District. So pretty. #nofilter

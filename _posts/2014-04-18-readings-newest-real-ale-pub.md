@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/m7473YJt-n/
 ---
 
-![Instagram - m7473YJt-n](/img/m7473YJt-n.jpg){:class="instagram"}
+{% picture u-photo img/m7473YJt-n.jpg %}
 
 Reading's newest real ale pub.

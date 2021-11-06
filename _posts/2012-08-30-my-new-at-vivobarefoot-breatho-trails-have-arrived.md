@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/O9C0zyJt-r/
 ---
 
-![Instagram - O9C0zyJt-r](/img/O9C0zyJt-r.jpg){:class="instagram"}
+{% picture u-photo img/O9C0zyJt-r.jpg %}
 
 My new @vivobarefoot Breatho Trails have arrived.

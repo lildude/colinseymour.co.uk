@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/u25iL0Jt1H/
 ---
 
-![Instagram - u25iL0Jt1H](/img/u25iL0Jt1H.jpg){:class="instagram"}
+{% picture u-photo img/u25iL0Jt1H.jpg %}
 
 Here in the Shires our ponies look like alpacas

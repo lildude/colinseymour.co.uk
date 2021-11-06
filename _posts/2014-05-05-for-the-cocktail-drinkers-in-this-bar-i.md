@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/nmZ4dzpt2e/
 ---
 
-![Instagram - nmZ4dzpt2e](/img/nmZ4dzpt2e.jpg){:class="instagram"}
+{% picture u-photo img/nmZ4dzpt2e.jpg %}
 
 For the cocktail drinkers in this bar, I really hope it isn't.

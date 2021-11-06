@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/2dXDgfJt9p/
 ---
 
-![Instagram - 2dXDgfJt9p](/img/2dXDgfJt9p.jpg){:class="instagram"}
+{% picture u-photo img/2dXDgfJt9p.jpg %}
 
 Straddling the wall

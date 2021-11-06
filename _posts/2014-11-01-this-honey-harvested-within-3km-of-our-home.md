@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/u3g-o7Jt7q/
 ---
 
-![Instagram - u3g-o7Jt7q](/img/u3g-o7Jt7q.jpg){:class="instagram"}
+{% picture u-photo img/u3g-o7Jt7q.jpg %}
 
 This honey, harvested within 3km of our home, has got to be the most fragrant honey I've ever tasted. Fantastic stuff!

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BWnkpaXF76a/
 ---
 
-![Instagram - BWnkpaXF76a](/img/BWnkpaXF76a.jpg){:class="instagram"}
+{% picture u-photo img/BWnkpaXF76a.jpg %}
 
 Ordered a bag of the very tasty Brazil Nut (wildcard) coffee from @hasbean and got a free frock for the Mrs 🤣😂

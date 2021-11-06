@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/08SZXVpt2X/
 ---
 
-![Instagram - 08SZXVpt2X](/img/08SZXVpt2X.jpg){:class="instagram"}
+{% picture u-photo img/08SZXVpt2X.jpg %}
 
 This is how we serve cocktails in Britain.

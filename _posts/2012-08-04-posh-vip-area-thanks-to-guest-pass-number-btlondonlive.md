@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/N6xFxaptxz/
 ---
 
-![Instagram - N6xFxaptxz](/img/N6xFxaptxz.jpg){:class="instagram"}
+{% picture u-photo img/N6xFxaptxz.jpg %}
 
 Posh VIP Area thanks to guest pass #btlondonlive

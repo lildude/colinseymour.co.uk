@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/wmTjcPpt3g/
 ---
 
-![Instagram - wmTjcPpt3g](/img/wmTjcPpt3g.jpg){:class="instagram"}
+{% picture u-photo img/wmTjcPpt3g.jpg %}
 
 Just discovered my homemade beer can stars in our crimbo deco's

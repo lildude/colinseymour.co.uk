@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/N0mDrVpt52/
 ---
 
-![Instagram - N0mDrVpt52](/img/N0mDrVpt52.jpg){:class="instagram"}
+{% picture u-photo img/N0mDrVpt52.jpg %}
 
 Look what the postie just dropped off

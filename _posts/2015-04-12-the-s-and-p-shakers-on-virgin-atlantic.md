@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/1WzsF4Jt2O/
 ---
 
-![Instagram - 1WzsF4Jt2O](/img/1WzsF4Jt2O.jpg){:class="instagram"}
+{% picture u-photo img/1WzsF4Jt2O.jpg %}
 
 The S & P shakers on Virgin Atlantic always make me smile.

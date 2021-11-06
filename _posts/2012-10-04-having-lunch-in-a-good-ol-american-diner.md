@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/QX-skdpt1K/
 ---
 
-![Instagram - QX-skdpt1K](/img/QX-skdpt1K.jpg){:class="instagram"}
+{% picture u-photo img/QX-skdpt1K.jpg %}
 
 Having lunch in a good ol' American diner

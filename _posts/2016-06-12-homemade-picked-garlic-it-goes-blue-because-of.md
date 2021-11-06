@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BGkCZv8pt7m/
 ---
 
-![Instagram - BGkCZv8pt7m](/img/BGkCZv8pt7m.jpg){:class="instagram"}
+{% picture u-photo img/BGkCZv8pt7m.jpg %}
 
 Homemade picked garlic. It goes blue because of the various minerals in the vinegar.

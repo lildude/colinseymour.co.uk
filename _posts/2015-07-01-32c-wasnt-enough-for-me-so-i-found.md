@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/4mPLW6Jt6I/
 ---
 
-![Instagram - 4mPLW6Jt6I](/img/4mPLW6Jt6I.jpg){:class="instagram"}
+{% picture u-photo img/4mPLW6Jt6I.jpg %}
 
 32C wasn't enough for me so I found somewhere at 35C!! And its humid too.

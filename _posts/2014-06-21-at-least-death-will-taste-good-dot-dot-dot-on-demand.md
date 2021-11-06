@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/pg1m98pt1h/
 ---
 
-![Instagram - pg1m98pt1h](/img/pg1m98pt1h.jpg){:class="instagram"}
+{% picture u-photo img/pg1m98pt1h.jpg %}
 
 At least death will taste good... on demand too.

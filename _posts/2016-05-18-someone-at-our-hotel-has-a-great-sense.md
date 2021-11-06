@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BFjr_lCptx0/
 ---
 
-![Instagram - BFjr_lCptx0](/img/BFjr_lCptx0.jpg){:class="instagram"}
+{% picture u-photo img/BFjr_lCptx0.jpg %}
 
 Someone at our hotel has a great sense of humour. 😆

@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BK0ReJXAmFB/
 ---
 
-![Instagram - BK0ReJXAmFB](/img/BK0ReJXAmFB.jpg){:class="instagram"}
+{% picture u-photo img/BK0ReJXAmFB.jpg %}
 
 This is quite an impressive flight

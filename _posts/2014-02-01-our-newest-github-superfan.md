@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/j4Pz0HJtxH/
 ---
 
-![Instagram - j4Pz0HJtxH](/img/j4Pz0HJtxH.jpg){:class="instagram"}
+{% picture u-photo img/j4Pz0HJtxH.jpg %}
 
 Our newest GitHub Superfan™

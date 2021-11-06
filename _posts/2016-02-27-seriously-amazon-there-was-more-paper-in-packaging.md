@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/BCST8c4Jtwj/
 ---
 
-![Instagram - BCST8c4Jtwj](/img/BCST8c4Jtwj.jpg){:class="instagram"}
+{% picture u-photo img/BCST8c4Jtwj.jpg %}
 
 Seriously Amazon!? There was more paper in packaging than in the coffee filters I ordered.

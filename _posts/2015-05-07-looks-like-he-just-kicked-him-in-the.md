@@ -8,6 +8,6 @@ tags:
 instagram_url: https://www.instagram.com/p/2YLuInJt5g/
 ---
 
-![Instagram - 2YLuInJt5g](/img/2YLuInJt5g.jpg){:class="instagram"}
+{% picture u-photo img/2YLuInJt5g.jpg %}
 
 Looks like he just kicked him in the nads
