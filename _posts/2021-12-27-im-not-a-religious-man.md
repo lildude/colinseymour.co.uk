@@ -1,5 +1,5 @@
 ---
-layout: note
+layout: photo
 date: 2021-12-27 19:12:58 +0000
 syndication:
 - https://twitter.com/lildude/status/1475546610084065290
