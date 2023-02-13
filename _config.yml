@@ -32,6 +32,9 @@ defaults:
 author:             'lildude'
 twitter:
   username:         'lildude'
+mastodon:
+  server:         "mastodon.social"
+  username:       "@lildude"
 
 microblog:
   username:         lildude
@@ -84,7 +87,7 @@ picture:
   relative_url: false
   ignore_baseurl: true
   fast_build: development
-  
+
 # Don't copy these files to the generated site
 exclude:
   - CNAME
