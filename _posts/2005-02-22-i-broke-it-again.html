@@ -19,4 +19,4 @@ published: true
 <div class="terminal">unable to start piped log program '/usr/sbin/apache2splitlogfile': Permission denied<br />Unable to open logs</div>
 <p>Now nothing within my configuration had changed, ie Apache was still running as the same user and group as before abd my log files and directories still had the correct permissions.</p>
 <p>After a lot of hunting around, it turned out that the update had updates <code>/usr/sbin/apache2splitlogfile</code> and removed the execute permissions.  Adding this back solved the problem and we're all back up and running.</p>
-<p>FYI, the updates are still going on, but hey that's the price you pay for using <a href="http://www.gentoo.org">Gentoo</a>.</p>
+<p>FYI, the updates are still going on, but hey that's the price you pay for using <a href="https://www.gentoo.org">Gentoo</a>.</p>

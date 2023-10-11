@@ -12,7 +12,7 @@ published: true
 So you've got a little spare time on your hands, Spotify is playing through your [list of favourite songs](https://open.spotify.com/user/colinseymour/playlist/4ysUSPu0kq9WxhB9php6fG), and you're wondering to yourself _"I'm a data scientist, what would be cool to analyse?"_.  At that very moment, Smells like Teen Spirit by Nirvana starts playing, you crank the volume up to 11 and that's when the penny drops... _"What about looking into the timeless classics from the 90s and see their popularity by play count today [2014]?"_
 
 That's precisely what Matt Daniels did and documented in [The Most
-Timeless Songs of All-time](http://poly-graph.co/timeless/).  This is a really interesting and fascinating analysis which is well worth the read.
+Timeless Songs of All-time](https://poly-graph.co/timeless/).  This is a really interesting and fascinating analysis which is well worth the read.
 
 The top ten tracks from the 90s, as played up to 2014, are:
 
