@@ -2,8 +2,6 @@
 
 source 'https://rubygems.org'
 
-ruby '~> 3.1.0'
-
 gem 'jekyll'
 gem 'liquid-c'
 gem 'minima-dude', git: 'https://github.com/lildude/minima-dude', branch: 'main'
