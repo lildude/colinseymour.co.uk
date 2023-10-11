@@ -7,6 +7,10 @@ ID = "5b860a9d-7766-444e-ac14-b7af7d20c3df"
   publish = "_site/"
   command = "bundle exec jekyll build"
 
+# Overrides the UI setting, whilst it exists as Netlify has deprecated this. Not sure it gave me much benefit.
+[build.processing]
+  skip_processing = true
+
 [context.production.environment]
   JEKYLL_ENV = "production"
 
